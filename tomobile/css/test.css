@@ -1,0 +1,28 @@
+.body-mdf {
+  font-family: 'Fira Sans', "PT Sans", sans-serif;
+  background-color: #ffffff;
+}
+
+/* ================= Store Up ================= */
+
+.box-body {
+  margin: 10px;
+}
+
+.box-part {
+  margin-left: 10px;
+  background-color: #ddd;
+  border-radius: 8px;
+}
+
+.car-pic {
+  background-color: #ddd;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.car-price {
+  background-color: #ddd;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}

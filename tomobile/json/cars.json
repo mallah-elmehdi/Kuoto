@@ -1,0 +1,818 @@
+[
+    {
+        "type": "Tout les marques"
+    },
+    {
+        "type": "-------------------------------"
+    },
+    {
+        "type": "AC"
+    },
+    {
+        "type": "ACURA"
+    },
+    {
+        "type": "A.D. TRAMONTANA"
+    },
+    {
+        "type": "ALFA ROMEO"
+    },
+    {
+        "type": "ALMAC"
+    },
+    {
+        "type": "ALTERNATIVE CARS"
+    },
+    {
+        "type": "AMUZA"
+    },
+    {
+        "type": "ANTEROS"
+    },
+    {
+        "type": "ARASH"
+    },
+    {
+        "type": "ARIEL"
+    },
+    {
+        "type": "ARRINERA"
+    },
+    {
+        "type": "ASL"
+    },
+    {
+        "type": "ASTERIO"
+    },
+    {
+        "type": "ASTON MARTIN"
+    },
+    {
+        "type": "AUDI"
+    },
+    {
+        "type": "BAC"
+    },
+    {
+        "type": "BAJAJ"
+    },
+    {
+        "type": "BEIJING AUTOMOBILE WORKS"
+    },
+    {
+        "type": "BENTLEY"
+    },
+    {
+        "type": "BMW"
+    },
+    {
+        "type": "BOLLORÉ"
+    },
+    {
+        "type": "BOLWELL"
+    },
+    {
+        "type": "BRILLIANCE / HUACHEN"
+    },
+    {
+        "type": "BRISTOL"
+    },
+    {
+        "type": "BRITISH LEYLAND"
+    },
+    {
+        "type": "BRM BUGGY"
+    },
+    {
+        "type": "BROOKE"
+    },
+    {
+        "type": "BUDDY"
+    },
+    {
+        "type": "BUFORI"
+    },
+    {
+        "type": "BUGATTI"
+    },
+    {
+        "type": "BUICK"
+    },
+    {
+        "type": "BYD"
+    },
+    {
+        "type": "CADILLAC"
+    },
+    {
+        "type": "CAPARO"
+    },
+    {
+        "type": "CARBONTECH"
+    },
+    {
+        "type": "CARICE"
+    },
+    {
+        "type": "CHANG'AN"
+    },
+    {
+        "type": "CHANGHE"
+    },
+    {
+        "type": "CHERY"
+    },
+    {
+        "type": "CHEVROLET"
+    },
+    {
+        "type": "CHEVRON"
+    },
+    {
+        "type": "CITROËN"
+    },
+    {
+        "type": "CHRYSLER"
+    },
+    {
+        "type": "COMMUTER CARS"
+    },
+    {
+        "type": "CONNAUGHT"
+    },
+    {
+        "type": "COVINI"
+    },
+    {
+        "type": "DACIA"
+    },
+    {
+        "type": "DAIHATSU"
+    },
+    {
+        "type": "DATSUN"
+    },
+    {
+        "type": "DE LA CHAPELLE"
+    },
+    {
+        "type": "DMC"
+    },
+    {
+        "type": "DIARDI"
+    },
+    {
+        "type": "DODGE"
+    },
+    {
+        "type": "DONKERVOORT"
+    },
+    {
+        "type": "DONGFENG"
+    },
+    {
+        "type": "DONTO"
+    },
+    {
+        "type": "DS AUTOMOBILES"
+    },
+    {
+        "type": "DYNASTI ELECTRIC CAR CORP."
+    },
+    {
+        "type": "E-VADE"
+    },
+    {
+        "type": "EFFEDI"
+    },
+    {
+        "type": "EGY-TECH ENGINEERING"
+    },
+    {
+        "type": "ELECTRIC RACEABOUT"
+    },
+    {
+        "type": "ELFIN"
+    },
+    {
+        "type": "EMGRAND"
+    },
+    {
+        "type": "ENGLON"
+    },
+    {
+        "type": "ETERNITI"
+    },
+    {
+        "type": "ETOX"
+    },
+    {
+        "type": "EQUUS"
+    },
+    {
+        "type": "EXAGON"
+    },
+    {
+        "type": "FARALLI & MAZZANTI"
+    },
+    {
+        "type": "FAW"
+    },
+    {
+        "type": "FERRARI"
+    },
+    {
+        "type": "FIAT"
+    },
+    {
+        "type": "FISKER"
+    },
+    {
+        "type": "FODAY"
+    },
+    {
+        "type": "FORCE"
+    },
+    {
+        "type": "FORD"
+    },
+    {
+        "type": "FORD AUSTRALIA"
+    },
+    {
+        "type": "FORD GERMANY"
+    },
+    {
+        "type": "FORNASARI"
+    },
+    {
+        "type": "FRASER"
+    },
+    {
+        "type": "GAC GROUP"
+    },
+    {
+        "type": "GALPIN"
+    },
+    {
+        "type": "GEELY"
+    },
+    {
+        "type": "GENESIS"
+    },
+    {
+        "type": "GIBBS"
+    },
+    {
+        "type": "GILLET"
+    },
+    {
+        "type": "GINETTA"
+    },
+    {
+        "type": "GMC"
+    },
+    {
+        "type": "GONOW"
+    },
+    {
+        "type": "GREAT WALL / CHANGCHENG"
+    },
+    {
+        "type": "GREENTECH AUTOMOTIVE"
+    },
+    {
+        "type": "GRINNALL"
+    },
+    {
+        "type": "GTA MOTOR"
+    },
+    {
+        "type": "GUMPERT"
+    },
+    {
+        "type": "GURGEL"
+    },
+    {
+        "type": "HENNESSEY"
+    },
+    {
+        "type": "HINDUSTAN"
+    },
+    {
+        "type": "HOLDEN"
+    },
+    {
+        "type": "HONDA"
+    },
+    {
+        "type": "HONGQI"
+    },
+    {
+        "type": "HRADYESH"
+    },
+    {
+        "type": "HTT TECHNOLOGIES"
+    },
+    {
+        "type": "HULME"
+    },
+    {
+        "type": "HYUNDAI"
+    },
+    {
+        "type": "ICML"
+    },
+    {
+        "type": "IFR"
+    },
+    {
+        "type": "IRAN KHODRO"
+    },
+    {
+        "type": "IKCO"
+    },
+    {
+        "type": "IMPERIA"
+    },
+    {
+        "type": "INFINITI"
+    },
+    {
+        "type": "IVM"
+    },
+    {
+        "type": "INVICTA"
+    },
+    {
+        "type": "ISDERA"
+    },
+    {
+        "type": "ISUZU"
+    },
+    {
+        "type": "JAC"
+    },
+    {
+        "type": "JAGUAR"
+    },
+    {
+        "type": "JEEP"
+    },
+    {
+        "type": "JENSEN MOTORS"
+    },
+    {
+        "type": "JETCAR"
+    },
+    {
+        "type": "JONWAY"
+    },
+    {
+        "type": "JOSS"
+    },
+    {
+        "type": "KAIPAN"
+    },
+    {
+        "type": "KANTANKA"
+    },
+    {
+        "type": "KARMA"
+    },
+    {
+        "type": "KOENIGSEGG"
+    },
+    {
+        "type": "KORRES"
+    },
+    {
+        "type": "KIA"
+    },
+    {
+        "type": "KIAT"
+    },
+    {
+        "type": "KISH KHODRO"
+    },
+    {
+        "type": "KTM"
+    },
+    {
+        "type": "LADA"
+    },
+    {
+        "type": "LAMBORGHINI"
+    },
+    {
+        "type": "LANCIA"
+    },
+    {
+        "type": "LAND ROVER"
+    },
+    {
+        "type": "LANDWIND"
+    },
+    {
+        "type": "LARAKI"
+    },
+    {
+        "type": "LEBLANC"
+    },
+    {
+        "type": "LEITCH"
+    },
+    {
+        "type": "LEOPARD"
+    },
+    {
+        "type": "LEXUS"
+    },
+    {
+        "type": "LI-ION"
+    },
+    {
+        "type": "LIFAN"
+    },
+    {
+        "type": "LIGHTNING"
+    },
+    {
+        "type": "LINCOLN"
+    },
+    {
+        "type": "LISTER"
+    },
+    {
+        "type": "LOCAL MOTORS"
+    },
+    {
+        "type": "LOBINI"
+    },
+    {
+        "type": "LOTEC"
+    },
+    {
+        "type": "LOTUS CARS"
+    },
+    {
+        "type": "LUCRA CARS"
+    },
+    {
+        "type": "LUXGEN"
+    },
+    {
+        "type": "MAHINDRA"
+    },
+    {
+        "type": "MARUSSIA"
+    },
+    {
+        "type": "MARUTI SUZUKI"
+    },
+    {
+        "type": "MASERATI"
+    },
+    {
+        "type": "MASTRETTA"
+    },
+    {
+        "type": "MAZDA"
+    },
+    {
+        "type": "MCLAREN"
+    },
+    {
+        "type": "MERCEDES-BENZ"
+    },
+    {
+        "type": "MG"
+    },
+    {
+        "type": "MICRO"
+    },
+    {
+        "type": "MINI"
+    },
+    {
+        "type": "MITSUBISHI"
+    },
+    {
+        "type": "MITSUOKA"
+    },
+    {
+        "type": "MORGAN"
+    },
+    {
+        "type": "MULLEN"
+    },
+    {
+        "type": "MYCAR"
+    },
+    {
+        "type": "MYVI-PERODUA"
+    },
+    {
+        "type": "NISSAN"
+    },
+    {
+        "type": "NOBLE"
+    },
+    {
+        "type": "NOTA"
+    },
+    {
+        "type": "OLDSMOBILE"
+    },
+    {
+        "type": "OPEL"
+    },
+    {
+        "type": "OPTIMAL ENERGY"
+    },
+    {
+        "type": "ORCA"
+    },
+    {
+        "type": "OLTCIT"
+    },
+    {
+        "type": "PAGANI"
+    },
+    {
+        "type": "PANHARD"
+    },
+    {
+        "type": "PANOZ"
+    },
+    {
+        "type": "PERANA"
+    },
+    {
+        "type": "PERODUA"
+    },
+    {
+        "type": "PEUGEOT"
+    },
+    {
+        "type": "P.G.O."
+    },
+    {
+        "type": "POLARSUN"
+    },
+    {
+        "type": "PLYMOUTH"
+    },
+    {
+        "type": "PORSCHE"
+    },
+    {
+        "type": "PROTO"
+    },
+    {
+        "type": "OULLIM"
+    },
+    {
+        "type": "PROTON"
+    },
+    {
+        "type": "PURITALIA"
+    },
+    {
+        "type": "QOROS"
+    },
+    {
+        "type": "QVALE"
+    },
+    {
+        "type": "RADICAL"
+    },
+    {
+        "type": "RELIANT"
+    },
+    {
+        "type": "RENAULT"
+    },
+    {
+        "type": "REVA"
+    },
+    {
+        "type": "RIMAC"
+    },
+    {
+        "type": "RINSPEED"
+    },
+    {
+        "type": "RODING"
+    },
+    {
+        "type": "ROEWE"
+    },
+    {
+        "type": "ROLLS-ROYCE"
+    },
+    {
+        "type": "ROSSIN-BERTIN"
+    },
+    {
+        "type": "ROSSION"
+    },
+    {
+        "type": "ROVER"
+    },
+    {
+        "type": "SAAB"
+    },
+    {
+        "type": "SALEEN"
+    },
+    {
+        "type": "SAIC-GM-WULING"
+    },
+    {
+        "type": "SAIPA"
+    },
+    {
+        "type": "SAKER"
+    },
+    {
+        "type": "SAMSUNG"
+    },
+    {
+        "type": "SAN"
+    },
+    {
+        "type": "SBARRO"
+    },
+    {
+        "type": "SCION"
+    },
+    {
+        "type": "SEAT"
+    },
+    {
+        "type": "SHANGHAI MAPLE"
+    },
+    {
+        "type": "SIN"
+    },
+    {
+        "type": "ŠKODA"
+    },
+    {
+        "type": "SMART"
+    },
+    {
+        "type": "SPADA VETTURE SPORT"
+    },
+    {
+        "type": "SPYKER"
+    },
+    {
+        "type": "SSANGYONG"
+    },
+    {
+        "type": "SSC NORTH AMERICA"
+    },
+    {
+        "type": "STREET & RACING TECHNOLOGY"
+    },
+    {
+        "type": "SUBARU"
+    },
+    {
+        "type": "SUZUKI"
+    },
+    {
+        "type": "TANOM"
+    },
+    {
+        "type": "TATA"
+    },
+    {
+        "type": "TAURO"
+    },
+    {
+        "type": "TAWON CAR"
+    },
+    {
+        "type": "TD CARS"
+    },
+    {
+        "type": "TESLA"
+    },
+    {
+        "type": "THAI RUNG"
+    },
+    {
+        "type": "TOYOTA"
+    },
+    {
+        "type": "TREKKA"
+    },
+    {
+        "type": "TRIDENT"
+    },
+    {
+        "type": "TRIUMPH"
+    },
+    {
+        "type": "TROLLER"
+    },
+    {
+        "type": "TRUMPCHI"
+    },
+    {
+        "type": "TUSHEK"
+    },
+    {
+        "type": "TVR"
+    },
+    {
+        "type": "TVS"
+    },
+    {
+        "type": "ULTIMA"
+    },
+    {
+        "type": "UMM"
+    },
+    {
+        "type": "UEV"
+    },
+    {
+        "type": "URI"
+    },
+    {
+        "type": "UAZ"
+    },
+    {
+        "type": "VAUXHALL MOTORS"
+    },
+    {
+        "type": "VECTOR"
+    },
+    {
+        "type": "VENCER"
+    },
+    {
+        "type": "VENIRAUTO"
+    },
+    {
+        "type": "VENTURI"
+    },
+    {
+        "type": "VEPR"
+    },
+    {
+        "type": "VOLKSWAGEN"
+    },
+    {
+        "type": "VOLVO"
+    },
+    {
+        "type": "VINFAST"
+    },
+    {
+        "type": "W MOTORS"
+    },
+    {
+        "type": "WALLYSCAR"
+    },
+    {
+        "type": "WESTFIELD"
+    },
+    {
+        "type": "WHEEGO"
+    },
+    {
+        "type": "WIESMANN"
+    },
+    {
+        "type": "XENIA"
+    },
+    {
+        "type": "YES!"
+    },
+    {
+        "type": "YOUABIAN PUMA"
+    },
+    {
+        "type": "ZASTAVA AUTOMOBILES"
+    },
+    {
+        "type": "ZENDER CARS"
+    },
+    {
+        "type": "ZENOS CARS"
+    },
+    {
+        "type": "ZENVO"
+    },
+    {
+        "type": "ZIL"
+    },
+    {
+        "type": "ZX AUTO"
+    }
+]

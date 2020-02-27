@@ -1,0 +1,30 @@
+.dd {
+    margin-top: 100px;
+    max-height: 800px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.image {
+    width: 30%;
+}
+
+.mmd {
+    text-align: center;
+}
+
+.message {
+    color: #ffffff;
+    text-align: center;
+    font-size: 3vw;
+}
+
+.body-mdf {
+    font-family: 'Fira Sans', "PT Sans", sans-serif;
+    background-color: #ffffff;
+}
+
+.sign-body {
+    background-image: url("../graphics/body-background.png");
+    background-position: center center;
+}

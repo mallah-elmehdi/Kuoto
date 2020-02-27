@@ -1,0 +1,36 @@
+extends base
+
+block append header
+    link(rel="stylesheet" href="css/seConnecterSinscrire.css")
+
+block content
+    body.body-mdf.sign-body
+        section.container
+            .nav.navbar.navbar-expand.navbar-light
+                a.navbar-brand(href="/")
+                   img.rounded.float-left(src="../graphics/logo-white.png" width="80px" alt="koto")
+        div
+            section
+                .container 
+                    .sign
+                        form(action="/inscrire" method="post")
+                            .form-group
+                                label Nom
+                                input.form-control(type="text" name="name" placeholder="Nom ou Prenom" required)
+                                if (message.startsWith("Le nom"))
+                                    p.mssg=`* ${message}`
+                            .form-group
+                                label Email address
+                                input.form-control(type="email" name="email" placeholder="vous@example.com" required)
+                                if (message.startsWith("Cet e-mail") || message.startsWith("Ce n'est"))
+                                    p.mssg=`* ${message}`
+                            .form-group
+                                label Mot de passe
+                                input.form-control(type="password" name="password" placeholder="•••••••" minlength="8" maxlength="20" required)
+                            .form-group
+                                label Confirmer le mot de passe
+                                input.form-control(type="password" name="repassword" placeholder="•••••••" minlength="8" maxlength="20" required)
+                                if (message.startsWith("Pas le même"))
+                                    p.mssg=`* ${message}`
+                            button.btn.btn-primary.submit(name="submit" type="sumbit") S'inscrire
+                        p.loginhere!= 'Déjà inscrit ?   ' + '<a href="/se-connecter" class="loginhere-link">Se connecter</a>'

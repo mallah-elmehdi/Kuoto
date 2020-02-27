@@ -1,0 +1,18 @@
+extends base
+
+block append header
+  link(rel="stylesheet" href="../css/carOverview.css")
+
+block content
+    body.body-mdf
+        .card.mb-3(style="max-width: 1000px;")
+            .row.no-gutters
+                .col-md-4
+                    img.card-img(src="../graphics/test-logo.png" alt="...")
+                .col-md-8
+                    .card-body
+                        h5.card-title Card title 
+                        .prp
+                            .card-text This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                        p.card-text
+                            small.text-muted Last updated 3 mins ago

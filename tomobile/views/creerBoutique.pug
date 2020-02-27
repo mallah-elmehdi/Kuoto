@@ -1,0 +1,71 @@
+extends base
+
+block append footer
+  script(src="../js/creerBoutique.js")
+
+block append header
+  link(rel="stylesheet" href="../css/creerBoutique.css")
+
+
+block content
+  body.body-mdf.signup-body
+    section.container
+      .nav.navbar.navbar-expand.navbar-light
+        a.navbar-brand(href="/")
+          img.rounded.float-left(src="graphics/logo-white.png" width="80px" alt="koto")
+    div
+      form(action="" method="post")
+        section
+          .container
+            .store-box
+              .row.row-up
+                .col-lg-5.col-md-5.col-sm-0.img-up-prs
+                .col-lg-7.col-md-7.col-sm-12.box-up
+                  .table-up
+                  .form-group
+                    label Username
+                    input.form-control(type="text" name="username" placeholder="Username" minlength="3" maxlength="8" required)
+                  .form-group
+                    label Nom complet
+                    input.form-control(type="text" name="nomCopmlet" placeholder="Nom et Prenom" required)
+                  .form-group
+                    label Email address
+                    input.form-control(type="email" name="email" placeholder="vous@example.com" required)
+                  .form-group
+                    label Mot de passe
+                    input.form-control(type="password" name="password" placeholder="•••••••" minlength="8" maxlength="20" required)
+                  .form-group
+                    label Confirmer le mot de passe
+                    input.form-control(type="password" name="Repassword" placeholder="•••••••" minlength="8" maxlength="20" required)
+
+        section
+          .container
+            .store-box
+              .row.row-up
+                .col-lg-7.col-md-7.col-sm-12.box-up
+                  .table-up
+                    .form-group
+                      label Nom de la boutique
+                      input.form-control(type="text" name="nomBoutique" placeholder="Ma boutique" required)
+                    .form-group
+                      label Address de la boutique
+                      input.form-control(type="text" name="adresseBoutique" placeholder="Adresse" required)
+                    .form-group
+                      label Ville
+                      select.form-control(type="text" name="villeBoutique")
+                        each city in data.cities
+                          if !(city.type.includes("Tout") || city.type.includes("-"))
+                            option(value=`${city.type}`)= city.type
+                    .form-group.logo-lbl
+                      div
+                        label Logo de la boutique
+                        div
+                          label
+                            input.logo-img(type="file" name="nameBoutique" accept="image/png, image/jpeg, image/jpg" id="logo")
+                            i.fas.fa-camera.fa-3x
+                      .previewLogo
+                        .clm
+                          img.nologo(src="../graphics/nologo-r.png" alt="logo" id="preview")         
+                .col-lg-5.col-md-5.col-sm-0.img-up
+            .submit-up
+              button.btn.btn-primary.btq-btn Enregister

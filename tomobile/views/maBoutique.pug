@@ -1,0 +1,119 @@
+extends base
+
+mixin inputBox(list)
+    each item in list
+        if !(item.type.includes("---") || item.type.includes("Tout")) 
+            option(value=item.type)= item.type
+
+block append header
+    link(rel="stylesheet" href="../css/maBoutique.css")
+
+block append footer
+    script(src="../js/maBoutique.js")
+
+block content
+    body.body-mdf
+        .carBox
+            .container
+                form.the-box(action="/ma-boutique/:id")
+                    .form-group.text-add 
+                        span Entrez les information du véhicule
+                        span.icon.dlt
+                            i.fas.fa-times-circle
+                    .form-group.tow-col
+                        .partition
+                            label Marque du véhicule
+                            select.form-control(name="marque")
+                                +inputBox(data.brands)
+                        .partition
+                            label Le modèle du véhicules
+                            input.form-control(type="text" name="name" placeholder="La série de voiture" required)
+                    .form-group.thre-col
+                        .partition
+                            label Type de carburant
+                            select.form-control(name="carburant")
+                                +inputBox(data.carburant)
+                        .partition
+                            label Nombre de portes
+                            input.form-control(type="number" name="nombrePortes" placeholder="Nombre de portes" min="2" max="5" required)
+                        .partition
+                            label Nombre de places
+                            input.form-control(type="number" name="nombrePlaces" placeholder="Nombre de places" min="2" max="8" required)
+                    .form-group.tow-col
+                        .partition
+                            label Boîte de vitesse
+                            select.form-control(name="boiteDeVitesse")
+                                +inputBox(data.boites)
+                        .partition
+                            label Type du véhicule
+                            select.form-control(name="types")
+                                +inputBox(data.types)
+                    .form-group.tow-col
+                        .partition
+                            label Prix par jour
+                            input.form-control(type="number" name="price" placeholder="Enter le prix par jour en Dh" required)
+                        .partition
+                            label.mrgnl Climatisation
+                            .th3-part
+                                .tow-col.mrgn
+                                    label.cnt Oui
+                                        input(type="radio" checked="checked" name="radio")
+                                        span.checkmark
+                                    label.cnt Non
+                                        input(type="radio" name="radio")
+                                        span.checkmark
+                                div
+                                div
+                    .form-group.tow-col
+                        .partition
+                            label ajoutez des photos ( jpg / png / jpeg )
+                            div
+                                label
+                                    input.logo-img(type="file" name="nameBoutique" accept="image/png, image/jpeg, image/jpg" required)
+                                    i.fas.fa-camera.fa-3x
+                        .partition
+                            .picPreview
+                                i.far.fa-images.fa-3x
+                    .form-group.t3-col
+                        .partition
+                        .partition
+                        .the-btn.partition
+                            input(type="submit" value="ajouter").btn.btn-success.ajt 
+
+        .mainBody
+            section.bg-light
+                .container
+                    nav.navbar.navbar-expand.navbar-light
+                        a.navbar-brand(href="/")
+                            img(src="../graphics/LOGO-UPDATE001.png" width="80px" alt="Koto")
+                        .collapse.navbar-collapse
+                            .btq-name= ok
+                            div
+                                a(href="/settings")
+                                    i.fas.fa-user.fa-3x
+            section
+                .container
+                    .main-profile
+                        .btqSettings#sett
+                            .part.on
+                                a(href="#")
+                                    button.btn
+                                        i.fas.fa-car.icns.fa-lg
+                                        span Toutes les voitures
+                            .part
+                                a(href="#")
+                                    button.btn
+                                        i.fas.fa-sliders-h.icns.fa-lg
+                                        span Paramètres
+                            .part
+                                a(href="#")
+                                    button.btn
+                                        i.fas.fa-sliders-h.icns.fa-lg
+                                        span Paramètresk
+                        .add-car
+                            .carLgCard
+                            .add-button
+                                button.the-add-button#add(name="addCar") 
+                                    img(src="graphics/add-icon.png" width="15px" alt="add") 
+                                    | 
+                                    span Ajouter

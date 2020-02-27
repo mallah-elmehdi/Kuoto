@@ -1,0 +1,17 @@
+extends base
+
+block append header
+    link(rel="stylesheet" href="../css/success.css")
+
+block content
+    body.body-mdf.sign-body
+        section.container
+            .nav.navbar.navbar-expand.navbar-light
+                navbar-brand
+                   img.rounded.float-left(src="../graphics/logo-white.png" width="80px" alt="koto")
+
+        .dd
+            .container
+                .mmd
+                    img.image(src="../graphics/success.png" alt="success")
+            p.message= message

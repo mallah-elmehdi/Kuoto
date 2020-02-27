@@ -1,0 +1,181 @@
+[
+  {
+    "id" : "0",
+    "type": "Tout les marques"
+  },
+
+  {
+    "id" : "blank",
+    "type": "-------------------------------"
+  },
+
+  {
+    "id" : "1",
+    "type": "Dacia"
+  },
+
+  {
+    "id" : "2",
+    "type": "Renaut"
+  },
+
+  {
+    "id" : "3",
+    "type": "Peugeot"
+  },
+
+  {
+    "id" : "4",
+    "type": "Citroën"
+  },
+
+  {
+    "id" : "5",
+    "type": "Fiat"
+  },
+
+  {
+    "id" : "6",
+    "type": "Nissan"
+  },
+
+  {
+    "id" : "7",
+    "type": "Ford"
+  },
+
+  {
+    "id" : "8",
+    "type": "Hyundai"
+  },
+
+  {
+    "id" : "9",
+    "type": "Kia"
+  },
+
+  {
+    "id" : "10",
+    "type": "Seat"
+  },
+
+  {
+    "id" : "11",
+    "type": "Toyota"
+  },
+
+  {
+    "id" : "12",
+    "type": "Mitsubishi"
+  },
+
+  {
+    "id" : "13",
+    "type": "Suzuki"
+  },
+
+  {
+    "id" : "14",
+    "type": "Honda"
+  },
+
+  {
+    "id" : "15",
+    "type": "Volvo"
+  },
+
+  {
+    "id" : "16",
+    "type": "Skoda"
+  },
+
+  {
+    "id" : "17",
+    "type": "Toyota"
+  },
+
+  {
+    "id" : "18",
+    "type": "Mercedes"
+  },
+
+  {
+    "id" : "19",
+    "type": "Volkswagen"
+  },
+
+  {
+    "id" : "20",
+    "type": "Audi"
+  },
+
+  {
+    "id" : "21",
+    "type": "BMW"
+  },
+
+  {
+    "id" : "22",
+    "type": "Lancia"
+  },
+
+  {
+    "id" : "23",
+    "type": "Chevrolet"
+  },
+
+  {
+    "id" : "24",
+    "type": "DS"
+  },
+
+  {
+    "id" : "25",
+    "type": "Bentley"
+  },
+
+  {
+    "id" : "26",
+    "type": "Jeep"
+  },
+
+  {
+    "id" : "27",
+    "type": "Jaguar"
+  },
+
+  {
+    "id" : "28",
+    "type": "Land-Rover"
+  },
+
+  {
+    "id" : "29",
+    "type": "Chevrolet"
+  },
+
+  {
+    "id" : "30",
+    "type": "Mazda"
+  },
+
+  {
+    "id" : "31",
+    "type": "Mini"
+  },
+
+  {
+    "id" : "32",
+    "type": "Opel"
+  },
+
+  {
+    "id" : "33",
+    "type": "Porshe"
+  },
+
+  {
+    "id" : "34",
+    "type": "Other"
+  }
+]

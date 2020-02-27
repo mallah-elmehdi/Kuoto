@@ -1,0 +1,24 @@
+extends base
+
+block append header
+    link(rel="stylesheet" href="css/seConnecterSinscrire.css")
+
+block content
+    body.body-mdf.sign-body
+        section.container
+            .nav.navbar.navbar-expand.navbar-light
+                a.navbar-brand(href="/")
+                   img.rounded.float-left(src="../graphics/logo-white.png" width="80px" alt="koto")
+        div
+            section
+                .container
+                    .sign
+                        form
+                            .form-group
+                                label Email
+                                input.form-control(type="text" id="email" placeholder="vous@exemple.com")
+                            .form-group
+                                label Password
+                                input.form-control(type="password" id="password" placeholder="•••••••")
+                            button.btn.btn-primary.submit(name="seConnecter") Se connecter
+                        p.loginhere!= 'Pas encore inscrit?' +  '<a href="\\inscrire" class="loginhere-link"> S\'inscrire gratuitement!'

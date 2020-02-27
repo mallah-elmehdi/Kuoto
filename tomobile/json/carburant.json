@@ -1,0 +1,17 @@
+[
+    {
+        "type": "Diesel"
+    },
+    {
+        "type": "Essence"
+    },
+    {
+        "type": "Electrique"
+    },
+    {
+        "type": "LPG"
+    },
+    {
+        "type": "Hybride"
+    }
+]

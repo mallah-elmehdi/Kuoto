@@ -1,0 +1,105 @@
+.body-mdf {
+  font-family: 'Fira Sans', "PT Sans", sans-serif;
+  background-color: #ffffff;
+}
+
+.store-icon {
+  width:20px;
+  margin-bottom: 5px;
+}
+
+.header-background {
+  position: absolute;
+  background-image: url("../graphics/the-header.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  padding-top: 70px;
+
+}
+
+.head-title {
+  margin-bottom:0 30px ;
+  color: #ffffff;
+  text-align: center;
+}
+
+.nvbr-mdf {
+  box-shadow: -2px -2px 50px 15px rgba(0, 0, 0, 0.4);
+  height: 200px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+}
+
+.cl-mdf {
+  margin-right: 10px;
+  height: 50px;
+  border: 1px solid #cdd4da;
+  background-color: #fff;
+}
+
+.rw-mdf {
+  padding: 30px 30px 0;
+}
+
+.submit-srch {
+  height: 50px;
+  margin: auto;
+  width: 60%;
+  background-color: #ffb300;
+}
+
+.ad-ban {
+  margin-top: 400px;
+  padding: 50px;
+  border-bottom: 1px solid #F2F2F2;
+}
+/* ======= */
+.propety {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.spn {
+  margin-left: 4px;
+  text-align: right;
+  font-size: 12px;
+}
+.store{
+  width: 60px;
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2);    
+}
+.dh {
+  color: #AFAFAF;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.prix {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-footer {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+}
+
+.owner {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.fff {
+  position: absolute;
+  margin: 0 4px;
+}
+.card-title {
+  font-weight: bold;
+}
+
+.fa-search {
+  float: right;
+}
