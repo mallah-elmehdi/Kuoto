@@ -1,0 +1,27 @@
+.row
+    .col-7.border-right.font-weight-bold
+        .grid-7
+            i.fas.fa-user-alt.m-auto.text-warning
+            .text-primary.mb-1 places :
+        .grid-7
+            i.fas.fa-window-maximize.m-auto.text-warning
+            .text-primary.mb-1 portes :
+        .grid-7
+            i.fas.fa-snowflake.m-auto.text-warning
+            .text-primary.mb-1 climatisation :
+        .grid-7
+            i.fas.fa-cogs.m-auto.text-warning
+            .text-primary.mb-1 boite de vitesse :
+        .grid-7
+            i.fas.fa-gas-pump.m-auto.text-warning
+            .text-primary carburant :
+        .grid-7
+            i.fas.fa-car.m-auto.text-warning
+            .text-primary type :
+    .col-5
+        .text-secondary.mb-1=` ${carDetail.place}`
+        .text-secondary.mb-1=` ${carDetail.porte}`
+        .text-secondary.mb-1=` ${carDetail.climat.fr}`
+        .text-secondary.mb-1=` ${carDetail.boite.fr}`
+        .text-secondary.mb-1=` ${carDetail.carburant.fr}`
+        .text-secondary=` ${carDetail.type}`

@@ -1,0 +1,79 @@
+extends base
+
+block content
+    .container
+        .row.my-3
+            .col-lg-3.col-md-3
+                include _footerban
+            .col-lg-9.col-md-9
+                .bg-white.p-3.w-100.mx-auto.shadow-sm
+                    .text-center.mb-3
+                        a(href="/")
+                            img(src="/../graphics/logo.png" width="60px" alt="Kauto.ma")
+                    h2.text-weight-bold.mb-5 Comment nous fonctionnons
+                    .row.mb-4
+                        .col-1.text-primary.text-right
+                            i.fas.fa-search.fa-2x
+                        .col-11
+                            .row
+                                .col-12
+                                    span.font-weight-bold.text-warning Rechercher
+                                .col-12
+                                    span.ft-size.font-weight-light Vous recherchez sur notre site le véhicule que vous souhaitez
+                    .row.mb-4
+                        .col-1.text-primary.text-right
+                            i.fas.fa-car.fa-2x
+                        .col-11
+                            .row
+                                .col-12
+                                    span.font-weight-bold.text-warning Comparer
+                                .col-12
+                                    span.ft-size.font-weight-light Nous vous montrons les offres et les avis dont vous avez besoin pour vous aider à choisir
+                    .row.mb-4
+                        .col-1.text-primary.text-right
+                            i.fas.fa-phone.fa-2x
+                        .col-11
+                            .row
+                                .col-12
+                                    span.font-weight-bold.text-warning Réserve
+                                .col-12
+                                    span.ft-size.font-weight-light Appelez le magasin de location que vous avez choisi, négociez, puis prenez un rendez-vous.
+                    .row.mb-4
+                        .col-1.text-primary.text-right
+                            i.fas.fa-map-marker-alt.fa-2x
+                        .col-11
+                            .row
+                                .col-12
+                                    span.font-weight-bold.text-warning Trouver le magasin
+                                .col-12
+                                    span.ft-size.font-weight-light Accédez au magazine à l'aide de Google maps
+                    .row.mb-4
+                        .col-1.text-primary.text-right
+                            i.fas.fa-store.fa-2x
+                        .col-11
+                            .row
+                                .col-12
+                                    span.font-weight-bold.text-warning Vous êtes prêt
+                                .col-12
+                                    span.ft-size.font-weight-light Confirmez la réservation avec le magasin de location de véhicules que vous choisissez et payez sur place
+                    .row.mb-4
+                        .col-1.text-primary.text-right
+                            i.fas.fa-key.fa-2x
+                        .col-11
+                            .row
+                                .col-12
+                                    span.font-weight-bold.text-warning Récupérez votre véhicule
+                                .col-12
+                                    span.ft-size.font-weight-light Vous prenez le véhicule que vous avez choisi
+                    .row.mb-4
+                        .col-1.text-primary.text-right
+                            i.fas.fa-heart.fa-2x
+                        .col-11
+                            .row
+                                .col-12
+                                    span.font-weight-bold.text-warning Bon voyage
+                                .col-12
+                                    span.ft-size.font-weight-light Vous conduisez et commencez à découvrir…
+
+    .text-center.fixed-bottom.mb-3#copy
+        small.text-muted &copy; 2020 Kauto.ma

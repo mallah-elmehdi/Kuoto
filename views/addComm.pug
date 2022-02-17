@@ -1,0 +1,109 @@
+extends base
+
+block append footer
+    script(src="/../js/user.js")
+
+block content
+    include _header
+    .container
+        .row.mt-3
+            .col-lg-3.col-md-3
+                include _usrban
+            .col-lg-9.col-md-9
+                .row
+                    .col-12.mb-3
+                        .shadow-sm
+                            .bg-white.w-100
+                                .row.no-gutters
+                                    .col-lg-4
+                                        -var id = `#car-${car._id}`
+                                        .carousel.slide(data-ride="carousel" data-interval="0" id=`car-${car._id}`)
+
+                                            ol.carousel-indicators
+                                                li.active(data-target=`${car._id}` data-slide-to="0")
+                                                -for (var i = 1; i < car.photo.length; i++)
+                                                    li(data-target=`${id}` data-slide-to=`${i}`)
+
+                                            .carousel-inner
+                                                .carousel-item.active
+                                                    img.d-block.w-100(src=`/../graphics/cars/${car.photo[0]}`)
+                                                -for (var i = 1; i < car.photo.length; i++)
+                                                    .carousel-item
+                                                        img.d-block.w-100(src=`/../graphics/cars/${car.photo[i]}`)
+
+                                            .carousel-control-prev(href=`${id}` role="button" data-slide="prev")
+                                                span.carousel-control-prev-icon(aria-hidden="true")
+                                                span.sr-only Previous
+                                            .carousel-control-next(href=`${id}` role="button" data-slide="next")
+                                                span.carousel-control-next-icon(aria-hidden="true")
+                                                span.sr-only Next
+                                    .col-lg-8
+                                        .card-body.row
+
+                                            .col-lg-8
+                                                .mb-1
+                                                .fn-14= `${car.marque.fr} - ${car.model.fr}`
+                                                .grid-2
+                                                    each item in propeties
+                                                        .text-left
+                                                            span.fn-11.text-secondary.my-auto
+                                                                i.fas(class=`${item.image}`).mr-1
+                                                                include _prp
+                                                if (car.remise && car.remise > 0)
+                                                    .fn-18.font-weight-bold= `${parseInt(car.price - (car.price * (car.remise / 100)))} Dhs `
+                                                    .fn-13
+                                                        del.font-weight-normal.badge.text-secondary= car.price + " Dhs"
+                                                        span.badge.rounded-0.list-group-item-warning= `-${car.remise}%`
+                                                else
+                                                    .fn-18.font-weight-bold= car.price + " Dhs "
+
+                    .col-12.mb-3
+                        .list-group-item-danger.shadow-sm.p-3
+                            .text-center
+                                i.fas.fa-exclamation-triangle.text
+                            p puisque les clients réservent par téléphone, nous ne savons pas si vous le réservez vraiment ou non, donc nous ne dépendons que de votre honnêteté, veuillez n'ajouter aucun commentaire si vous n'avez pas réservé, merci de votre compréhension
+                    .col-12.mb-3
+                        .bg-white.shadow-sm.p-3
+                            form(action=`/utilisateur/${user._id}/ajouter-un-commentaire`, method="post")
+                                input.d-none(type="text" value=`${car._id}` name="which")
+                                input.d-none(type="text" value=`${car.store}` name="to")
+                                .form-group
+                                    .custom-control.custom-radio
+                                        input.custom-control-input(type="radio" id="1star" name="star" value=5)
+                                        label.custom-control-label(for="1star")
+                                            i.fas.fa-star.text-warning
+                                            i.fas.fa-star.text-warning
+                                            i.fas.fa-star.text-warning
+                                            i.fas.fa-star.text-warning
+                                            i.fas.fa-star.text-warning
+                                    .custom-control.custom-radio
+                                        input.custom-control-input(type="radio" id="2star" name="star" value=4)
+                                        label.custom-control-label(for="2star")
+                                            i.fas.fa-star.text-warning
+                                            i.fas.fa-star.text-warning
+                                            i.fas.fa-star.text-warning
+                                            i.fas.fa-star.text-warning
+                                    .custom-control.custom-radio
+                                        input.custom-control-input(type="radio" id="3star" name="star" value=3)
+                                        label.custom-control-label(for="3star")
+                                            i.fas.fa-star.text-warning
+                                            i.fas.fa-star.text-warning
+                                            i.fas.fa-star.text-warning
+                                    .custom-control.custom-radio
+                                        input.custom-control-input(type="radio" id="4star" name="star" value=2)
+                                        label.custom-control-label(for="4star")
+                                            i.fas.fa-star.text-warning
+                                            i.fas.fa-star.text-warning
+                                    .custom-control.custom-radio
+                                        input.custom-control-input(type="radio" id="5star" name="star" value=1)
+                                        label.custom-control-label(for="5star")
+                                            i.fas.fa-star.text-warning
+                                .form-group
+                                    textarea.form-control.rounded-0(id="commentaire" name="comment" rows="2" maxlengthz="200" placeholder="ajouter un commentaire")
+                                .form-group
+                                    .list-group-item-warning.p-2
+                                        span après avoir ajouté le commentaire, vous ne pouvez pas le supprimer ou le modifier
+                                button.btn.rounded-0.btn-primary(id="add" ) Ajouter
+
+    .text-center.fixed-bottom.mb-3#copy
+        small.text-muted &copy; 2020 Kauto.ma

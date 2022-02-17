@@ -1,0 +1,138 @@
+extends base
+
+block append footer
+    script(src="/../js/offres.js")
+
+block content
+    include _header
+    .progress.fixed-top(style="height: 3px; display:none")
+        .progress-bar(role="progressbar" style="width: 0" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100")
+    .bg-dark
+        nav.nav.container
+            a.btn-sm.rounded-0.text-white(href=`/agence/${agence._id}`) Agence
+            a.btn-sm.rounded-0.text-warning.mr-auto(href=`/agence/${agence._id}/offres`) Offres
+            form.float-right.w-2
+                input.d-none(type="text" required)
+                .input-group
+                    input.form-control.rounded-0.form-control-sm.border-0(type="text" placeholder="Chercher" name="chercher" aria-label="Recipient's username" aria-describedby="searching")
+                    .input-group-append
+                        button.btn.btn-sm.list-group-item-primary.rounded-0(id="searching" type="submit")
+                            i.fas.fa-search
+
+    .container
+        .row.mt-3
+            if (cars.length)
+                .col-lg-3.col-md-3
+                    .input-group
+                        .input-group-prepend.w-100
+                            .btn-sm.shadow-sm.mb-1.list-group-item-warning
+                                i.fas.fa-search
+                            .btn-sm.rounded-0.w-100.shadow-sm.mb-1.bg-white
+                                span.text-primary.font-weight-bold.mr-1(id="resultat")=`${cars.length}`
+                                span résultats trouvés
+
+                    .filter.btn-sm.rounded-0.w-100.shadow-sm.mb-1.bg-white(data-toggle="collapse" data-target="#price-range" aria-expanded="false" aria-controls="price-range")
+                        span prix
+                        span.float-right.text-warning(id="has-price-range")
+                            i.fas.fa-plus-circle
+                    .collapse(id="price-range")
+                        .card.rounded-0.p-2.mb-1.border-0.shadow-sm
+                            label(for="prixRange") max :
+                            input.custom-range(type="range" min="0" max="1000" step="50" id="prixRange" value="1000")
+                            input.form-control.mt-2.form-control-sm.rounded-0(type="number" min="0" id="maxPriceinput" value="1000")
+
+                    .filter.btn-sm.rounded-0.w-100.shadow-sm.mb-1.bg-white(data-toggle="collapse" data-target="#brand" aria-expanded="false" aria-controls="brand")
+                        span marque
+                        span.float-right.text-warning(id="has-brand")
+                            i.fas.fa-plus-circle
+                    .collapse(id="brand")
+                        .card.rounded-0.p-2.mb-1.border-0.shadow-sm.scrl-v.h-0
+                            each item in brands
+                                .custom-control.custom-checkbox
+                                    input.custom-control-input(type="checkbox" id=item.fr name=`brand-${item.fr}`)
+                                    label.custom-control-label(for=item.fr)=item.fr
+
+                    .filter.btn-sm.rounded-0.w-100.shadow-sm.mb-1.bg-white(data-toggle="collapse" data-target="#carburant" aria-expanded="false" aria-controls="carburant")
+                        span carburant
+                        span.float-right.text-warning(id="has-carburant")
+                            i.fas.fa-plus-circle
+                    .collapse(id="carburant")
+                        .card.rounded-0.p-2.mb-1.border-0.shadow-sm
+                            each item in carburant
+                                .custom-control.custom-checkbox
+                                    input.custom-control-input(type="checkbox" id=item.fr name=`carburant-${item.fr}`)
+                                    label.custom-control-label(for=item.fr)=item.fr
+
+                    .filter.btn-sm.rounded-0.w-100.shadow-sm.mb-1.bg-white(data-toggle="collapse" data-target="#boite" aria-expanded="false" aria-controls="boite")
+                        span boite de vitesse
+                        span.float-right.text-warning(id="has-boite")
+                            i.fas.fa-plus-circle
+                    .collapse(id="boite")
+                        .card.rounded-0.p-2.mb-1.border-0.shadow-sm
+                            each item in boites
+                                .custom-control.custom-checkbox
+                                    input.custom-control-input(type="checkbox" name=`boite-${item.fr}` id=item.fr)
+                                    label.custom-control-label(for=item.fr)=item.fr
+
+                    .filter.btn-sm.rounded-0.w-100.shadow-sm.mb-1.bg-white(data-toggle="collapse" data-target="#climatisation" aria-expanded="false" aria-controls="climatisation")
+                        span climatisation
+                        span.float-right.text-warning(id="has-climat")
+                            i.fas.fa-plus-circle
+                    .collapse(id="climatisation")
+                        .card.rounded-0.p-2.mb-1.border-0.shadow-sm
+                            each item in boites
+                                .custom-control.custom-checkbox
+                                    input.custom-control-input(type="checkbox" id=`c${item.fr}` name=`climat-${item.fr}`)
+                                    label.custom-control-label(for=`c${item.fr}`)=item.fr
+
+                    .filter.btn-sm.rounded-0.w-100.shadow-sm.mb-1.bg-white(data-toggle="collapse" data-target="#type" aria-expanded="false" aria-controls="type")
+                        span type
+                        span.float-right.text-warning(id="has-type")
+                            i.fas.fa-plus-circle
+                    .collapse(id="type")
+                        .card.rounded-0.p-2.mb-1.border-0.shadow-sm
+                            each item in types
+                                .custom-control.custom-checkbox
+                                    input.custom-control-input(type="checkbox" id=`${item.type}` name=`type-${item.type}`)
+                                    label.custom-control-label(for=`${item.type}`)=item.type
+                                    img.float-right(src=`/../graphics/${item.type}.png`,width="60px")
+                .col-lg-9.col-md-9
+                    .row
+                        .col-12.mb-1.form-inline
+                            span.my-auto.fn-13 Trier par :
+                            .d-inline
+                                .input-group.sorting.ml-1
+                                    .bg-white.shadow-sm.rounded-0.btn-sm Prix
+                                    .input-group-append
+                                        .btn-sm.list-group-item-dark.rounded-0(id="sort-Prix")
+                                            i.fas.fa-sort
+                            .d-inline
+                                .input-group.mx-2.sorting
+                                    .bg-white.shadow-sm.rounded-0.btn-sm Porte
+                                    .input-group-append
+                                        .btn-sm.list-group-item-dark.rounded-0(id="sort-Porte")
+                                            i.fas.fa-sort
+                            .d-inline
+                                .input-group.sorting
+                                    .bg-white.shadow-sm.rounded-0.btn-sm Place
+                                    .input-group-append
+                                        .btn-sm.list-group-item-dark.rounded-0(id="sort-Place")
+                                            i.fas.fa-sort
+                        .col-12#keywords
+                        .col-12.bg-white.px-3.pt-3.shadow-sm
+                            .row
+                                #zero-filter.m-auto
+                            .row(id="car-Sorting")
+                                each car in cars
+                                    .col-lg-4.col-md-6.mb-3.the-car(id=`c${car._id}`)            
+                                        include _cars2
+            else
+                .text-center.pb-3.m-auto
+                    img(src="/../graphics/no-res.png", alt="zero favorits" width="80px")
+                    br
+                    span.fn-18 Aucun résultat pour cette demande
+                    p.mt-2.text-secondary Vous pouvez trouver plus de résultat, cliquez ci-dessous
+                    a.btn.btn-warning.rounded-0.shadow(href="/") Retour à la page d'accueil
+            include _recommende
+    #footer.sticky-bottom
+        include _footer 

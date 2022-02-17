@@ -1,0 +1,47 @@
+a.text-decoration-none.text-dark(href=`/voiture/${review.which._id}`)
+    .bg-white.w-100.car-card
+        .row.no-gutters
+            .col-lg-3
+                if (review.which.photo.length > 1)
+                    -var id = `#car-${review.which._id}`
+                    .carousel.slide(data-ride="carousel" data-interval="0" id=`car-${review.which._id}`)
+    
+                        ol.carousel-indicators
+                            li.active(data-target=`${review.which._id}` data-slide-to="0")
+                            -for (var i = 1; i < review.which.photo.length; i++)
+                                li(data-target=`${id}` data-slide-to=`${i}`)
+    
+                        .carousel-inner
+                            .carousel-item.active
+                                img.d-block.w-100(src=`/../graphics/cars/${review.which.photo[0]}`)
+                            -for (var i = 1; i < review.which.photo.length; i++)
+                                .carousel-item
+                                    img.d-block.w-100(src=`/../graphics/cars/${review.which.photo[i]}`)
+    
+                        .carousel-control-prev(href=`${id}` role="button" data-slide="prev")
+                            span.carousel-control-prev-icon(aria-hidden="true")
+                            span.sr-only Previous
+                        .carousel-control-next(href=`${id}` role="button" data-slide="next")
+                            span.carousel-control-next-icon(aria-hidden="true")
+                            span.sr-only Next
+                else
+                    img.d-block.w-100(src=`/../graphics/cars/${review.which.photo[0]}`)
+            .col-lg-9
+                .p-2
+                    .fn-15= `${review.which.marque.fr} - ${review.which.model.fr}`
+                    .w-100
+                        -for(var i = 0; i < review.star; i++)
+                            i.fas.fa-star.text-warning
+                    hr.my-1
+                    if (review.comment.length)
+                        i.fas.fa-comment
+                        span.fn-15.ml-2= review.comment
+                        br
+                        span.fn-12.text-muted=  review.at.toLocaleDateString('fr-FR', { weekday: 'short', year: 'numeric', month: 'short', day: 'numeric' })
+                    else
+                        i.fas.fa-comment
+                        span.fn-15.ml-2 aucun commentaire
+                        br
+                        span.fn-12.text-muted=  review.at.toLocaleDateString('fr-FR', { weekday: 'short', year: 'numeric', month: 'short', day: 'numeric' })
+
+                        

@@ -1,0 +1,25 @@
+section
+    .bg-white.shadow-sm
+        .container
+            .navbar.navbar-expand-lg
+                a.navbar-brand(href="/")
+                    img(src="/../graphics/logo.png" width="60px" alt="Kauto.ma")
+                button.navbar-toggler(type="button" data-toggle="collapse" data-target="#header-bar" aria-controls="header-bar" aria-expanded="false" aria-label="Toggle navigation")
+                    span
+                        i.fas.fa-bars
+                .collapse.navbar-collapse(id="header-bar")
+                    if (!user)
+                        .mr-auto
+                            a.btn-link.text-dark(href="/creer-agence") Créer une agence
+                            span.animation.fn-14
+                                span.badge.list-group-item-danger.rounded-pill.ml-1 Gratuite !!
+                        br
+                        a.rounded-0.btn.btn-outline-primary.btn-sm(href="/se-connecter") Se connecter
+                        a.rounded-0.btn.btn-outline-primary.btn-sm.ml-2(href="/inscrire") S'inscrire
+                    else
+                        if user.role === "user"
+                            .mr-auto
+                            img.rounded-circle.float-right.border(src="/../graphics/stores/user.jpeg" data-container="body" data-toggle="popover" data-html="true" data-placement="bottom" data-content=`<a class="btn btn-primary w-100 btn-sm rounded-0" href="/utilisateur/${user._id}">Profile</a><a class="btn btn-light w-100 mt-2 btn-sm rounded-0" href="/deconnecter">Se déconnecter</a>` width="50px")
+                        if user.role === "store"
+                            .mr-auto
+                            img.rounded-circle.float-right.border(src=`/../graphics/stores/${user.store.logo}` data-container="body" data-toggle="popover" data-html="true" data-placement="bottom" data-content=`<a class="btn btn-primary w-100 btn-sm rounded-0" href="/mon-agence/${user._id}">Profile</a><a class="btn btn-light w-100 mt-2 btn-sm rounded-0" href="/deconnecter">Se déconnecter</a>` width="50px")

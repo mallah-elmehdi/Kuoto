@@ -1,0 +1,128 @@
+extends base
+
+block append footer
+    script(src="/../js/parametres.js")
+
+block content
+    include _header
+
+    - var messages = getMessages()
+    if (messages.message)
+        section.text-center.fixed-top.w-max-0.mx-auto.text-white
+            .alert.bg-danger.alert-dismissible.fade.show.rounded-0(role="alert")
+                i.fas.fa-times-circle
+                span.ml-2.my-auto= messages.message
+                button.close(type="button" data-dismiss="alert" aria-label="Close")
+                    span(aria-hidden="true") &times;
+
+    .container
+        .row.my-3
+            .col-lg-3.col-md-3
+                include _btqban
+
+            .col-lg-9.col-md-9
+                .bg-white.p-3.w-100.mx-auto.shadow-sm
+                    fieldset(disabled id="edit-form")
+                        form(action=`/mon-agence/${user._id}/parametres`, method="post" enctype='multipart/form-data')
+                            .row
+                                .col-lg-4.col-md-4
+                                    .form-group
+                                        - var name = messages.name || user.name
+                                        input.form-control.rounded-0(type="text" id="name" name="name" placeholder="Nom et Prénom" value=`${name}`)
+                                .col-lg-4.col-md-4
+                                    .form-group
+                                        .form-control.border-0=user.email
+                                .col-lg-4.col-md-4
+                                    .form-group
+                                        a.border-0.btn-link.form-control(href=`/mon-agence/${user._id}/parametres/verifier-le-mot-de-passe`) changer le mot de passe
+                                .col-lg-6.col-md-6
+                                    .form-group
+                                        - var storename = messages.storename || user.store.name
+                                        input.form-control.rounded-0(type="text" id="storename" name="storename" placeholder="Nom d'agence" value=`${storename}`)
+                                .col-lg-6.col-md-6
+                                    .form-group
+                                        - var adresse = messages.adresse || user.store.adresse
+                                        input.form-control.rounded-0(type="text" id="adresse" name="adresse" placeholder="Address d'agence" value=`${adresse}`)
+
+                                .col-lg-4.col-md-4
+                                    .form-group
+                                        .input-group
+                                            .input-group-prepend
+                                                .input-group-text.rounded-0 +212
+                                            - var phone = messages.phone || user.store.phone
+                                            input.form-control.rounded-0(type="text" id="phone" name="phone" placeholder="Numéro de téléphone" value=`${phone}`)
+                                .col-lg-4.col-md-4
+                                    .form-group
+                                        .input-group
+                                            .input-group-prepend
+                                                .input-group-text.rounded-0
+                                                    i.fab.fa-whatsapp.text-success.mr-2
+                                                    span +212
+                                            - var whatsapp = messages.whatsapp || user.store.whatsapp
+                                            input.form-control.rounded-0(type="text" id="whatsapp" name="whatsapp" placeholder="Numéro de Whatsapp" value=`${whatsapp}`)
+                                .col-lg-4.col-md-4
+                                    .form-group
+                                        .input-group
+                                            .input-group-prepend
+                                                .input-group-text.rounded-0
+                                                    i.fab.fa-facebook-messenger.text-primary
+                                            - var messenger = messages.messenger || user.store.messenger
+                                            input.form-control.rounded-0(type="text" id="messenger" name="messenger" placeholder="votre nom d'utilisateur facebook" value=`${messenger}`)
+                                .col-lg-6.col-md-6
+                                    .form-group
+                                        select.rounded-0.custom-select(id="ville" type="text" name="city" data-city=user.store.city.id)
+                                            option(value=null selected disabled) Choisissez la ville
+                                            each city in cities
+                                                if user.store.city.fr === city.fr
+                                                    option(value=`${JSON.stringify(city)}` selected)= `${city.fr}`
+                                                else
+                                                    option(value=`${JSON.stringify(city)}`)= `${city.fr}`
+        
+                                .col-lg-6.col-md-6
+                                    .form-group
+                                        select.rounded-0.custom-select(id="secteur" type="text" name="secteur" data-secteur=user.store.secteur.fr)
+                                            option(value=null selected disabled) Choisissez le secteur
+                                .col-lg-6.col-md-6
+                                    .form-group
+                                        .input-group
+                                            input(type="text" name="location" id="location" data-location=`${JSON.stringify(user.store.location.coordinates)}` hidden)
+                                            input.form-control.rounded-0(placeholder="Localisation de l'agence" id="lnglat" disabled aria-describedby="map-store")
+                                            .input-group-append
+                                                button.btn.btn-warning.rounded-0(type="button" id="map-store")
+                                                    i.fas.fa-map-marker-alt.mr-2
+                                                    span cliquez ici
+                                    #map-preview.mb-3
+        
+                                .col-lg-6.col-md-6
+                                    .form-group
+                                        .input-group
+                                            .input-group-prepend
+                                                .input-group-text.rounded-0
+                                                    i.fas.fa-camera
+                                            .custom-file
+                                                input.rounded-0.custom-file-input(type="file" id="logo" name="logo")
+                                                label.custom-file-label.rounded-0(data-browse="ajouter") Logo de l'agence
+                                    .text-center.mb-3(id="logo-view")
+                                        img.border(id="logo-preview" src=`/../graphics/stores/${user.store.logo}`, width="230px")
+                                        input.d-none(type="text" name="currentLogo" value=`${user.store.logo}`) 
+        
+                            button.btn.btn-warning.rounded-0.mr-2(id="save" style="display:none") Enregistrer
+                            a.btn.btn-dark.rounded-0(id="cancel" href=`/mon-agence/${user._id}/parametres` style="display:none") Annuler
+                    button.btn.btn-primary.rounded-0(id="edit") Éditer
+                .my-2.bg-white.shadow-sm.p-3
+                    a.text-danger(href="#" data-toggle="modal" data-target="#deleteStore") supprimer le compte
+        
+                    .modal.fade(id="deleteStore" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true")
+                        .modal-dialog(role="document")
+                            .modal-content
+                                .modal-header
+                                    .modal-title Voulez-vous supprimer votre compte?
+                                    button.close(type="button" data-dismiss="modal" aria-label="Close")
+                                        span(aria-hidden="true") &times;
+                                .modal-body.fn-20.text-danger Si vous supprimez votre compte, vous perdrez toutes les annonces et tout votre contenu
+                                .modal-footer
+                                    a(class="btn btn-danger rounded-0 btn-sm" href=`/mon-agence/${user._id}/supprimer`) Confirmer
+                                    button(type="button" class="btn btn-dark rounded-0 btn-sm" data-dismiss="modal") Annuler
+
+    .text-center.fixed-bottom.mb-3#copy
+        small.text-muted &copy; 2020 Kauto.ma

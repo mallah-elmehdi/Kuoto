@@ -1,56 +1,102 @@
 const appError = require("../utils/appErrors");
 const user = require("../models/userModel");
 const catchAsync = require("../utils/catchAsync");
+const authToken = require("../utils/authToken");
+const sendEmail = require("../utils/email");
+const crypto = require("crypto");
 
-//===== FUNCTIONS FOR THE CONTOLLERS
+// ===============================================
 
-const handleEmailUniqueDB = err => {
-  const value = err.errmsg.match(/(["'])(\\?.)*?\1/)[0];
-  const message = `Cet e-mail: ${value} est déjà enregistré, Veuillez utiliser un autre e-mail!`;
-  return new appError(message, 400);
+exports.get = (req, res, next) => {
+  if (req.cookies.cookie) {
+    req.flash("message", "Vous êtes déjà connecté");
+    return res.redirect("/");
+  }
+
+  try {
+    res.status(200).render("inscrire", {
+      title: "Kauto.ma | S'inscrire",
+    });
+  } catch (err) {
+    next(new appError("Une erreur s'est produite. Réessayez plus tard!", 500));
+  }
 };
 
-const handleValidationErrorDB = err => {
-  const errors = Object.values(err.errors).map(el => el.message);
-  return new appError(errors, 400);
-};
-
-//===== CONTOLLERS
-
-exports.getInscrire = (req, res) => {
-  res.status(200).render("inscrire", {
-    title: "S'inscrire",
-    status: "200",
-    message: "all good"
-  });
-};
+// ===============================================
 
 exports.creatUser = catchAsync(async (req, res, next) => {
-  if (req.body.password != req.body.repassword) {
-    throw new Error("Pas le même mot de passe");
-  } else {
-    await user.create(req.body);
-    res.set({
-      'Refresh': '1; url=/'
+  const newUser = await user.create({
+    name: req.body.name.toLowerCase(),
+    email: req.body.email,
+    password: req.body.password,
+  });
+
+  const emailValidtore = newUser.createPasswordResetToken(60 * 24 * 60);
+  const resetURL = `https://kauto.ma/inscrire/${emailValidtore}`;
+
+  await newUser.save({ validateBeforeSave: false });
+
+  try {
+    await sendEmail({
+      email: req.body.email,
+      subject: "Kauto.ma | Vérifiez votre adresse e-mail",
+      text: `<p>Salut! vous avez presque fini, cliquez ci-dessous pour vérifiez votre adresse e-mail<br>vous pouvez copier et coller ce lien -> <strong>${resetURL}</strong> <- <br> ou vous pouvez -> <a href=${resetURL}>cliquer ici</a> <- <br><br><small>Vous n'avez pas demandé cet e-mail? N'y faites pas attention.</small><br><small>Copyright 2020 Kauto.ma - All Rights Reserved</small></p>`,
     });
-    res.status(200).render("success", {
-      title: "✅ Succès!!",
-      message: "Inscription réussie"
-    })
+
+    req.flash("notificatione", "un e-mail de validation a été envoyé");
+    req.flash("email", req.body.email);
+    return res.redirect("/");
+  } 
+  
+  catch (err) {
+    newUser.passwordResetToken = undefined;
+    newUser.passwordResetExpires = undefined;
+    await newUser.save({ validateBeforeSave: false });
+    return next(new appError("une erreur s'est produite lors de l'envoi de l'e-mail, veuillez réessayer", 500));
   }
 });
 
-exports.userErrorHandler = (err, req, res, next) => {
+// ===============================================
 
-  let error = {
-    ...err
-  };
-  if (err.code === 11000) error = handleEmailUniqueDB(err);
-  else if (err.name === 'ValidationError') error = handleValidationErrorDB(err);
-  else if (err.message.startsWith("Pas le")) error = new appError(err.message, 400);
-  res.status(error.statusCode).render("inscrire", {
-    title: "S'inscrire",
-    status: error.statusCode,
-    message: error.message
-  });
-}
+exports.userEmailVaidatore = catchAsync(async (req, res, next) => {
+
+  const hashedToken = crypto.createHash("sha256").update(req.params.token).digest("hex");
+  const userValide = await user.findOne({ passwordResetToken: hashedToken, passwordResetExpires: { $gt: Date.now() } });
+  
+  if (!userValide) return next(new appError("Lien n'est pas valide ou expiré", 400));
+  
+  userValide.emailValide = "YES";
+  userValide.passwordResetToken = undefined;
+  userValide.passwordResetExpires = undefined;
+  await userValide.save();
+
+  const token = authToken.createSendToken(userValide);
+  const thecookieOptions = authToken.cookieOptions;
+  res.cookie("cookie", token, thecookieOptions);
+
+  req.flash("notification", "Email vérifié");
+  return res.redirect("/");
+});
+
+// ===============================================
+
+exports.validation = (err, req, res, next) => {
+  if (err.statusCode) return next(err);
+
+  if (err.name === "ValidationError") {
+    var message = err.message.split(": ")[2];
+
+    req.flash("message", message);
+    req.flash("email", req.body.email);
+    req.flash("name", req.body.name);
+    return res.redirect("/inscrire");
+  }
+
+  if (err.code === 11000) {
+    req.flash("message", "Email déjà enregistré");
+    req.flash("email", req.body.email);
+    req.flash("name", req.body.name);
+    return res.redirect("/inscrire");
+  }
+  next(err);
+};

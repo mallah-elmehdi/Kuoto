@@ -1,0 +1,38 @@
+extends base
+
+block append footer
+    script(src="/../js/base.js")
+
+block content
+    - var messages = getMessages()
+    if (messages.message)
+        section.text-center.fixed-top.w-max-1.mx-auto.text-white
+            .alert.bg-danger.alert-dismissible.fade.show.rounded-0(role="alert")
+                i.fas.fa-times-circle
+                span.ml-2.my-auto= messages.message
+                button.close(type="button" data-dismiss="alert" aria-label="Close")
+                    span(aria-hidden="true") &times;
+    include _header
+    .container
+        .row.mt-3
+            .col-lg-3.col-md-3
+                include _usrban
+            .col-lg-9.col-md-9
+                .p-3.bg-white.shadow-sm
+                    .row
+                        .col-12.form-group
+                            .input-group
+                                .input-group-prepend
+                                    .input-group-text.rounded-0 Nom et Prénom
+                                .form-control.rounded-0= user.name
+                        .col-12.form-group
+                            .input-group
+                                .input-group-prepend
+                                    .input-group-text.rounded-0 Email
+                                .form-control.rounded-0= user.email
+                        .col-12
+                            a(href=`/utilisateur/${user._id}/changer-le-mot-de-passe`) changer le mot de pass
+            .col-12
+                include _recommende
+    .text-center.fixed-bottom.mb-3#copy
+        small.text-muted &copy; 2020 Kauto.ma

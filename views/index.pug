@@ -1,78 +1,86 @@
 extends base
 
-mixin prop(image, text)
-    div
-        i.fas(class=`fa-${image}`)
-        span.spn= text
-
-block append header
-  link(rel="stylesheet" href="../css/index.css")
-
 block append footer
-    script(src="../js/index.js")
+	script(src="/../js/index.js")
 
 block content
-    body.body-mdf
-        div
-            section.container
-                nav.navbar.navbar-expand-lg.navbar-light.bg
-                    a.navbar-brand(href="/")
-                        img(src="../graphics/LOGO-UPDATE001.png" width="80px" alt="Koto")
-                    button.navbar-toggler(type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent")
-                        span.navbar-toggler-icon
-                    .collapse.navbar-collapse#navbarSupportedContent
-                        ul.navbar-nav.mr-auto
-                            li.nav-item.active
-                                a.nav-link(href="/") Accueil
-                            li.nav-item
-                                a.nav-link.active(href="/creer-boutique") Boutique
-                                    img.store-icon(src="../graphics/store-icon.png" alt="boutiqueIcon")
-                        if !(data.gues)
-                            a(href="/se-connecter")
-                                button.btn.btn-primary(style="margin-right: 10px" type="seConnecter") Se connecter
-                            a(href="/inscrire")
-                                button.btn.btn-outline-primary(style="margin-right: 10px" type="seConnecter") S'inscrire
-            section
-                .header-background
-                    h2.head-title My 1st website
-                    .container.nvbr-mdf
-                        form(action="/" method="post")
-                            .row.rw-mdf
-                                select.col.cl-mdf(id="ville")
-                                    each city in data.cities
-                                        option(value=`${city.type}`)= `${city.type}`
-                                select.col.cl-mdf(id="brand")
-                                    each brand in data.brands
-                                            option(value=`${brand.type}`)= `${brand.type}`
-                                select.col.cl-mdf(id="type")
-                                    each types in data.types
-                                            option(value=`${types.type}`)= `${types.type}`
-                            .row.rw-mdf
-                                button.btn.btn-warning.submit-srch Recherche
-                                    i.fas.fa-search
+	- var messages = getMessages()
+	
+	if (messages.message)
+		section.text-center.fixed-top.w-max-0.mx-auto.text-white
+			.alert.bg-danger.alert-dismissible.fade.show.rounded-0(role="alert")
+				i.fas.fa-times-circle
+				span.ml-2.my-auto= messages.message
+				button.close(type="button" data-dismiss="alert" aria-label="Close")
+					span(aria-hidden="true") &times;
+					
+	if (messages.notification)
+		section.text-center.fixed-top.w-max-0.mx-auto.text-white
+			.alert.bg-success.alert-dismissible.fade.show.rounded-0(role="alert")
+				i.fas.fa-check-circle
+				span.ml-2.my-auto= messages.notification
+				button.close(type="button" data-dismiss="alert" aria-label="Close")
+					span(aria-hidden="true") &times;
+	if (messages.notificatione)
+		section.text-center.fixed-top.w-max-0.mx-auto.text-white
+			.alert.bg-success.alert-dismissible.fade.show.rounded-0(role="alert")
+				i.fas.fa-check-circle
+				span.ml-2.my-auto= messages.notificatione
+				button.close(type="button" data-dismiss="alert" aria-label="Close")
+					span(aria-hidden="true") &times;
+			.alert.bg-white.alert-dismissible.fade.show.rounded-0.text-dark.border(role="alert")
+				span je n'ai pas reçu l'e-mail de validation
+				form(action="/envoyer-a-nouveau", method="post")
+					input.d-none(type="text" name="email" value=messages.email)
+					button.btn.btn-sm.btn-warning.rounded-0.mt-2.mx-auto envoyer à nouveau
+					
+	include _header
+	section
+		.header-background.w-100.p-3
+			.text-center.text-white
+				span.fn-25-min Kauto.ma votre site web gratuit pour trouver les meilleures offres de location de voiture
+			.container
+				form(action="/" method="post")
+					.grid-0.mt-2#bg-search
+						select.rounded-0.custom-select.border-0(id="ville" type="text" name="ville")
+							option(value="all") Toutes les villes
+							each city in cities
+								option(value=`${JSON.stringify(city)}`)= `${city.fr}`
 
-            section
-                .container.ad-ban
-                    .row
-                        each i in [1, 1, 1]
-                            .col-lg-4.col-md-6.col-sm-12
-                                .card(style="width: 19.5rem;")
-                                    img.card-img-top(src="../graphics/test.jpg")
-                                    .fff
-                                        i.far.fa-heart
-                                    .card-body
-                                        h5.card-title KAROQ
-                                            | 
-                                            |-
-                                            | 
-                                            span Skoda 
-                                        .propety
-                                            each prp in data.propeties
-                                                +prop(prp.image, prp.text)
-                                    .card-footer
-                                        .owner
-                                            span.prix 888 DH 
-                                                span.dh par jour
-                                            a(href="/ma-boutique")
-                                                img.store.rounded(src="../graphics/test-logo.png" alt="image") 
-                                        button.btn.btn-info ldldll
+						select.rounded-0.custom-select.border-bottom-0.border-top-0.border-right-0(id="secteur" type="text" name="secteur")
+							option(value="all") Tous les secteurs
+						
+						select.rounded-0.custom-select.border-bottom-0.border-top-0(id="brand" type="text" name="marque")
+							option(value="all") Toutes les marques
+							each brand in brands
+								option(value=`${JSON.stringify(brand)}`)= `${brand.fr}`
+						
+						select.rounded-0.custom-select.border-0(id="modele" type="text" name="modele")
+							option(value="all") Tous les modèles
+					.text-center.mt-2
+						button.btn.btn-warning.rounded-0(type="submit") Recherche
+
+	section.pt-3
+		.container
+			span.fn-20 Les moins cher offres
+			.row.mt-2
+				each car in cars
+					.col-lg-3.col-mg-6
+						include _cars1
+	section.pt-3
+		.container
+			img.w-100(src="/../graphics/landing.jpg", alt="landing")
+			//- span.fn-20 Toutes les offres disponibles
+			//- #map.w-100.mt-2(data-locations=`${JSON.stringify(list)}`)
+	
+	section.pt-3
+		.container
+			span.fn-20 Toutes les agences disponibles
+			.row.mt-2
+				each store in stores
+					.col-lg-3.col-md-6
+						a.text-decoration-none(href=`/agence/${store._id}`)
+							.bg-white.shadow-sm.str-link.grid-3.p-3.w-100.mb-3
+								img.rounded-circle.border(src=`/../graphics/stores/${store.store.logo}` width="50px")
+								.text-dark.text-center.fn-18.my-auto= store.store.name
+	include _footer

@@ -1,0 +1,12 @@
+extends base
+
+block content
+    .container
+        .text-center.my-5.bg-white.p-5.w-max-1.mx-auto.shadow-sm
+            span.fn-20.w-100 Oops ! il y a eu un problème avec votre demande !
+            .w-100
+                if (statusMesssage === "fail")
+                    i.fas.fa-exclamation-triangle.text-danger.fa-3x.my-3
+                if (statusMesssage === "error")
+                    img(src="/../graphics/error.jpg", alt="Erreur").w-100
+            span.w-100= message

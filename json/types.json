@@ -1,41 +1,35 @@
 [
-  {
-    "id" : "0",
-    "type": "Tout les types"
-  },
-
-  {
-    "id" : "blank",
-    "type": "-------------------------------"
-  },
-
-  {
-    "id" : "1",
-    "type": "Pettite"
-  },
-
-  {
-    "id" : "2",
-    "type": "Moyen"
-  },
-
-  {
-    "id" : "3",
-    "type": "Familiale"
-  },
-
-  {
-    "id" : "4",
-    "type": "4x4"
-  },
-
-  {
-    "id" : "5",
-    "type": "Pickup"
-  },
-
-  {
-    "id" : "6",
-    "type": "VUS (Véhicules utilitaires sport)"
-  }
+    {
+        "type": "Micro"
+    },
+    {
+        "type": "Hatchback"
+    },
+    {
+        "type": "Sedan"
+    },
+    {
+        "type": "Coupe"
+    },
+    {
+        "type": "Wagon"
+    },
+    {
+        "type": "CUV"
+    },
+    {
+        "type": "SUV"
+    },
+    {
+        "type": "Minivan"
+    },
+    {
+        "type": "Cabriolet"
+    },
+    {
+        "type": "Roadster"
+    },
+    {
+        "type": "Supercar"
+    }
 ]

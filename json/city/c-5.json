@@ -1,0 +1,446 @@
+[
+    {
+        "ar": "اشقار",
+        "fr": "Achakar"
+    },
+    {
+        "ar": "أشناد",
+        "fr": "Achennad"
+    },
+    {
+        "ar": "الحي الإداري",
+        "fr": "Administratif"
+    },
+    {
+        "ar": "أحمار",
+        "fr": "Ahammar"
+    },
+    {
+        "ar": "حرارين",
+        "fr": "Aharrarine"
+    },
+    {
+        "ar": "حي أهلا",
+        "fr": "Ahlane"
+    },
+    {
+        "ar": "عايدة",
+        "fr": "Aida"
+    },
+    {
+        "ar": "عين الحياني",
+        "fr": "Ain El Hayani"
+    },
+    {
+        "ar": "الأمل",
+        "fr": "Al Amal"
+    },
+    {
+        "ar": "حي العنبر",
+        "fr": "Al Anbar"
+    },
+    {
+        "ar": "القصبة",
+        "fr": "Al Kasaba"
+    },
+    {
+        "ar": "المنظر الجميل",
+        "fr": "Al Mandar Al Jamil"
+    },
+    {
+        "ar": "حي الوردة",
+        "fr": "Al Warda"
+    },
+    {
+        "ar": "الحي الجزائري",
+        "fr": "Algerie"
+    },
+    {
+        "ar": "عليا",
+        "fr": "Alia"
+    },
+    {
+        "ar": "العوامة الغربية",
+        "fr": "Aouama Gharbia"
+    },
+    {
+        "ar": "حي آخر",
+        "fr": "Autre secteur"
+    },
+    {
+        "ar": "الطيران",
+        "fr": "Aviation"
+    },
+    {
+        "ar": "العزيب",
+        "fr": "Azib Haj Kaddour"
+    },
+    {
+        "ar": "بوسيجور",
+        "fr": "Beausejour"
+    },
+    {
+        "ar": "البحاير",
+        "fr": "Behair"
+    },
+    {
+        "ar": "بيل إر - فال فلوري",
+        "fr": "Bel Air - Val fleuri"
+    },
+    {
+        "ar": "بن ديبان",
+        "fr": "Ben Dibane"
+    },
+    {
+        "ar": "بني مكادة القديمة",
+        "fr": "Beni Makada Lakdima"
+    },
+    {
+        "ar": "بني سعيد",
+        "fr": "Beni Said"
+    },
+    {
+        "ar": "بني توزين",
+        "fr": "Beni Touzine"
+    },
+    {
+        "ar": "حي بنكيران",
+        "fr": "Benkirane"
+    },
+    {
+        "ar": "بئر أحرشون",
+        "fr": "Bir Aharchoune"
+    },
+    {
+        "ar": "بئر الشعيري",
+        "fr": "Bir Chairi"
+    },
+    {
+        "ar": "بئر الشفاء",
+        "fr": "Bir Chifa"
+    },
+    {
+        "ar": "بئر الغازي",
+        "fr": "Bir El Ghazi"
+    },
+    {
+        "ar": "حي بوشتة عبد اللطيف",
+        "fr": "Bouchta-Abdelatif"
+    },
+    {
+        "ar": "بوحوت 1",
+        "fr": "Bouhout 1"
+    },
+    {
+        "ar": "بوحوت 2",
+        "fr": "Bouhout 2"
+    },
+    {
+        "ar": "البرانص 1",
+        "fr": "Branes 1"
+    },
+    {
+        "ar": "البرانص 2",
+        "fr": "Branes 2"
+    },
+    {
+        "ar": "البرانص القديمة",
+        "fr": "Branes Kdima"
+    },
+    {
+        "ar": "كليفورنيا",
+        "fr": "Californie"
+    },
+    {
+        "ar": "كاب سبارتيل",
+        "fr": "Cap spartel"
+    },
+    {
+        "ar": "كسباراطا",
+        "fr": "Casabarata"
+    },
+    {
+        "ar": "كاسطيا",
+        "fr": "Castilla"
+    },
+    {
+        "ar": "وسط المدينة",
+        "fr": "Centre"
+    },
+    {
+        "ar": "وسط المدينة",
+        "fr": "Centre ville"
+    },
+    {
+        "ar": "الشرف",
+        "fr": "Charf"
+    },
+    {
+        "ar": "كاليفورنيا",
+        "fr": "Cité californie"
+    },
+    {
+        "ar": "حـي الشاطئ",
+        "fr": "De La Plage"
+    },
+    {
+        "ar": "ظهراحجام",
+        "fr": "Dher Ahjjam"
+    },
+    {
+        "ar": "ظهرالحمام",
+        "fr": "Dher Lahmam"
+    },
+    {
+        "ar": "حومة الدراوة",
+        "fr": "Draoua"
+    },
+    {
+        "ar": "الدريسية",
+        "fr": "Drissia"
+    },
+    {
+        "ar": "حي الغولف",
+        "fr": "Du Golf"
+    },
+    {
+        "ar": "البركة",
+        "fr": "El Baraka"
+    },
+    {
+        "ar": "الحاج مختار",
+        "fr": "El Haj El Mokhtar"
+    },
+    {
+        "ar": "الخير 1",
+        "fr": "El Khair 1"
+    },
+    {
+        "ar": "الخير 2",
+        "fr": "El Khair 2"
+    },
+    {
+        "ar": "المجد",
+        "fr": "El Majd"
+    },
+    {
+        "ar": "المرس 1",
+        "fr": "El Mers 1"
+    },
+    {
+        "ar": "المرس 2",
+        "fr": "El Mers 2"
+    },
+    {
+        "ar": "حي المرابط",
+        "fr": "El Mrabet"
+    },
+    {
+        "ar": "حومة الواد",
+        "fr": "El Oued"
+    },
+    {
+        "ar": "حي النصر",
+        "fr": "Ennasr"
+    },
+    {
+        "ar": "جراري",
+        "fr": "Girari"
+    },
+    {
+        "ar": "غورزيانة",
+        "fr": "Gourziana"
+    },
+    {
+        "ar": "حومة الحداد",
+        "fr": "Haddad"
+    },
+    {
+        "ar": "الهناء 1",
+        "fr": "Hanaa 1"
+    },
+    {
+        "ar": "الهناء 2",
+        "fr": "Hanaa 2"
+    },
+    {
+        "ar": "الهناء 3 - السوسي",
+        "fr": "Hanaa 3 - Soussi"
+    },
+    {
+        "ar": "البساتين",
+        "fr": "Hay Al Bassatine"
+    },
+    {
+        "ar": "حي البوغاز",
+        "fr": "Hay El Boughaz"
+    },
+    {
+        "ar": "حي حسني",
+        "fr": "Hay Hassani"
+    },
+    {
+        "ar": "الزاودية",
+        "fr": "Hay Zaoudia"
+    },
+    {
+        "ar": "ايبرية",
+        "fr": "Iberie"
+    },
+    {
+        "ar": "إبن تايمية",
+        "fr": "Ibn Taymia"
+    },
+    {
+        "ar": "الجبل الكبير",
+        "fr": "Jbel Kbir"
+    },
+    {
+        "ar": "الجيراري",
+        "fr": "Jirrari"
+    },
+    {
+        "ar": "العوينة",
+        "fr": "Laaouina"
+    },
+    {
+        "ar": "لالة شافية",
+        "fr": "Lalla Chafia"
+    },
+    {
+        "ar": "الورود",
+        "fr": "Les Rosiers"
+    },
+    {
+        "ar": "المنار",
+        "fr": "M'nar"
+    },
+    {
+        "ar": "المصلى",
+        "fr": "M'sallah"
+    },
+    {
+        "ar": "مخوخة",
+        "fr": "Makhoukha"
+    },
+    {
+        "ar": "ملاباطة",
+        "fr": "Malabata"
+    },
+    {
+        "ar": "منار",
+        "fr": "manar"
+    },
+    {
+        "ar": "مرشان",
+        "fr": "Marchan"
+    },
+    {
+        "ar": "مرشان",
+        "fr": "Marchane"
+    },
+    {
+        "ar": "مرجان",
+        "fr": "Marjane"
+    },
+    {
+        "ar": "مديونة",
+        "fr": "Mediouna"
+    },
+    {
+        "ar": "مسنانة",
+        "fr": "Mesnana"
+    },
+    {
+        "ar": "مغاير",
+        "fr": "Mghayer"
+    },
+    {
+        "ar": "مغوغة",
+        "fr": "Mghogha"
+    },
+    {
+        "ar": "ميستر خوش",
+        "fr": "Mister Khouch"
+    },
+    {
+        "ar": "مجاهدين",
+        "fr": "Moujahidine"
+    },
+    {
+        "ar": "مولاي يوسف",
+        "fr": "Moulay Youssef"
+    },
+    {
+        "ar": "موزار",
+        "fr": "Mozart"
+    },
+    {
+        "ar": "المصلى",
+        "fr": "Msala"
+    },
+    {
+        "ar": "المدينة القديمة",
+        "fr": "Médina"
+    },
+    {
+        "ar": "نزاهة",
+        "fr": "Nzaha"
+    },
+    {
+        "ar": "ميناء طنجة المدينة",
+        "fr": "Port Tanger ville"
+    },
+    {
+        "ar": "رميلات",
+        "fr": "Rmilat"
+    },
+    {
+        "ar": "السانية",
+        "fr": "Sania"
+    },
+    {
+        "ar": "سانتا",
+        "fr": "Santa"
+    },
+    {
+        "ar": "السواني",
+        "fr": "Souani"
+    },
+    {
+        "ar": "ستار هيل",
+        "fr": "Star Hill"
+    },
+    {
+        "ar": "طنجة سيتي سنتر",
+        "fr": "Tanger City Center"
+    },
+    {
+        "ar": "طنجة البالية",
+        "fr": "Tanja Balia"
+    },
+    {
+        "ar": "فال فلوري",
+        "fr": "Val Fleuri"
+    },
+    {
+        "ar": "الجبل القديم",
+        "fr": "Vieille montagne"
+    },
+    {
+        "ar": "الزموري",
+        "fr": "Zemmouri"
+    },
+    {
+        "ar": "زياتين",
+        "fr": "Ziatene"
+    },
+    {
+        "ar": "المنطقة الصناعية مغوغة",
+        "fr": "Zone Industrielle Mghogha"
+    },
+    {
+        "ar": "حي الزويتينة",
+        "fr": "Zouitina"
+    }
+]

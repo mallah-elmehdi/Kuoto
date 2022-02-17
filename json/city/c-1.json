@@ -1,0 +1,374 @@
+[
+    {
+        "ar": "2 مارس",
+        "fr": "2 Mars"
+    },
+    {
+        "ar": "البطحة",
+        "fr": "Al Batha"
+    },
+    {
+        "ar": "الفداء",
+        "fr": "Al Fida"
+    },
+    {
+        "ar": "المدينة الجديدة",
+        "fr": "Al Madina Aljadida"
+    },
+    {
+        "ar": "القدس",
+        "fr": "Al Qods"
+    },
+    {
+        "ar": "ألزاس لورين",
+        "fr": "Alsace Lorraine"
+    },
+    {
+        "ar": "أنفا",
+        "fr": "Anfa"
+    },
+    {
+        "ar": "حي آخر",
+        "fr": "Autre secteur"
+    },
+    {
+        "ar": "عين برجة",
+        "fr": "Aïn Borja"
+    },
+    {
+        "ar": "عين الشق",
+        "fr": "Aïn Chock"
+    },
+    {
+        "ar": "عين دياب",
+        "fr": "Aïn Diab"
+    },
+    {
+        "ar": "عين السبع",
+        "fr": "Aïn Sebaâ"
+    },
+    {
+        "ar": "بوسجور",
+        "fr": "Beauséjour"
+    },
+    {
+        "ar": "بلفدير",
+        "fr": "Belvédère"
+    },
+    {
+        "ar": "بنجدية",
+        "fr": "Ben Ejdia"
+    },
+    {
+        "ar": "بن مسيك",
+        "fr": "Ben M'sick"
+    },
+    {
+        "ar": "بنمسيك",
+        "fr": "Benmsik"
+    },
+    {
+        "ar": "برنوصي",
+        "fr": "Bernoussi"
+    },
+    {
+        "ar": "بوركون",
+        "fr": "Bourgogne"
+    },
+    {
+        "ar": "بورنازيل",
+        "fr": "Bournazil"
+    },
+    {
+        "ar": "سيال",
+        "fr": "C.I.L"
+    },
+    {
+        "ar": "كالفورنيا",
+        "fr": "Californie"
+    },
+    {
+        "ar": "وسط المدينة",
+        "fr": "Centre Ville"
+    },
+    {
+        "ar": "درب غلف",
+        "fr": "Derb Ghallef"
+    },
+    {
+        "ar": "درب عمر",
+        "fr": "Derb Omar"
+    },
+    {
+        "ar": "المنارة العنق",
+        "fr": "El Manar El Hank"
+    },
+    {
+        "ar": "فيرم بروطون",
+        "fr": "Ferme Bretone"
+    },
+    {
+        "ar": "فلوريدا",
+        "fr": "Florida"
+    },
+    {
+        "ar": "فونصيير",
+        "fr": "Fonciere"
+    },
+    {
+        "ar": "كوتيي",
+        "fr": "Gauthier"
+    },
+    {
+        "ar": "حبوس",
+        "fr": "Habous"
+    },
+    {
+        "ar": "حي الأمل",
+        "fr": "Hay Al Amal"
+    },
+    {
+        "ar": "حي البركة",
+        "fr": "Hay Albaraka"
+    },
+    {
+        "ar": "حي الفلاح",
+        "fr": "Hay Alfalah"
+    },
+    {
+        "ar": "حي المسيرة 1",
+        "fr": "Hay Almassira 1"
+    },
+    {
+        "ar": "حي المسيرة 2",
+        "fr": "Hay Almassira 2"
+    },
+    {
+        "ar": "حي المسيرة 3",
+        "fr": "Hay Almassira 3"
+    },
+    {
+        "ar": "حي الهنا",
+        "fr": "Hay Hana"
+    },
+    {
+        "ar": "حي الحسني",
+        "fr": "Hay Hassani"
+    },
+    {
+        "ar": "حي الإنارة",
+        "fr": "Hay Inara"
+    },
+    {
+        "ar": "حي ليمونة",
+        "fr": "Hay Laymouna"
+    },
+    {
+        "ar": "حي مباركة",
+        "fr": "Hay M'barka"
+    },
+    {
+        "ar": "حي المنصور",
+        "fr": "Hay Mansour"
+    },
+    {
+        "ar": "حي المحمدي",
+        "fr": "Hay Mohammadi"
+    },
+    {
+        "ar": "حي مولاي رشيد",
+        "fr": "Hay Moulay Rachid"
+    },
+    {
+        "ar": "حي مولاي رشيد 1",
+        "fr": "Hay Moulay Rachid 1"
+    },
+    {
+        "ar": "حي مولاي رشيد 2",
+        "fr": "Hay Moulay Rachid 2"
+    },
+    {
+        "ar": "حي مولاي رشيد 3",
+        "fr": "Hay Moulay Rachid 3"
+    },
+    {
+        "ar": "حي مولاي رشيد 4",
+        "fr": "Hay Moulay Rachid 4"
+    },
+    {
+        "ar": "حي مولاي رشيد 5",
+        "fr": "Hay Moulay Rachid 5"
+    },
+    {
+        "ar": "حي مولاي رشيد 6",
+        "fr": "Hay Moulay Rachid 6"
+    },
+    {
+        "ar": "حي الرجاء",
+        "fr": "Hay Rajaa"
+    },
+    {
+        "ar": "حي السدري",
+        "fr": "Hay Sadri"
+    },
+    {
+        "ar": "حي طارق",
+        "fr": "Hay Tarik"
+    },
+    {
+        "ar": "لارميطاج",
+        "fr": "Hermitage"
+    },
+    {
+        "ar": "إيبودروم",
+        "fr": "Hippodrome"
+    },
+    {
+        "ar": "ٱورلوج",
+        "fr": "Hôrloge"
+    },
+    {
+        "ar": "الحي الصناعي",
+        "fr": "Industriel Nord"
+    },
+    {
+        "ar": "المحطة",
+        "fr": "La Gare"
+    },
+    {
+        "ar": "لاجيروند",
+        "fr": "La Gironde"
+    },
+    {
+        "ar": "ليمون",
+        "fr": "Laimoune"
+    },
+    {
+        "ar": "ليكامب",
+        "fr": "Les Camps"
+    },
+    {
+        "ar": "ليكريت",
+        "fr": "Les Cretes"
+    },
+    {
+        "ar": "الأميرات",
+        "fr": "Les Princesses"
+    },
+    {
+        "ar": "ليساسفة",
+        "fr": "Lissasfa"
+    },
+    {
+        "ar": "لونشام",
+        "fr": "Longchamps"
+    },
+    {
+        "ar": "لوسطانية",
+        "fr": "Lusitania"
+    },
+    {
+        "ar": "المعاريف",
+        "fr": "Maarif"
+    },
+    {
+        "ar": "مرس سلطان",
+        "fr": "Mers Sultan"
+    },
+    {
+        "ar": "وازيس",
+        "fr": "Oasis"
+    },
+    {
+        "ar": "الولفة",
+        "fr": "Oulfa"
+    },
+    {
+        "ar": "بالميي",
+        "fr": "Palmier"
+    },
+    {
+        "ar": "بارك",
+        "fr": "Parc"
+    },
+    {
+        "ar": "بولو",
+        "fr": "Polo"
+    },
+    {
+        "ar": "حي المستشفيات",
+        "fr": "Quartier des Hôpitaux"
+    },
+    {
+        "ar": "راسين",
+        "fr": "Racine"
+    },
+    {
+        "ar": "ريفييرا",
+        "fr": "Riviera"
+    },
+    {
+        "ar": "الصخور السوداء",
+        "fr": "Roches Noires"
+    },
+    {
+        "ar": "طريق ٱزمور",
+        "fr": "Route d'Azemmour"
+    },
+    {
+        "ar": "طريق الجديدة",
+        "fr": "Route d'El Jadida"
+    },
+    {
+        "ar": "سباتة",
+        "fr": "Sbata"
+    },
+    {
+        "ar": "سيدي بليوط",
+        "fr": "Sidi Belyout"
+    },
+    {
+        "ar": "سيدي برنوصي",
+        "fr": "Sidi Bernoussi"
+    },
+    {
+        "ar": "سيدي معروف",
+        "fr": "Sidi Maarouf"
+    },
+    {
+        "ar": "سيدي مومن",
+        "fr": "Sidi Moumen"
+    },
+    {
+        "ar": "سيدي عثمان",
+        "fr": "Sidi Othmane"
+    },
+    {
+        "ar": "سور الجديد",
+        "fr": "Sour Jdid"
+    },
+    {
+        "ar": "طانطوفيل",
+        "fr": "Tantonville"
+    },
+    {
+        "ar": "المثلث الذهبي",
+        "fr": "Triangle d'Or"
+    },
+    {
+        "ar": "فال دانفا",
+        "fr": "Val d'Anfa"
+    },
+    {
+        "ar": "فال فلوري",
+        "fr": "Val Fleuri"
+    },
+    {
+        "ar": "الحي الصناعي",
+        "fr": "Zone Industrielle"
+    },
+    {
+        "ar": "الحي الصناعي مولاي رشيد",
+        "fr": "Zone Industrielle Moulay Rachid"
+    }
+]

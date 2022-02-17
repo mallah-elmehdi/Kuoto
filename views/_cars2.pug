@@ -1,0 +1,58 @@
+a.text-decoration-none.text-dark(href=`/voiture/${car._id}`)
+    .card.rounded-0.w-100.border-0.car-card.h-100
+        if (car.photo.length > 1)
+            -var id = `#car-${car._id}`
+            .carousel.slide(data-ride="carousel" data-interval="0" id=`car-${car._id}`)
+
+                ol.carousel-indicators
+                    li.active(data-target=`${car._id}` data-slide-to="0")
+                    -for (var i = 1; i < car.photo.length; i++)
+                        li(data-target=`${id}` data-slide-to=`${i}`)
+
+                .carousel-inner
+                    .carousel-item.active
+                        img.d-block.w-100(src=`/../graphics/cars/${car.photo[0]}`)
+                    -for (var i = 1; i < car.photo.length; i++)
+                        .carousel-item
+                            img.d-block.w-100(src=`/../graphics/cars/${car.photo[i]}`)
+
+                .carousel-control-prev(href=`${id}` role="button" data-slide="prev")
+                    span.carousel-control-prev-icon(aria-hidden="true")
+                    span.sr-only Previous
+                .carousel-control-next(href=`${id}` role="button" data-slide="next")
+                    span.carousel-control-next-icon(aria-hidden="true")
+                    span.sr-only Next
+        else
+            img.d-block.w-100(src=`/../graphics/cars/${car.photo[0]}`)
+
+        .card-body
+            .mb-1
+                - var title =  `${car.marque.fr} - ${car.model.fr}`
+                if (title.length > 26)
+                    .fn-16= title.slice(0, 24) + ".."
+                else
+                    .fn-16= title
+                .d-none(id="hidden-text")= `${car.marque.fr} ${car.model.fr}`
+
+            .grid-2
+                each item in propeties
+                    .mb-2.text-left
+                        span.fn-11.text-secondary
+                            i.fas(class=`${item.image}`).mr-1
+                            include _prp
+            if (car.remise && car.remise > 0)
+                .fn-15.font-weight-bold= `${parseInt(car.price - (car.price * (car.remise / 100)))} Dhs `
+                    span.fn-12.font-weight-light.text-secondary par jour
+                .mrg-0.fn-12
+                    del.mr-1.font-weight-normal.text-secondary= car.price + " Dhs"
+                    span.badge.rounded-0.list-group-item-warning= `-${car.remise}%`
+            else
+                .fn-15.font-weight-bold= car.price + " Dhs "
+                    span.fn-12.font-weight-light.text-secondary par jour
+            if (car.star > 0)
+                .fn-12.font-weight-bold
+                    span.mr-1= car.star
+                    i.fas.fa-star.text-warning
+            a.text-secondary(href=`/agence/${car.store._id}`)
+                img.rounded-circle(src=`/../graphics/stores/${car.store.store.logo}`, alt=`${car.store.store.name}`, width="20px")
+                span.ml-2.my-auto.fn-13= car.store.store.name

@@ -1,818 +1,332 @@
 [
     {
-        "type": "Tout les marques"
+        "id" : "m-1",
+        "ar": "أس",
+        "fr": "Ac"
     },
     {
-        "type": "-------------------------------"
+        "id" : "m-2",
+        "ar": "أكريا",
+        "fr": "Acrea"
     },
     {
-        "type": "AC"
+        "id" : "m-3",
+        "ar": "أكيرا",
+        "fr": "Acura"
     },
     {
-        "type": "ACURA"
+        "id" : "m-4",
+        "ar": "الفا روميو",
+        "fr": "Alfa Romeo"
     },
     {
-        "type": "A.D. TRAMONTANA"
+        "id" : "m-5",
+        "ar": "أسطون مارتان",
+        "fr": "Aston Martin"
     },
     {
-        "type": "ALFA ROMEO"
+        "id" : "m-6",
+        "ar": "أودي",
+        "fr": "Audi"
     },
     {
-        "type": "ALMAC"
+        "id" : "m-7",
+        "ar": "بنتلي",
+        "fr": "Bentley"
     },
     {
-        "type": "ALTERNATIVE CARS"
+        "id" : "m-8",
+        "ar": "بي إم دبليو",
+        "fr": "BMW"
     },
     {
-        "type": "AMUZA"
+        "id" : "m-9",
+        "ar": "بي إي دي",
+        "fr": "BYD"
     },
     {
-        "type": "ANTEROS"
+        "id" : "m-10",
+        "ar": "كادياك",
+        "fr": "Cadillac"
     },
     {
-        "type": "ARASH"
+        "id" : "m-11",
+        "ar": "شانڭي",
+        "fr": "Changhe"
     },
     {
-        "type": "ARIEL"
+        "id" : "m-12",
+        "ar": "شيري",
+        "fr": "Chery"
     },
     {
-        "type": "ARRINERA"
+        "id" : "m-13",
+        "ar": "شفروليه",
+        "fr": "Chevrolet"
     },
     {
-        "type": "ASL"
+        "id" : "m-14",
+        "ar": "كريسلر",
+        "fr": "Chrysler"
     },
     {
-        "type": "ASTERIO"
+        "id" : "m-15",
+        "ar": "سطروين",
+        "fr": "Citroen"
     },
     {
-        "type": "ASTON MARTIN"
+        "id" : "m-16",
+        "ar": "داصيا",
+        "fr": "Dacia"
     },
     {
-        "type": "AUDI"
+        "id" : "m-17",
+        "ar": "دايوو",
+        "fr": "Daewoo"
     },
     {
-        "type": "BAC"
+        "id" : "m-18",
+        "ar": "ديهاتسو",
+        "fr": "Daihatsu"
     },
     {
-        "type": "BAJAJ"
+        "id" : "m-19",
+        "ar": "دودج",
+        "fr": "Dodge"
     },
     {
-        "type": "BEIJING AUTOMOBILE WORKS"
+        "id" : "m-20",
+        "ar": "فيراري",
+        "fr": "Ferrari"
     },
     {
-        "type": "BENTLEY"
+        "id" : "m-21",
+        "ar": "فياط",
+        "fr": "Fiat"
     },
     {
-        "type": "BMW"
+        "id" : "m-22",
+        "ar": "فورد",
+        "fr": "Ford"
     },
     {
-        "type": "BOLLORÉ"
+        "id" : "m-23",
+        "ar": "فوطون",
+        "fr": "Foton"
     },
     {
-        "type": "BOLWELL"
+        "id" : "m-24",
+        "ar": "جيلي",
+        "fr": "Geely"
     },
     {
-        "type": "BRILLIANCE / HUACHEN"
+        "id" : "m-25",
+        "ar": "جي إم سي",
+        "fr": "GMC"
     },
     {
-        "type": "BRISTOL"
+        "id" : "m-26",
+        "ar": "هوندا",
+        "fr": "Honda"
     },
     {
-        "type": "BRITISH LEYLAND"
+        "id" : "m-27",
+        "ar": "هامر",
+        "fr": "Hummer"
     },
     {
-        "type": "BRM BUGGY"
+        "id" : "m-28",
+        "ar": "هيونداي",
+        "fr": "Hyundai"
     },
     {
-        "type": "BROOKE"
+        "id" : "m-29",
+        "ar": "ٱنفنتي",
+        "fr": "Infiniti"
     },
     {
-        "type": "BUDDY"
+        "id" : "m-30",
+        "ar": "إيسوزو",
+        "fr": "Isuzu"
     },
     {
-        "type": "BUFORI"
+        "id" : "m-31",
+        "ar": "إيڨيكو",
+        "fr": "Iveco"
     },
     {
-        "type": "BUGATTI"
+        "id" : "m-32",
+        "ar": "جاڭوار",
+        "fr": "Jaguar"
     },
     {
-        "type": "BUICK"
+        "id" : "m-33",
+        "ar": "جيپ",
+        "fr": "Jeep"
     },
     {
-        "type": "BYD"
+        "id" : "m-34",
+        "ar": "كيا",
+        "fr": "Kia"
     },
     {
-        "type": "CADILLAC"
+        "id" : "m-35",
+        "ar": "لامبرڭيني",
+        "fr": "Lamborghini"
     },
     {
-        "type": "CAPARO"
+        "id" : "m-36",
+        "ar": "لانسيا",
+        "fr": "lancia"
     },
     {
-        "type": "CARBONTECH"
+        "id" : "m-37",
+        "ar": "لاند روڨر",
+        "fr": "Land Rover"
     },
     {
-        "type": "CARICE"
+        "id" : "m-38",
+        "ar": "لكسوس",
+        "fr": "Lexus"
     },
     {
-        "type": "CHANG'AN"
+        "id" : "m-39",
+        "ar": "لنكولين",
+        "fr": "Lincoln"
     },
     {
-        "type": "CHANGHE"
+        "id" : "m-40",
+        "ar": "ماهندرا",
+        "fr": "Mahindra"
     },
     {
-        "type": "CHERY"
+        "id" : "m-41",
+        "ar": "مان",
+        "fr": "Man"
     },
     {
-        "type": "CHEVROLET"
+        "id" : "m-42",
+        "ar": "ماسراتي",
+        "fr": "Maserati"
     },
     {
-        "type": "CHEVRON"
+        "id" : "m-43",
+        "ar": "ماسي فيرڭوسون",
+        "fr": "Masey Ferguson"
     },
     {
-        "type": "CITROËN"
+        "id" : "m-44",
+        "ar": "مازدا",
+        "fr": "Mazda"
     },
     {
-        "type": "CHRYSLER"
+        "id" : "m-45",
+        "ar": "ميرسدس بنز",
+        "fr": "Mercedes Benz"
     },
     {
-        "type": "COMMUTER CARS"
+        "id" : "m-46",
+        "ar": "ميني",
+        "fr": "mini"
     },
     {
-        "type": "CONNAUGHT"
+        "id" : "m-47",
+        "ar": "ميتسوبيشي",
+        "fr": "Mitsubishi"
     },
     {
-        "type": "COVINI"
+        "id" : "m-48",
+        "ar": "نيسان",
+        "fr": "Nissan"
     },
     {
-        "type": "DACIA"
+        "id" : "m-49",
+        "ar": "أوبيل",
+        "fr": "Opel"
     },
     {
-        "type": "DAIHATSU"
+        "id" : "m-50",
+        "ar": "بيجو",
+        "fr": "Peugeot"
     },
     {
-        "type": "DATSUN"
+        "id" : "m-51",
+        "ar": "بونتياك",
+        "fr": "Pontiac"
     },
     {
-        "type": "DE LA CHAPELLE"
+        "id" : "m-52",
+        "ar": "پورش",
+        "fr": "Porsche"
     },
     {
-        "type": "DMC"
+        "id" : "m-53",
+        "ar": "رونو",
+        "fr": "Renault"
     },
     {
-        "type": "DIARDI"
+        "id" : "m-54",
+        "ar": "روفر",
+        "fr": "Rover"
     },
     {
-        "type": "DODGE"
+        "id" : "m-55",
+        "ar": "سياط",
+        "fr": "Seat"
     },
     {
-        "type": "DONKERVOORT"
+        "id" : "m-56",
+        "ar": "سكودا",
+        "fr": "Skoda"
     },
     {
-        "type": "DONGFENG"
+        "id" : "m-57",
+        "ar": "سمارت",
+        "fr": "Smart"
     },
     {
-        "type": "DONTO"
+        "id" : "m-58",
+        "ar": "سانڭ يونڭ",
+        "fr": "Ssangyong"
     },
     {
-        "type": "DS AUTOMOBILES"
+        "id" : "m-59",
+        "ar": "سوبارو",
+        "fr": "Subaru"
     },
     {
-        "type": "DYNASTI ELECTRIC CAR CORP."
+        "id" : "m-60",
+        "ar": "سوزوكي",
+        "fr": "Suzuki"
     },
     {
-        "type": "E-VADE"
+        "id" : "m-61",
+        "ar": "طويوطا",
+        "fr": "Toyota"
     },
     {
-        "type": "EFFEDI"
+        "id" : "m-62",
+        "ar": "يوفو",
+        "fr": "UFO"
     },
     {
-        "type": "EGY-TECH ENGINEERING"
+        "id" : "m-63",
+        "ar": "ڤولزڤاڭن",
+        "fr": "Volkswagen"
     },
     {
-        "type": "ELECTRIC RACEABOUT"
+        "id" : "m-64",
+        "ar": "ڤولڤو",
+        "fr": "Volvo"
     },
     {
-        "type": "ELFIN"
+        "id" : "m-65",
+        "ar": "زوتيي",
+        "fr": "Zotye"
     },
     {
-        "type": "EMGRAND"
-    },
-    {
-        "type": "ENGLON"
-    },
-    {
-        "type": "ETERNITI"
-    },
-    {
-        "type": "ETOX"
-    },
-    {
-        "type": "EQUUS"
-    },
-    {
-        "type": "EXAGON"
-    },
-    {
-        "type": "FARALLI & MAZZANTI"
-    },
-    {
-        "type": "FAW"
-    },
-    {
-        "type": "FERRARI"
-    },
-    {
-        "type": "FIAT"
-    },
-    {
-        "type": "FISKER"
-    },
-    {
-        "type": "FODAY"
-    },
-    {
-        "type": "FORCE"
-    },
-    {
-        "type": "FORD"
-    },
-    {
-        "type": "FORD AUSTRALIA"
-    },
-    {
-        "type": "FORD GERMANY"
-    },
-    {
-        "type": "FORNASARI"
-    },
-    {
-        "type": "FRASER"
-    },
-    {
-        "type": "GAC GROUP"
-    },
-    {
-        "type": "GALPIN"
-    },
-    {
-        "type": "GEELY"
-    },
-    {
-        "type": "GENESIS"
-    },
-    {
-        "type": "GIBBS"
-    },
-    {
-        "type": "GILLET"
-    },
-    {
-        "type": "GINETTA"
-    },
-    {
-        "type": "GMC"
-    },
-    {
-        "type": "GONOW"
-    },
-    {
-        "type": "GREAT WALL / CHANGCHENG"
-    },
-    {
-        "type": "GREENTECH AUTOMOTIVE"
-    },
-    {
-        "type": "GRINNALL"
-    },
-    {
-        "type": "GTA MOTOR"
-    },
-    {
-        "type": "GUMPERT"
-    },
-    {
-        "type": "GURGEL"
-    },
-    {
-        "type": "HENNESSEY"
-    },
-    {
-        "type": "HINDUSTAN"
-    },
-    {
-        "type": "HOLDEN"
-    },
-    {
-        "type": "HONDA"
-    },
-    {
-        "type": "HONGQI"
-    },
-    {
-        "type": "HRADYESH"
-    },
-    {
-        "type": "HTT TECHNOLOGIES"
-    },
-    {
-        "type": "HULME"
-    },
-    {
-        "type": "HYUNDAI"
-    },
-    {
-        "type": "ICML"
-    },
-    {
-        "type": "IFR"
-    },
-    {
-        "type": "IRAN KHODRO"
-    },
-    {
-        "type": "IKCO"
-    },
-    {
-        "type": "IMPERIA"
-    },
-    {
-        "type": "INFINITI"
-    },
-    {
-        "type": "IVM"
-    },
-    {
-        "type": "INVICTA"
-    },
-    {
-        "type": "ISDERA"
-    },
-    {
-        "type": "ISUZU"
-    },
-    {
-        "type": "JAC"
-    },
-    {
-        "type": "JAGUAR"
-    },
-    {
-        "type": "JEEP"
-    },
-    {
-        "type": "JENSEN MOTORS"
-    },
-    {
-        "type": "JETCAR"
-    },
-    {
-        "type": "JONWAY"
-    },
-    {
-        "type": "JOSS"
-    },
-    {
-        "type": "KAIPAN"
-    },
-    {
-        "type": "KANTANKA"
-    },
-    {
-        "type": "KARMA"
-    },
-    {
-        "type": "KOENIGSEGG"
-    },
-    {
-        "type": "KORRES"
-    },
-    {
-        "type": "KIA"
-    },
-    {
-        "type": "KIAT"
-    },
-    {
-        "type": "KISH KHODRO"
-    },
-    {
-        "type": "KTM"
-    },
-    {
-        "type": "LADA"
-    },
-    {
-        "type": "LAMBORGHINI"
-    },
-    {
-        "type": "LANCIA"
-    },
-    {
-        "type": "LAND ROVER"
-    },
-    {
-        "type": "LANDWIND"
-    },
-    {
-        "type": "LARAKI"
-    },
-    {
-        "type": "LEBLANC"
-    },
-    {
-        "type": "LEITCH"
-    },
-    {
-        "type": "LEOPARD"
-    },
-    {
-        "type": "LEXUS"
-    },
-    {
-        "type": "LI-ION"
-    },
-    {
-        "type": "LIFAN"
-    },
-    {
-        "type": "LIGHTNING"
-    },
-    {
-        "type": "LINCOLN"
-    },
-    {
-        "type": "LISTER"
-    },
-    {
-        "type": "LOCAL MOTORS"
-    },
-    {
-        "type": "LOBINI"
-    },
-    {
-        "type": "LOTEC"
-    },
-    {
-        "type": "LOTUS CARS"
-    },
-    {
-        "type": "LUCRA CARS"
-    },
-    {
-        "type": "LUXGEN"
-    },
-    {
-        "type": "MAHINDRA"
-    },
-    {
-        "type": "MARUSSIA"
-    },
-    {
-        "type": "MARUTI SUZUKI"
-    },
-    {
-        "type": "MASERATI"
-    },
-    {
-        "type": "MASTRETTA"
-    },
-    {
-        "type": "MAZDA"
-    },
-    {
-        "type": "MCLAREN"
-    },
-    {
-        "type": "MERCEDES-BENZ"
-    },
-    {
-        "type": "MG"
-    },
-    {
-        "type": "MICRO"
-    },
-    {
-        "type": "MINI"
-    },
-    {
-        "type": "MITSUBISHI"
-    },
-    {
-        "type": "MITSUOKA"
-    },
-    {
-        "type": "MORGAN"
-    },
-    {
-        "type": "MULLEN"
-    },
-    {
-        "type": "MYCAR"
-    },
-    {
-        "type": "MYVI-PERODUA"
-    },
-    {
-        "type": "NISSAN"
-    },
-    {
-        "type": "NOBLE"
-    },
-    {
-        "type": "NOTA"
-    },
-    {
-        "type": "OLDSMOBILE"
-    },
-    {
-        "type": "OPEL"
-    },
-    {
-        "type": "OPTIMAL ENERGY"
-    },
-    {
-        "type": "ORCA"
-    },
-    {
-        "type": "OLTCIT"
-    },
-    {
-        "type": "PAGANI"
-    },
-    {
-        "type": "PANHARD"
-    },
-    {
-        "type": "PANOZ"
-    },
-    {
-        "type": "PERANA"
-    },
-    {
-        "type": "PERODUA"
-    },
-    {
-        "type": "PEUGEOT"
-    },
-    {
-        "type": "P.G.O."
-    },
-    {
-        "type": "POLARSUN"
-    },
-    {
-        "type": "PLYMOUTH"
-    },
-    {
-        "type": "PORSCHE"
-    },
-    {
-        "type": "PROTO"
-    },
-    {
-        "type": "OULLIM"
-    },
-    {
-        "type": "PROTON"
-    },
-    {
-        "type": "PURITALIA"
-    },
-    {
-        "type": "QOROS"
-    },
-    {
-        "type": "QVALE"
-    },
-    {
-        "type": "RADICAL"
-    },
-    {
-        "type": "RELIANT"
-    },
-    {
-        "type": "RENAULT"
-    },
-    {
-        "type": "REVA"
-    },
-    {
-        "type": "RIMAC"
-    },
-    {
-        "type": "RINSPEED"
-    },
-    {
-        "type": "RODING"
-    },
-    {
-        "type": "ROEWE"
-    },
-    {
-        "type": "ROLLS-ROYCE"
-    },
-    {
-        "type": "ROSSIN-BERTIN"
-    },
-    {
-        "type": "ROSSION"
-    },
-    {
-        "type": "ROVER"
-    },
-    {
-        "type": "SAAB"
-    },
-    {
-        "type": "SALEEN"
-    },
-    {
-        "type": "SAIC-GM-WULING"
-    },
-    {
-        "type": "SAIPA"
-    },
-    {
-        "type": "SAKER"
-    },
-    {
-        "type": "SAMSUNG"
-    },
-    {
-        "type": "SAN"
-    },
-    {
-        "type": "SBARRO"
-    },
-    {
-        "type": "SCION"
-    },
-    {
-        "type": "SEAT"
-    },
-    {
-        "type": "SHANGHAI MAPLE"
-    },
-    {
-        "type": "SIN"
-    },
-    {
-        "type": "ŠKODA"
-    },
-    {
-        "type": "SMART"
-    },
-    {
-        "type": "SPADA VETTURE SPORT"
-    },
-    {
-        "type": "SPYKER"
-    },
-    {
-        "type": "SSANGYONG"
-    },
-    {
-        "type": "SSC NORTH AMERICA"
-    },
-    {
-        "type": "STREET & RACING TECHNOLOGY"
-    },
-    {
-        "type": "SUBARU"
-    },
-    {
-        "type": "SUZUKI"
-    },
-    {
-        "type": "TANOM"
-    },
-    {
-        "type": "TATA"
-    },
-    {
-        "type": "TAURO"
-    },
-    {
-        "type": "TAWON CAR"
-    },
-    {
-        "type": "TD CARS"
-    },
-    {
-        "type": "TESLA"
-    },
-    {
-        "type": "THAI RUNG"
-    },
-    {
-        "type": "TOYOTA"
-    },
-    {
-        "type": "TREKKA"
-    },
-    {
-        "type": "TRIDENT"
-    },
-    {
-        "type": "TRIUMPH"
-    },
-    {
-        "type": "TROLLER"
-    },
-    {
-        "type": "TRUMPCHI"
-    },
-    {
-        "type": "TUSHEK"
-    },
-    {
-        "type": "TVR"
-    },
-    {
-        "type": "TVS"
-    },
-    {
-        "type": "ULTIMA"
-    },
-    {
-        "type": "UMM"
-    },
-    {
-        "type": "UEV"
-    },
-    {
-        "type": "URI"
-    },
-    {
-        "type": "UAZ"
-    },
-    {
-        "type": "VAUXHALL MOTORS"
-    },
-    {
-        "type": "VECTOR"
-    },
-    {
-        "type": "VENCER"
-    },
-    {
-        "type": "VENIRAUTO"
-    },
-    {
-        "type": "VENTURI"
-    },
-    {
-        "type": "VEPR"
-    },
-    {
-        "type": "VOLKSWAGEN"
-    },
-    {
-        "type": "VOLVO"
-    },
-    {
-        "type": "VINFAST"
-    },
-    {
-        "type": "W MOTORS"
-    },
-    {
-        "type": "WALLYSCAR"
-    },
-    {
-        "type": "WESTFIELD"
-    },
-    {
-        "type": "WHEEGO"
-    },
-    {
-        "type": "WIESMANN"
-    },
-    {
-        "type": "XENIA"
-    },
-    {
-        "type": "YES!"
-    },
-    {
-        "type": "YOUABIAN PUMA"
-    },
-    {
-        "type": "ZASTAVA AUTOMOBILES"
-    },
-    {
-        "type": "ZENDER CARS"
-    },
-    {
-        "type": "ZENOS CARS"
-    },
-    {
-        "type": "ZENVO"
-    },
-    {
-        "type": "ZIL"
-    },
-    {
-        "type": "ZX AUTO"
+        "id" : "m-66",
+        "ar": "ماركات أخرى",
+        "fr": "Autres"
     }
 ]

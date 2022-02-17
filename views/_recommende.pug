@@ -1,0 +1,15 @@
+.bg-white.p-2.my-3.shadow-sm#recomm
+    .row
+        .col-6.mb-2
+            span.btn-sm Plus de résultats
+        .col-6.mb-2.text-right
+            form(action="/", method="post")
+                input.d-none(type="text" name="ville" value="all")
+                input.d-none(type="text" name="secteur" value="all")
+                input.d-none(type="text" name="marque" value="all")
+                input.d-none(type="text" name="modele" value="all")
+                button.btn.btn-sm.btn-link(type="submit") plus
+                    i.fas.fa-caret-right.ml-1
+        each car in carsRecom
+            .col-lg-2.col-md-4.col-sm-6
+                include _cars3

@@ -1,0 +1,42 @@
+extends base
+
+block append footer
+    script(src="/../js/base.js")
+
+block content
+    - var messages = getMessages()
+    if (messages.message)
+        section.text-center.fixed-top.w-max-1.mx-auto.text-white
+            .alert.bg-danger.alert-dismissible.fade.show.rounded-0(role="alert")
+                i.fas.fa-times-circle
+                span.ml-2.my-auto= messages.message
+                button.close(type="button" data-dismiss="alert" aria-label="Close")
+                    span(aria-hidden="true") &times;
+    include _header
+    .container
+        .row.mt-3
+            .col-lg-3.col-md-3
+                include _usrban
+            .col-lg-9.col-md-9
+                .px-3.pt-3.bg-white.shadow-sm
+                    if (reviews.length === 0)
+                        .text-center.pb-3
+                            img(src="/../graphics/no-comment.png", alt="zero favorits" width="80px")
+                            br
+                            span.fn-18 Votre liste des commentaires est vide !
+                            p.mt-2.text-secondary Vous pouvez aider d'autres clients à trouver les meilleures offres, en cliquant sur ajouter un commentaire dans la page de détail de la voiture que vous avez réservée
+                            form(action="/", method="post")
+                                input.d-none(type="text" name="ville" value="all")
+                                input.d-none(type="text" name="secteur" value="all")
+                                input.d-none(type="text" name="marque" value="all")
+                                input.d-none(type="text" name="modele" value="all")
+                                button.btn.btn-warning.rounded-0.shadow Poursuivre la recherche
+                    else
+                        .row
+                            each review in reviews
+                                .col-12.mb-3
+                                    include _cars5
+            .col-12
+                include _recommende
+    .text-center.fixed-bottom.mb-3#copy
+        small.text-muted &copy; 2020 Kauto.ma

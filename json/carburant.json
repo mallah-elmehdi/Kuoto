@@ -1,17 +1,22 @@
 [
     {
-        "type": "Diesel"
+        "ar": "ديزل",
+        "fr": "Diesel"
     },
     {
-        "type": "Essence"
+        "ar": "بنزين",
+        "fr": "Essence"
     },
     {
-        "type": "Electrique"
+        "ar": "كهربائي",
+        "fr": "Electrique"
     },
     {
-        "type": "LPG"
+        "ar": "ال البي الجي",
+        "fr": "LPG"
     },
     {
-        "type": "Hybride"
+        "ar": "هجين",
+        "fr": "Hybride"
     }
 ]

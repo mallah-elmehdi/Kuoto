@@ -1,0 +1,53 @@
+extends base
+
+block append footer
+    script(src="/../js/view-agence.js")
+
+block content
+    include _header
+    
+    .bg-dark
+        nav.nav.container
+            a.btn-sm.rounded-0.text-warning(href=`/agence/${agence._id}`) Agence
+            a.btn-sm.rounded-0.text-white(href=`/agence/${agence._id}/offres`) Offres
+    .container
+        .row.mt-3
+
+                    
+            .col-lg-3.col-md-3.mb-3
+                .bg-white.shadow-sm.rounded-0.p-3
+                    .grid-8
+                        img.shadow-sm.rounded-circle(src=`/../graphics/stores/${agence.store.logo}`, alt=`${agence.store.name}` width="50px")
+                        .fn-13.my-auto.ml-2
+                            .text-primary Agence
+                            .text-secondary= `${agence.store.name}`
+                    hr.my-2
+                    .grid-4.fn-13
+                        .text-primary Ville
+                        .text-secondary= `${agence.store.city.fr}`
+                    hr.my-2
+                    .grid-4.fn-13
+                        .text-primary Adresse
+                        .text-secondary= `${agence.store.adresse}`
+                    hr.my-2
+                    .text-primary.fn-13 Téléphone
+                    a.btn.list-group-item-warning.btn-sm.rounded-0.w-100(href=`tel:+212${agence.store.phone}`)
+                        i.fas.fa-phone-volume.mr-2
+                        span=`+212${agence.store.phone}`
+                    hr.my-2
+                    .text-primary.fn-13 Médias sociaux
+                    button.btn.btn-sm.btn-success.whatsapp.rounded-circle.mr-2(data-phone=`+212${agence.store.whatsapp}`)
+                        i.fab.fa-whatsapp
+                    a.btn.btn-sm.btn-primary.rounded-circle(data-phone=`+212${agence.store.phone}` target="_blank" href=`https://m.me/${agence.store.messenger}`)
+                        i.fab.fa-facebook-messenger
+
+            .col-lg-9.col-md-9.mb-3
+                .shadow-sm.h-3(id="location" data-location=`${JSON.stringify(agence.store.location.coordinates)}`)
+            .col-12
+                include _recommende
+            .col-12.mb-3
+                img.w-100.shadow-sm(src="/../graphics/adBanKauto.gif", alt="Kauto.ma")
+
+    #whatsapp
+    #footer
+        include _footer 

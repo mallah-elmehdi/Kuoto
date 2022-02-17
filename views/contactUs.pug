@@ -1,0 +1,31 @@
+extends base
+
+block append footer
+    script(src="/../js/contact.js")
+
+block content
+    .container
+        .row.my-3
+            .col-lg-3.col-md-3
+                include _footerban
+            .col-lg-9.col-md-9
+                .bg-white.p-3.w-100.mx-auto.shadow-sm
+                    .text-center.mb-3
+                        a(href="/")
+                            img(src="/../graphics/logo.png" width="60px" alt="Kauto.ma")
+                    p.text-centre.font-weight-bold Comment pouvons nous aider?
+                    p.text-centre Veuillez sélectionner un sujet ci-dessous lié à votre demande et remplissez notre formulaire de contact.
+                
+                    form(action="/Nous-contacter" method="post")
+                        .form-group
+                            input.form-control.rounded-0(type="text" id="email" name="email" placeholder="vous@exemple.com")
+                        .form-group
+                            input.form-control.rounded-0(id="subject" type="text" name="subject" placeholder="Sujet" maxlength="50")
+                            label(id="subject-text") 0/50 
+                        .form-group
+                            textarea.form-control.rounded-0(id="text" name="txtbody" aria-label="With textarea" placeholder="text" maxlength="200" row="4")
+                            label(id="text-text") 0/200
+                        button.btn.btn-primary.rounded-0(name="seConnecter" id="submit") Envoyer
+
+    .text-center.fixed-bottom.mb-3#copy
+        small.text-muted &copy; 2020 Kauto.ma

@@ -1,0 +1,63 @@
+.bg-white.w-100.car-card
+    .row.no-gutters
+        .col-lg-4
+            if (car.photo.length > 1)
+                -var id = `#car-${car._id}`
+                .carousel.slide(data-ride="carousel" data-interval="0" id=`car-${car._id}`)
+    
+                    ol.carousel-indicators
+                        li.active(data-target=`${car._id}` data-slide-to="0")
+                        -for (var i = 1; i < car.photo.length; i++)
+                            li(data-target=`${id}` data-slide-to=`${i}`)
+    
+                    .carousel-inner
+                        .carousel-item.active
+                            img.d-block.w-100(src=`/../graphics/cars/${car.photo[0]}`)
+                        -for (var i = 1; i < car.photo.length; i++)
+                            .carousel-item
+                                img.d-block.w-100(src=`/../graphics/cars/${car.photo[i]}`)
+    
+                    .carousel-control-prev(href=`${id}` role="button" data-slide="prev")
+                        span.carousel-control-prev-icon(aria-hidden="true")
+                        span.sr-only Previous
+                    .carousel-control-next(href=`${id}` role="button" data-slide="next")
+                        span.carousel-control-next-icon(aria-hidden="true")
+                    span.sr-only Next
+            else
+                img.d-block.w-100(src=`/../graphics/cars/${car.photo[0]}`)
+        .col-lg-8
+            .card-body.row
+
+                .col-lg-8
+                    .mb-1
+                    .fn-14= `${car.marque.fr} - ${car.model.fr}`
+                    .grid-2
+                        each item in propeties
+                            .text-left
+                                span.fn-11.text-secondary.my-auto
+                                    i.fas(class=`${item.image}`).mr-1
+                                    include _prp
+                    if (car.remise && car.remise > 0)
+                        .fn-18.font-weight-bold= `${parseInt(car.price - (car.price * (car.remise / 100)))} Dhs `
+                        .fn-13
+                            del.font-weight-normal.badge.text-secondary= car.price + " Dhs"
+                            span.badge.rounded-0.list-group-item-warning= `-${car.remise}%`
+                    else
+                        .fn-18.font-weight-bold= car.price + " Dhs "
+                .col-lg-4.my-auto
+                    a.btn.btn-sm.btn-link.w-100(href=`/mon-agence/${user._id}/editer/${car._id}`) Éditer
+                    hr.my-1
+                    a.btn.btn-sm.btn-link.w-100(href=`/voiture/${car._id}`) Détails
+                    hr.my-1
+                    button.btn.btn-sm.btn-link.w-100.text-danger(type="button" data-toggle="modal" data-target=`#d${car._id}`) Supprimer
+
+                    .modal.fade(id=`d${car._id}` tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true")
+                        .modal-dialog(role="document")
+                            .modal-content
+                                .modal-header
+                                    .modal-title voulez-vous supprimer cette annonce
+                                    button.close(type="button" data-dismiss="modal" aria-label="Close")
+                                        span(aria-hidden="true") &times;
+                                .modal-footer
+                                    a(class="btn btn-danger rounded-0 btn-sm" href=`/mon-agence/${user._id}/editer/${car._id}/supprimer`) Confirmer
+                                    button(type="button" class="btn btn-dark rounded-0 btn-sm" data-dismiss="modal") Annuler

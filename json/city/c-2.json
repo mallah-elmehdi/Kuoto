@@ -1,0 +1,486 @@
+[
+    {
+        "ar": "أفاق",
+        "fr": "Afaq"
+    },
+    {
+        "ar": "أكدال",
+        "fr": "Agdal"
+    },
+    {
+        "ar": "عين مزوار",
+        "fr": "Ain Mezouar"
+    },
+    {
+        "ar": "أكيود",
+        "fr": "Akioud"
+    },
+    {
+        "ar": "علال الفاسي",
+        "fr": "Allal El Fassi"
+    },
+    {
+        "ar": "ٱملكيس",
+        "fr": "Amelkis"
+    },
+    {
+        "ar": "ٱمرشيش",
+        "fr": "Amerchich"
+    },
+    {
+        "ar": "المدينة القديمة",
+        "fr": "Ancienne Médina"
+    },
+    {
+        "ar": "النخيل",
+        "fr": "Annakhil"
+    },
+    {
+        "ar": "عرصة ابن الشبلي",
+        "fr": "Arset Ben Chebli"
+    },
+    {
+        "ar": "عرصة الحوتة",
+        "fr": "Arset El Houta"
+    },
+    {
+        "ar": "عرصة المعاش",
+        "fr": "Arset El Maach"
+    },
+    {
+        "ar": "عرصة إهري",
+        "fr": "Arset Ihiri"
+    },
+    {
+        "ar": "عرصة مولاي بوعزة",
+        "fr": "Arset Moulay Bouaazza"
+    },
+    {
+        "ar": "عرصة مولاي موسى",
+        "fr": "Arset Moulay Moussa"
+    },
+    {
+        "ar": "أسيف",
+        "fr": "Assif"
+    },
+    {
+        "ar": "أسول",
+        "fr": "Assouel"
+    },
+    {
+        "ar": "حي آخر",
+        "fr": "Autre secteur"
+    },
+    {
+        "ar": "شارع عبد الكريم الخطابي",
+        "fr": "Av Abdelkrim El Khattabi"
+    },
+    {
+        "ar": "شارع محمد الخامس",
+        "fr": "Av Mohammed V"
+    },
+    {
+        "ar": "شارع محمد السادس",
+        "fr": "Av Mohammed VI"
+    },
+    {
+        "ar": "ازلي",
+        "fr": "Azli"
+    },
+    {
+        "ar": "عزوزية",
+        "fr": "Azzouzia"
+    },
+    {
+        "ar": "باب أطلس",
+        "fr": "Bab Atlas"
+    },
+    {
+        "ar": "باب ايلان",
+        "fr": "Bab Aylan"
+    },
+    {
+        "ar": "باب دكالة",
+        "fr": "Bab Doukkala"
+    },
+    {
+        "ar": "باب الخميس",
+        "fr": "Bab El Khemis"
+    },
+    {
+        "ar": "باب أغمات",
+        "fr": "Bab Ghmat"
+    },
+    {
+        "ar": "باب إغلي",
+        "fr": "Bab Ighli"
+    },
+    {
+        "ar": "باب احمر",
+        "fr": "Bab Lhmar"
+    },
+    {
+        "ar": "شارع مولاي عبد الله",
+        "fr": "Bd Moulay Abdellah"
+    },
+    {
+        "ar": "بن صالح",
+        "fr": "Ben Saleh"
+    },
+    {
+        "ar": "بريمة",
+        "fr": "Berrima"
+    },
+    {
+        "ar": "بين لكشالي",
+        "fr": "Bin Lkchali"
+    },
+    {
+        "ar": "بوعكاز",
+        "fr": "Bouaakkaz"
+    },
+    {
+        "ar": "وسط المدينة",
+        "fr": "Centre Ville"
+    },
+    {
+        "ar": "الداوديات",
+        "fr": "Daoudiate"
+    },
+    {
+        "ar": "درب اشتوكة",
+        "fr": "Derb Chtouka"
+    },
+    {
+        "ar": "الغول",
+        "fr": "El Ghoul"
+    },
+    {
+        "ar": "الموقف",
+        "fr": "El Moukef"
+    },
+    {
+        "ar": "السعادة",
+        "fr": "Es Saada"
+    },
+    {
+        "ar": "السبتيين",
+        "fr": "Essebtiyen"
+    },
+    {
+        "ar": "فاسي",
+        "fr": "Fassi"
+    },
+    {
+        "ar": "كليز",
+        "fr": "Guéliz"
+    },
+    {
+        "ar": "حارتي",
+        "fr": "Harti"
+    },
+    {
+        "ar": "حي البهجة",
+        "fr": "Hay Al Bahja"
+    },
+    {
+        "ar": "حي الحوز",
+        "fr": "Hay Al Haouz"
+    },
+    {
+        "ar": "حي الحسني",
+        "fr": "Hay Al Hassani"
+    },
+    {
+        "ar": "حي المسار",
+        "fr": "Hay Al Massar"
+    },
+    {
+        "ar": "حي الأندلس",
+        "fr": "Hay Andalous"
+    },
+    {
+        "ar": "حي النهضة",
+        "fr": "Hay Annahda"
+    },
+    {
+        "ar": "حي شرف",
+        "fr": "Hay Charaf"
+    },
+    {
+        "ar": "حي إزدهار",
+        "fr": "Hay Izdihar"
+    },
+    {
+        "ar": "حي لالة حية",
+        "fr": "Hay Lalla Haya"
+    },
+    {
+        "ar": "حي المسيرة",
+        "fr": "Hay Massira"
+    },
+    {
+        "ar": "تاركة",
+        "fr": "Hay Targa"
+    },
+    {
+        "ar": "إيفرناج",
+        "fr": "Hivernage"
+    },
+    {
+        "ar": "المستشفى العسكري",
+        "fr": "Hôpital Militaire"
+    },
+    {
+        "ar": "إنارة",
+        "fr": "Inara"
+    },
+    {
+        "ar": "إسيل",
+        "fr": "Issil"
+    },
+    {
+        "ar": "ايزيكي",
+        "fr": "Iziki"
+    },
+    {
+        "ar": "جوهر",
+        "fr": "Jawhar"
+    },
+    {
+        "ar": "جامع الفنا",
+        "fr": "Jemaa El Fna"
+    },
+    {
+        "ar": "جنان بن شكرة",
+        "fr": "Jnan ben chagra"
+    },
+    {
+        "ar": "جنان العافية",
+        "fr": "Jnane Laafia"
+    },
+    {
+        "ar": "قاع المشرع",
+        "fr": "Kaa El Machraa"
+    },
+    {
+        "ar": "قاعة بن ناهض",
+        "fr": "Kaat Ben Nahid"
+    },
+    {
+        "ar": "القادسية",
+        "fr": "Kadissia"
+    },
+    {
+        "ar": "قبور الشو",
+        "fr": "Kbour Chou"
+    },
+    {
+        "ar": "قشيش",
+        "fr": "Kechich"
+    },
+    {
+        "ar": "قنارية",
+        "fr": "Kennaria"
+    },
+    {
+        "ar": "قصيبة النحاس",
+        "fr": "Ksibat Nhas"
+    },
+    {
+        "ar": "بحيرة تاكركوست",
+        "fr": "Lac Takerkoust"
+    },
+    {
+        "ar": "ابواب مراكش",
+        "fr": "Les Portes de Marrakech"
+    },
+    {
+        "ar": "المحاميد",
+        "fr": "M'Hamid"
+    },
+    {
+        "ar": "مبروكة",
+        "fr": "Mabrouka"
+    },
+    {
+        "ar": "ماجوريل",
+        "fr": "Majorelle"
+    },
+    {
+        "ar": "مصمودي",
+        "fr": "Masmoudi"
+    },
+    {
+        "ar": "ماسار",
+        "fr": "Massar"
+    },
+    {
+        "ar": "المسيرة",
+        "fr": "Massira"
+    },
+    {
+        "ar": "المسيرة 1",
+        "fr": "Massira 1"
+    },
+    {
+        "ar": "المسيرة 2",
+        "fr": "Massira 2"
+    },
+    {
+        "ar": "المسيرة 3",
+        "fr": "Massira 3"
+    },
+    {
+        "ar": "المشور",
+        "fr": "Michouar"
+    },
+    {
+        "ar": "المواسين",
+        "fr": "Mouassine"
+    },
+    {
+        "ar": "مولاي اليزيد",
+        "fr": "Moulay Lyazid"
+    },
+    {
+        "ar": "واد ٱوريكة",
+        "fr": "Oued Ourika"
+    },
+    {
+        "ar": "واد تانسيفت",
+        "fr": "Oued Tensift"
+    },
+    {
+        "ar": "أولاد سعيد",
+        "fr": "Oulad Said"
+    },
+    {
+        "ar": "بالموري",
+        "fr": "Palmeraie"
+    },
+    {
+        "ar": "الرحبة القديمة",
+        "fr": "Rahba Kedima"
+    },
+    {
+        "ar": "رياض الزيتون",
+        "fr": "Riad Zitoun"
+    },
+    {
+        "ar": "الرميلة",
+        "fr": "Rmila"
+    },
+    {
+        "ar": "رويدات",
+        "fr": "Rouidat"
+    },
+    {
+        "ar": "طريق اكادير-الصويرة",
+        "fr": "Route d'Agadir - Essaouira"
+    },
+    {
+        "ar": "طريق أمزميز",
+        "fr": "Route d'Amezmiz"
+    },
+    {
+        "ar": "طريق أوريكة",
+        "fr": "Route d'Ourika"
+    },
+    {
+        "ar": "طريق الدار البيضاء",
+        "fr": "Route de Casablanca"
+    },
+    {
+        "ar": "طريق فاس",
+        "fr": "Route de Fès"
+    },
+    {
+        "ar": "طريق لالة تاكركوست",
+        "fr": "Route de Lalla Takerkoust"
+    },
+    {
+        "ar": "طريق ورزازات",
+        "fr": "Route de Ouarzazate"
+    },
+    {
+        "ar": "طريق آسفي",
+        "fr": "Route de Safi"
+    },
+    {
+        "ar": "طريق سيدي عبدالله الغيات",
+        "fr": "Route de Sidi A. Ghiat"
+    },
+    {
+        "ar": "طريق تاهاناوت",
+        "fr": "Route de Tahanaoute"
+    },
+    {
+        "ar": "طريق تمنصورت",
+        "fr": "Route de Tamansourt"
+    },
+    {
+        "ar": "صقر",
+        "fr": "Sakar"
+    },
+    {
+        "ar": "السملالية",
+        "fr": "Semlalia"
+    },
+    {
+        "ar": "سيدي عباد",
+        "fr": "Sidi Abbad"
+    },
+    {
+        "ar": "سيدي عبدالله الغيات",
+        "fr": "Sidi Abdellah Ghiat"
+    },
+    {
+        "ar": "سيدي بن سليمان الجزولي",
+        "fr": "Sidi Ben Slimane El Jazouli"
+    },
+    {
+        "ar": "سيدي بوعمار",
+        "fr": "Sidi Bou Amar"
+    },
+    {
+        "ar": "سيدي غانم",
+        "fr": "Sidi Ghanem"
+    },
+    {
+        "ar": "سيدي منصور",
+        "fr": "Sidi Mansour"
+    },
+    {
+        "ar": "سيدي ميمون",
+        "fr": "Sidi Mimoun"
+    },
+    {
+        "ar": "سيدي يوسف بن علي",
+        "fr": "Sidi Youssef Ben Ali"
+    },
+    {
+        "ar": "صافية",
+        "fr": "Sofia"
+    },
+    {
+        "ar": "تاركة",
+        "fr": "Targa"
+    },
+    {
+        "ar": "فيكطور هيكو",
+        "fr": "Victor Hugo"
+    },
+    {
+        "ar": "زاوية سيدي غالم",
+        "fr": "Zaouia Sidi Ghalem"
+    },
+    {
+        "ar": "زاوية الحضر",
+        "fr": "Zaouiat Lahdar"
+    },
+    {
+        "ar": "المنطقة الصناعية سيدي غانم",
+        "fr": "Zone Industrielle Sidi Ghanem"
+    }
+]

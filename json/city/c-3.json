@@ -1,0 +1,258 @@
+[
+    {
+        "ar": "حي البطوار",
+        "fr": "Abattoirs"
+    },
+    {
+        "ar": "أكادير أوفلا",
+        "fr": "Agadir Oufella"
+    },
+    {
+        "ar": "الوفاق",
+        "fr": "Al Wifaq"
+    },
+    {
+        "ar": "أميكال",
+        "fr": "Amicales"
+    },
+    {
+        "ar": "أمسرنات",
+        "fr": "Amsernate"
+    },
+    {
+        "ar": "النهضة",
+        "fr": "Anahda"
+    },
+    {
+        "ar": "أنوال سوس",
+        "fr": "Anoual Souss"
+    },
+    {
+        "ar": "أنزا",
+        "fr": "Anza"
+    },
+    {
+        "ar": "ٱرغود",
+        "fr": "Arghoud"
+    },
+    {
+        "ar": "أساكا",
+        "fr": "Assaka"
+    },
+    {
+        "ar": "حي آخر",
+        "fr": "Autre secteur"
+    },
+    {
+        "ar": "شارع الجيش الملكي",
+        "fr": "Av des Far"
+    },
+    {
+        "ar": "شارع المقاومة",
+        "fr": "Av Mokawama"
+    },
+    {
+        "ar": "بن سركاو",
+        "fr": "Ben Serguaou"
+    },
+    {
+        "ar": "بوركان",
+        "fr": "Bouargane"
+    },
+    {
+        "ar": "بوتشكات",
+        "fr": "Boutchakat"
+    },
+    {
+        "ar": "وسط المدينة",
+        "fr": "Centre Ville"
+    },
+    {
+        "ar": "الشرف",
+        "fr": "Charaf"
+    },
+    {
+        "ar": "شرف",
+        "fr": "Charaff"
+    },
+    {
+        "ar": "حي أدرار",
+        "fr": "Cité Adrar"
+    },
+    {
+        "ar": "الهدى",
+        "fr": "El Houda"
+    },
+    {
+        "ar": "النهضة",
+        "fr": "Ennahda"
+    },
+    {
+        "ar": "امتداد الداخلة",
+        "fr": "Extension Dakhla"
+    },
+    {
+        "ar": "فونتي",
+        "fr": "Founti"
+    },
+    {
+        "ar": "فونتي",
+        "fr": "Founty"
+    },
+    {
+        "ar": "أنزا العليا",
+        "fr": "Haut Anza"
+    },
+    {
+        "ar": "فونتي العالي",
+        "fr": "Haut-Founty"
+    },
+    {
+        "ar": "حي الفرح",
+        "fr": "Hay Al Farah"
+    },
+    {
+        "ar": "حي الوفاء",
+        "fr": "Hay Al Wafaa"
+    },
+    {
+        "ar": "حي داخلة",
+        "fr": "Hay Dakhla"
+    },
+    {
+        "ar": "الحي الحسني",
+        "fr": "Hay Hassani"
+    },
+    {
+        "ar": "حي هدى",
+        "fr": "Hay Houda"
+    },
+    {
+        "ar": "حي المسيرة",
+        "fr": "Hay Massira"
+    },
+    {
+        "ar": "حي المحمدي",
+        "fr": "Hay Mohammadi"
+    },
+    {
+        "ar": "حي النجاح",
+        "fr": "Hay Najah"
+    },
+    {
+        "ar": "حي القدس",
+        "fr": "Hay Qods"
+    },
+    {
+        "ar": "حي السلام",
+        "fr": "Hay Salam"
+    },
+    {
+        "ar": "حي الزيتون",
+        "fr": "Hay Zaytoun"
+    },
+    {
+        "ar": "إحشاش",
+        "fr": "Ihchach"
+    },
+    {
+        "ar": "إليغ",
+        "fr": "Iligh"
+    },
+    {
+        "ar": "إيليغ",
+        "fr": "Illigh"
+    },
+    {
+        "ar": "العزيب",
+        "fr": "Laazib"
+    },
+    {
+        "ar": "شاطئ البحر",
+        "fr": "Le bord de mer"
+    },
+    {
+        "ar": "وسط المدينة",
+        "fr": "Le centre-ville"
+    },
+    {
+        "ar": "الخيام",
+        "fr": "Lekhiam"
+    },
+    {
+        "ar": "لزاميكال",
+        "fr": "Les Amicales"
+    },
+    {
+        "ar": "لخيام",
+        "fr": "Lkhiam"
+    },
+    {
+        "ar": "مارينا",
+        "fr": "Marina"
+    },
+    {
+        "ar": "نجاح",
+        "fr": "Najah"
+    },
+    {
+        "ar": "الميناء",
+        "fr": "Port"
+    },
+    {
+        "ar": "رياض السلام",
+        "fr": "Riad Salam"
+    },
+    {
+        "ar": "المنطقة السياحية",
+        "fr": "Secteur Touristique"
+    },
+    {
+        "ar": "سويس",
+        "fr": "Siusse"
+    },
+    {
+        "ar": "سنابة",
+        "fr": "Sonaba"
+    },
+    {
+        "ar": "سويس",
+        "fr": "Suisse"
+    },
+    {
+        "ar": "تادرت",
+        "fr": "Taddart"
+    },
+    {
+        "ar": "تدرت أنزا",
+        "fr": "Taddart Anza"
+    },
+    {
+        "ar": "تلبرجت",
+        "fr": "Talborjt"
+    },
+    {
+        "ar": "تمغارت",
+        "fr": "Tamraght"
+    },
+    {
+        "ar": "تتيلة",
+        "fr": "Tilila"
+    },
+    {
+        "ar": "المدينة الجديدة",
+        "fr": "Ville Nouvelle"
+    },
+    {
+        "ar": "الوفاء",
+        "fr": "Wafaa"
+    },
+    {
+        "ar": "الوفاق",
+        "fr": "Wifaq"
+    },
+    {
+        "ar": "الحي الصناعي",
+        "fr": "Zone Industrielle Agadir"
+    }
+]

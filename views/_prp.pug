@@ -1,0 +1,18 @@
+if (item.id === "place")
+    span= car.place + " places"
+if (item.id === "porte")
+    span= car.porte + " portes"
+if (item.id === "type")
+    span= car.type
+if (item.id === "climat")
+    if (car.climat.fr  === "Automatique")
+        span= car.climat.fr.slice(0,4)
+    else
+        span= car.climat.fr
+if (item.id === "boite")
+    if (car.boite.fr  === "Automatique")
+        span= car.boite.fr.slice(0,4)
+    else
+        span= car.boite.fr
+if (item.id === "carburant")
+    span= car.carburant.fr

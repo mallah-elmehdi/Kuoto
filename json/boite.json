@@ -1,8 +1,10 @@
 [
     {
-        "type": "Manuelle"
+        "fr": "Manuelle",
+        "ar": "يدوي"
     },
     {
-        "type": "Automatique"
+        "fr": "Automatique",
+        "ar": "أوتوماتيكي"
     }
 ]

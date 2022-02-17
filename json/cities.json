@@ -1,1663 +1,868 @@
 [
   {
-    "id": "0",
-    "type": "Tout le Maroc"
+    "id": "c-1",
+    "fr": "Casablanca",
+    "ar": "الدار البيضاء"
   },
-
   {
-    "id": "blank",
-    "type": " -------------- A ---------------"
+    "id": "c-2",
+    "fr": "Marrakech",
+    "ar": "مراكش"
   },
   {
-    "id": "1",
-    "type": "Afourar"
+    "id": "c-3",
+    "fr": "Agadir",
+    "ar": "أكادير"
   },
   {
-    "id": "2",
-    "type": "Agadir"
+    "id": "c-4",
+    "fr": "Rabat",
+    "ar": "الرباط"
   },
   {
-    "id": "3",
-    "type": "Agdz"
+    "id": "c-5",
+    "fr": "Tanger",
+    "ar": "طنجة"
   },
   {
-    "id": "4",
-    "type": "Aghbala"
+    "id": "c-6",
+    "fr": "Kénitra",
+    "ar": "القنيطرة"
   },
   {
-    "id": "5",
-    "type": "Agni Izimmer"
+    "fr": "Agdz",
+    "ar": "أكدز"
   },
   {
-    "id": "6",
-    "type": "Agourai"
+    "fr": "Agourai",
+    "ar": "اكوراي"
   },
   {
-    "id": "7",
-    "type": "Ahfir"
+    "fr": "Ahfir",
+    "ar": "أحفير"
   },
   {
-    "id": "8",
-    "type": "Ain El Aouda"
+    "fr": "Ain Attig",
+    "ar": "عين عتيق"
   },
   {
-    "id": "9",
-    "type": "Ain Taoujdate"
+    "fr": "Ain Bni Mathar",
+    "ar": "عين بني مطهر"
   },
   {
-    "id": "10",
-    "type": "Ait Daoud"
+    "fr": "Ain El Aouda",
+    "ar": "عين العودة"
   },
   {
-    "id": "11",
-    "type": "Ajdir‎"
+    "fr": "Ain Erreggada",
+    "ar": "عين الركادة"
   },
   {
-    "id": "12",
-    "type": "Akchour"
+    "fr": "Ain Taoujdate",
+    "ar": "عين تاوجطات"
   },
   {
-    "id": "13",
-    "type": "Akka"
+    "fr": "Ait Baha",
+    "ar": "آيت باها"
   },
   {
-    "id": "14",
-    "type": "Aklim"
+    "fr": "Ait Daoud",
+    "ar": "آيت داوود"
   },
   {
-    "id": "15",
-    "type": "Aknoul‎"
+    "fr": "Ait Iaaza",
+    "ar": "آيت ايعزة"
   },
   {
-    "id": "16",
-    "type": "Al Aroui"
+    "fr": "Ait Melloul",
+    "ar": "آيت ملول"
   },
   {
-    "id": "17",
-    "type": "Al Hoceïma‎"
+    "fr": "Ait Ourir",
+    "ar": "آيت ورير"
   },
   {
-    "id": "18",
-    "type": "Alnif"
+    "fr": "Ajdir",
+    "ar": "أجدير"
   },
   {
-    "id": "19",
-    "type": "Amalou Ighriben"
+    "fr": "Akka",
+    "ar": "أقا"
   },
   {
-    "id": "20",
-    "type": "Amizmiz"
+    "fr": "Aklim",
+    "ar": "أكليم"
   },
   {
-    "id": "21",
-    "type": "Anzi"
+    "fr": "Aknoul",
+    "ar": "أكنول"
   },
   {
-    "id": "22",
-    "type": "Aoufous"
+    "fr": "Al Aaroui",
+    "ar": "العروي"
   },
   {
-    "id": "23",
-    "type": "Aoulouz"
+    "fr": "Al Hoceima",
+    "ar": "الحسيمة"
   },
   {
-    "id": "24",
-    "type": "Aourir"
+    "fr": "Al Machouar - Stinia",
+    "ar": "المشور الستينية"
   },
   {
-    "id": "25",
-    "type": "Arazane"
+    "fr": "amaat Shaim",
+    "ar": "جماعة سحيم"
   },
   {
-    "id": "26",
-    "type": "Arbaoua"
+    "fr": "Amizmiz",
+    "ar": "أمزميز"
   },
   {
-    "id": "27",
-    "type": "Arfoud"
+    "fr": "Arfoud",
+    "ar": "أرفود"
   },
   {
-    "id": "28",
-    "type": "Assa"
+    "fr": "Assa",
+    "ar": "آسا"
   },
   {
-    "id": "29",
-    "type": "Assahrij"
+    "fr": "Azemmour",
+    "ar": "أزمور"
   },
   {
-    "id": "30",
-    "type": "Assilah"
+    "fr": "Azilal",
+    "ar": "أزيلال"
   },
   {
-    "id": "31",
-    "type": "Awsard"
+    "fr": "Azrou",
+    "ar": "أزرو"
   },
   {
-    "id": "32",
-    "type": "Azemmour"
+    "fr": "Aïn Harrouda",
+    "ar": "عين حرودة"
   },
   {
-    "id": "33",
-    "type": "Azilal"
+    "fr": "Bejaad",
+    "ar": "أبي الجعد"
   },
   {
-    "id": "34",
-    "type": "Azrou"
+    "fr": "Ben Ahmed",
+    "ar": "بن أحمد"
   },
   {
-    "id": "35",
-    "type": "Aïn Bni Mathar"
+    "fr": "Ben Guerir",
+    "ar": "بن جرير"
   },
   {
-    "id": "36",
-    "type": "Aïn Cheggag"
+    "fr": "Ben Slimane",
+    "ar": "بنسليمان"
   },
   {
-    "id": "37",
-    "type": "Aïn Dorij"
+    "fr": "Ben Taieb",
+    "ar": "بن الطيب"
   },
   {
-    "id": "38",
-    "type": "Aïn Erreggada"
+    "fr": "Berkane",
+    "ar": "بركان"
   },
   {
-    "id": "39",
-    "type": "Aïn Harrouda"
+    "fr": "Berrechid",
+    "ar": "برشيد"
   },
   {
-    "id": "40",
-    "type": "Aïn Jemaa"
+    "fr": "Bhalil",
+    "ar": "البهاليل"
   },
   {
-    "id": "41",
-    "type": "Aïn Karma"
+    "fr": "Biougra",
+    "ar": "بيوكرة"
   },
   {
-    "id": "42",
-    "type": "Aïn Leuh"
+    "fr": "Bni Ansar",
+    "ar": "بني انصار"
   },
   {
-    "id": "43",
-    "type": "Aït Attab"
+    "fr": "Bni Bouayach",
+    "ar": "بني بوعياش"
   },
   {
-    "id": "44",
-    "type": "Aït Baha"
+    "fr": "Bni Drar",
+    "ar": "بني درار"
   },
   {
-    "id": "45",
-    "type": "Aït Boubidmane"
+    "fr": "Bouarfa",
+    "ar": "بوعرفة"
   },
   {
-    "id": "46",
-    "type": "Aït Hichem‎"
+    "fr": "Boudnib",
+    "ar": "بوذنيب"
   },
   {
-    "id": "47",
-    "type": "Aït Iaâza"
+    "fr": "Boufakrane",
+    "ar": "بوفكران"
   },
   {
-    "id": "48",
-    "type": "Aït Ishaq"
+    "fr": "Bouizakarne",
+    "ar": "بويزكارن"
   },
   {
-    "id": "49",
-    "type": "Aït Majden"
+    "fr": "Boujdour",
+    "ar": "بوجدور"
   },
   {
-    "id": "50",
-    "type": "Aït Melloul"
+    "fr": "Boujniba",
+    "ar": "بوجنيبة"
   },
   {
-    "id": "51",
-    "type": "Aït Ourir"
+    "fr": "Boulemane",
+    "ar": "بولمان"
   },
   {
-    "id": "52",
-    "type": "Aït Yalla"
+    "fr": "Boumalne Dades",
+    "ar": "بومالن دادس"
   },
   {
-    "id": "blank",
-    "type": " -------------- B ---------------"
+    "fr": "Bouskoura",
+    "ar": "بوسكورة"
   },
   {
-    "id": "53",
-    "type": "Bab Berred"
+    "fr": "Bouznika",
+    "ar": "بوزنيقة"
   },
   {
-    "id": "54",
-    "type": "Bab Taza"
+    "fr": "Béni Mellal",
+    "ar": "بني ملال"
   },
   {
-    "id": "55",
-    "type": "Bejaâd"
+    "fr": "Chefchaouen",
+    "ar": "شفشاون"
   },
   {
-    "id": "56",
-    "type": "Ben Ahmed"
+    "fr": "Chichaoua",
+    "ar": "شيشاوة"
   },
   {
-    "id": "57",
-    "type": "Ben Guerir"
+    "fr": "Dar Bouazza",
+    "ar": "دار بوعزة"
   },
   {
-    "id": "58",
-    "type": "Ben Sergao"
+    "fr": "Dar Gueddari",
+    "ar": "دار الكداري"
   },
   {
-    "id": "59",
-    "type": "Ben Taïeb"
+    "fr": "Dcheira El Jihadia",
+    "ar": "الدشيرة الجهادية"
   },
   {
-    "id": "60",
-    "type": "Ben Yakhlef"
+    "fr": "Debdou",
+    "ar": "دبدو"
   },
   {
-    "id": "61",
-    "type": "Ben Yakhlef"
+    "fr": "Demnate",
+    "ar": "دمنات"
   },
   {
-    "id": "62",
-    "type": "Beni Ayat"
+    "fr": "Deroua",
+    "ar": "الدروة"
   },
   {
-    "id": "63",
-    "type": "Benslimane"
+    "fr": "Driouch",
+    "ar": "الدريوش"
   },
   {
-    "id": "64",
-    "type": "Berkane"
+    "fr": "Echemmaia",
+    "ar": "الشماعية"
   },
   {
-    "id": "65",
-    "type": "Berrechid"
+    "fr": "Eddakhla",
+    "ar": "الداخلة"
   },
   {
-    "id": "66",
-    "type": "Bhalil"
+    "fr": "El Aioun Sidi Mellouk",
+    "ar": "العيون سيدي ملوك"
   },
   {
-    "id": "67",
-    "type": "Bin elouidane"
+    "fr": "El Gara",
+    "ar": "الكارة"
   },
   {
-    "id": "68",
-    "type": "Biougra"
+    "fr": "El Guerdane",
+    "ar": "الكردان"
   },
   {
-    "id": "69",
-    "type": "Bir Jdid"
+    "fr": "El Hajeb",
+    "ar": "الحاجب"
   },
   {
-    "id": "70",
-    "type": "Bni Ansar"
+    "fr": "El Hanchane",
+    "ar": "الحنشان"
   },
   {
-    "id": "71",
-    "type": "Bni Bouayach‎"
+    "fr": "El Jadida",
+    "ar": "الجديدة"
   },
   {
-    "id": "72",
-    "type": "Bni Chiker"
+    "fr": "El Kelâa des  Sraghna",
+    "ar": "قلعة السراغنة"
   },
   {
-    "id": "73",
-    "type": "Bni Drar"
+    "fr": "El Ksiba",
+    "ar": "القصيبة"
   },
   {
-    "id": "74",
-    "type": "Bni Hadifa‎"
+    "fr": "El Mansouria",
+    "ar": "المنصورية"
   },
   {
-    "id": "75",
-    "type": "Bni Tadjite"
+    "fr": "El Marsa",
+    "ar": "المرسى"
   },
   {
-    "id": "76",
-    "type": "Bouanane"
+    "fr": "El Menzel",
+    "ar": "المنزل"
   },
   {
-    "id": "77",
-    "type": "Bouarfa"
+    "fr": "El Ouatia",
+    "ar": "الوطية"
   },
   {
-    "id": "78",
-    "type": "Boudnib"
+    "fr": "Er-rich",
+    "ar": "الريش"
   },
   {
-    "id": "79",
-    "type": "Boufakrane"
+    "fr": "Errachidia",
+    "ar": "الرشيدية"
   },
   {
-    "id": "80",
-    "type": "Bouguedra"
+    "fr": "Es-Semara",
+    "ar": "السمارة"
   },
   {
-    "id": "81",
-    "type": "Bouhdila"
+    "fr": "Essaouira",
+    "ar": "الصويرة"
   },
   {
-    "id": "82",
-    "type": "Bouizakarne"
+    "fr": "Fam El Hisn",
+    "ar": "فم الحصن"
   },
   {
-    "id": "83",
-    "type": "Boujdour‎"
+    "fr": "Fnideq",
+    "ar": "الفنيدق"
   },
   {
-    "id": "84",
-    "type": "Boujniba"
+    "fr": "Foum Zguid",
+    "ar": "فم زكيد"
   },
   {
-    "id": "85",
-    "type": "Boulanouare"
+    "fr": "Fquih Ben Salah",
+    "ar": "الفقيه بن صالح"
   },
   {
-    "id": "86",
-    "type": "Boulemane"
+    "fr": "Fès",
+    "ar": "فاس"
   },
   {
-    "id": "87",
-    "type": "Boumalne-Dadès"
+    "fr": "Ghafsai",
+    "ar": "غفساي"
   },
   {
-    "id": "88",
-    "type": "Boumia"
+    "fr": "Goulmima",
+    "ar": "كلميمة"
   },
   {
-    "id": "89",
-    "type": "Bouskoura"
+    "fr": "Guelmim",
+    "ar": "كلميم"
   },
   {
-    "id": "90",
-    "type": "Bouznika"
+    "fr": "Guercif",
+    "ar": "جرسيف"
   },
   {
-    "id": "91",
-    "type": "Bradia"
+    "fr": "Had Kourt",
+    "ar": "احد كورت"
   },
   {
-    "id": "92",
-    "type": "Brikcha"
+    "fr": "Harhoura",
+    "ar": "هرهورة"
   },
   {
-    "id": "93",
-    "type": "Bzou"
+    "fr": "Hattane",
+    "ar": "حطان"
   },
   {
-    "id": "94",
-    "type": "Béni Mellal"
+    "fr": "Ifrane",
+    "ar": "إفران"
   },
   {
-    "id": "blank",
-    "type": " -------------- C ---------------"
+    "fr": "Imintanoute",
+    "ar": "إمنتانوت"
   },
   {
-    "id": "95",
-    "type": "Casablanca"
+    "fr": "Imouzzer Kandar",
+    "ar": "إيموزار كندر"
   },
   {
-    "id": "96",
-    "type": "Chefchaouen"
+    "fr": "Imouzzer Marmoucha",
+    "ar": "إيموزار مرموشة"
   },
   {
-    "id": "97",
-    "type": "Chichaoua"
+    "fr": "Imzouren",
+    "ar": "إمزورن"
   },
   {
-    "id": "blank",
-    "type": " -------------- D ---------------"
+    "fr": "Inezgane",
+    "ar": "إنزكان"
   },
   {
-    "id": "98",
-    "type": "Dar Bni Karrich"
+    "fr": "Irherm",
+    "ar": "إيغرم"
   },
   {
-    "id": "99",
-    "type": "Dar Chaoui"
+    "fr": "Jbarna",
+    "ar": "كزناية"
   },
   {
-    "id": "100",
-    "type": "Dar El Kebdani"
+    "fr": "Jerada",
+    "ar": "جرادة"
   },
   {
-    "id": "101",
-    "type": "Dar Gueddari"
+    "fr": "Jorf El Melha",
+    "ar": "جرف الملحة"
   },
   {
-    "id": "102",
-    "type": "Dar Oulad Zidouh"
+    "fr": "Kalaat M'Gouna",
+    "ar": "قلعة مغونة"
   },
   {
-    "id": "103",
-    "type": "Dcheira El Jihadia"
+    "fr": "Karia Ba Mohamed",
+    "ar": "قرية با محمد"
   },
   {
-    "id": "104",
-    "type": "Debdou"
+    "fr": "Kasba Tadla",
+    "ar": "قصبة تادلة"
   },
   {
-    "id": "105",
-    "type": "Demnate"
+    "fr": "Khouribga",
+    "ar": "خريبكة"
   },
   {
-    "id": "106",
-    "type": "Deroua"
+    "fr": "Khémisset",
+    "ar": "الخميسات"
   },
   {
-    "id": "107",
-    "type": "Douar Kannine"
+    "fr": "Khénifra",
+    "ar": "خنيفرة"
   },
   {
-    "id": "108",
-    "type": "Dra'a"
+    "fr": "Ksar El Kebir",
+    "ar": "القصر الكبير"
   },
   {
-    "id": "109",
-    "type": "Drargua"
+    "fr": "Laattaouia",
+    "ar": "العطاوية"
   },
   {
-    "id": "110",
-    "type": "Driouch"
+    "fr": "Laayoune",
+    "ar": "العيون"
   },
   {
-    "id": "blank",
-    "type": " -------------- E ---------------"
+    "fr": "Lagouira",
+    "ar": "الكويرة"
   },
   {
-    "id": "111",
-    "type": "Echemmaia"
+    "fr": "Lahraouyine",
+    "ar": "الهراويين"
   },
   {
-    "id": "112",
-    "type": "El Aïoun Sidi Mellouk"
+    "fr": "Lakhsas",
+    "ar": "الاخصاص"
   },
   {
-    "id": "113",
-    "type": "El Borouj"
+    "fr": "Larache",
+    "ar": "العرائش"
   },
   {
-    "id": "114",
-    "type": "El Gara"
+    "fr": "Lbir Jdid",
+    "ar": "البئر الجديد"
   },
   {
-    "id": "115",
-    "type": "El Guerdane"
+    "fr": "Loulad",
+    "ar": "لولاد"
   },
   {
-    "id": "116",
-    "type": "El Hajeb"
+    "fr": "Lqliaa",
+    "ar": "القليعة"
   },
   {
-    "id": "117",
-    "type": "El Hanchane"
+    "fr": "M'Diq",
+    "ar": "المضيق"
   },
   {
-    "id": "118",
-    "type": "El Jadida"
+    "fr": "M'Rirt",
+    "ar": "مريرت"
   },
   {
-    "id": "119",
-    "type": "El Kelaâ des Sraghna"
+    "fr": "Martil",
+    "ar": "مارتيل"
   },
   {
-    "id": "120",
-    "type": "El Ksiba"
+    "fr": "Mechraa Bel Ksiri",
+    "ar": "مشرع بلقصيري"
   },
   {
-    "id": "121",
-    "type": "El Marsa‎"
+    "fr": "Mediouna",
+    "ar": "مديونة"
   },
   {
-    "id": "122",
-    "type": "El Menzel"
+    "fr": "Mehdya",
+    "ar": "المهدية"
   },
   {
-    "id": "123",
-    "type": "El Ouatia"
+    "fr": "Meknès",
+    "ar": "مكناس"
   },
   {
-    "id": "124",
-    "type": "Elkbab"
+    "fr": "Midar",
+    "ar": "ميضار"
   },
   {
-    "id": "125",
-    "type": "Er-Rich"
+    "fr": "Midelt",
+    "ar": "ميدلت"
   },
   {
-    "id": "126",
-    "type": "Errachidia"
+    "fr": "Missour",
+    "ar": "ميسور"
   },
   {
-    "id": "127",
-    "type": "Es-Semara"
+    "fr": "Mohammédia",
+    "ar": "المحمدية"
   },
   {
-    "id": "128",
-    "type": "Essaouira"
+    "fr": "Moulay Ali Cherif",
+    "ar": "مولاي علي شريف"
   },
   {
-    "id": "blank",
-    "type": " -------------- F ---------------"
+    "fr": "Moulay Driss Zerhoun",
+    "ar": "مولاي إدريس زرهون"
   },
   {
-    "id": "129",
-    "type": "Fam El Hisn"
+    "fr": "Moulay Yacoub",
+    "ar": "مولاي يعقوب"
   },
   {
-    "id": "130",
-    "type": "Farkhana"
+    "fr": "Méchouar Fès Jdid",
+    "ar": "المشور فاس الجديد"
   },
   {
-    "id": "131",
-    "type": "Figuig"
+    "fr": "Méchouar-Kasba",
+    "ar": "المشور القصبة"
   },
   {
-    "id": "132",
-    "type": "Fnideq"
+    "fr": "Nador",
+    "ar": "الناظور"
   },
   {
-    "id": "133",
-    "type": "Foum Jamaa"
+    "fr": "Naima",
+    "ar": "النعيمة"
   },
   {
-    "id": "134",
-    "type": "Foum Zguid"
+    "fr": "Nouaceur",
+    "ar": "النواصر"
   },
   {
-    "id": "135",
-    "type": "Fquih Ben Salah"
+    "fr": "Ouarzazate",
+    "ar": "ورززات"
   },
   {
-    "id": "136",
-    "type": "Fraïta"
+    "fr": "Oued Amlil",
+    "ar": "واد أمليل"
   },
   {
-    "id": "137",
-    "type": "Fès"
+    "fr": "Oued Laou",
+    "ar": "واد لو"
   },
   {
-    "id": "blank",
-    "type": " -------------- G ---------------"
+    "fr": "Oued Zem",
+    "ar": "وادي زم"
   },
   {
-    "id": "138",
-    "type": "Gardmit"
+    "fr": "Ouezzane",
+    "ar": "وزان"
   },
   {
-    "id": "139",
-    "type": "Ghafsai‎"
+    "fr": "Ouislane",
+    "ar": "ويسلان"
   },
   {
-    "id": "140",
-    "type": "Ghmate"
+    "fr": "Oujda",
+    "ar": "وجدة"
   },
   {
-    "id": "141",
-    "type": "Goulmima"
+    "fr": "Oulad Abbou",
+    "ar": "أولاد عبو"
   },
   {
-    "id": "142",
-    "type": "Gourrama"
+    "fr": "Oulad Berhil",
+    "ar": "أولاد برحيل"
   },
   {
-    "id": "143",
-    "type": "Guelmim"
+    "fr": "Oulad Mrah",
+    "ar": "أولاد امراح"
   },
   {
-    "id": "144",
-    "type": "Guercif‎"
+    "fr": "Oulad Teima",
+    "ar": "أولاد تايمة"
   },
   {
-    "id": "145",
-    "type": "Gueznaia"
+    "fr": "Ouled Ayad",
+    "ar": "أولاد عياد"
   },
   {
-    "id": "146",
-    "type": "Guigou"
+    "fr": "Outat El Haj",
+    "ar": "أوطاط الحاج"
   },
   {
-    "id": "147",
-    "type": "Guisser"
+    "fr": "Ras El Ma",
+    "ar": "رأس الماء"
   },
   {
-    "id": "blank",
-    "type": " -------------- H ---------------"
+    "fr": "Ribate El Kheir",
+    "ar": "رباط الخير"
   },
   {
-    "id": "148",
-    "type": "Had Bouhssoussen"
+    "fr": "Rommani",
+    "ar": "الرماني"
   },
   {
-    "id": "149",
-    "type": "Had Kourt"
+    "fr": "Sabaa Aiyoun",
+    "ar": "سبع عيون"
   },
   {
-    "id": "150",
-    "type": "Haj Kaddour"
+    "fr": "Safi",
+    "ar": "آسفي"
   },
   {
-    "id": "151",
-    "type": "Harhoura"
+    "fr": "Saidia",
+    "ar": "السعيدية"
   },
   {
-    "id": "152",
-    "type": "Harte Lyamine"
+    "fr": "Salé",
+    "ar": "سلا"
   },
   {
-    "id": "153",
-    "type": "Hattane"
+    "fr": "Sebt Gzoula",
+    "ar": "سبت كزولة"
   },
   {
-    "id": "154",
-    "type": "Hrara"
+    "fr": "Sefrou",
+    "ar": "صفرو"
   },
   {
-    "id": "blank",
-    "type": " -------------- I ---------------"
+    "fr": "Selouane",
+    "ar": "سلوان"
   },
   {
-    "id": "155",
-    "type": "Ida Ougnidif"
+    "fr": "Settat",
+    "ar": "سطات"
   },
   {
-    "id": "156",
-    "type": "Ifrane"
+    "fr": "Sidi Allal El Bahraoui",
+    "ar": "سيدي علال البحراوي"
   },
   {
-    "id": "157",
-    "type": "Ifri"
+    "fr": "Sidi Bennour",
+    "ar": "سيدي بنور"
   },
   {
-    "id": "158",
-    "type": "Igdamen"
+    "fr": "Sidi Bou Othmane",
+    "ar": "سيدي بوعثمان"
   },
   {
-    "id": "159",
-    "type": "Ighil n'Oumgoun"
+    "fr": "Sidi Bouknadel",
+    "ar": "سيدي بوقنادل"
   },
   {
-    "id": "160",
-    "type": "Ighoud"
+    "fr": "Sidi Ifni",
+    "ar": "سيدي إفني"
   },
   {
-    "id": "161",
-    "type": "Ighounane"
+    "fr": "Sidi Kacem",
+    "ar": "سيدي قاسم"
   },
   {
-    "id": "162",
-    "type": "Ihddaden"
+    "fr": "Sidi Rahhal",
+    "ar": "سيدي رحال"
   },
   {
-    "id": "163",
-    "type": "Imassine"
+    "fr": "Sidi Rahhal Chataï",
+    "ar": "سيدي رحال الشاطئ"
   },
   {
-    "id": "164",
-    "type": "Imintanoute"
+    "fr": "Sidi Slimane",
+    "ar": "سيدي سليمان"
   },
   {
-    "id": "165",
-    "type": "Imouzzer Kandar"
+    "fr": "Sidi Slimane Echcharraa",
+    "ar": "سيدي سليمان الشراعة"
   },
   {
-    "id": "166",
-    "type": "Imouzzer Marmoucha"
+    "fr": "Sidi Yahya El Gharb",
+    "ar": "سيدي يحيى الغرب"
   },
   {
-    "id": "167",
-    "type": "Imzouren‎"
+    "fr": "Skhirate",
+    "ar": "الصخيرات"
   },
   {
-    "id": "168",
-    "type": "Inahnahen‎"
+    "fr": "Soualem",
+    "ar": "حد السوالم"
   },
   {
-    "id": "169",
-    "type": "Inezgane"
+    "fr": "Souk El Arbaa",
+    "ar": "سوق الأربعاء"
   },
   {
-    "id": "170",
-    "type": "Irherm"
+    "fr": "Souk Sebt Ouled Nemma",
+    "ar": "سوق السبت أولاد النمة"
   },
   {
-    "id": "171",
-    "type": "Issaguen (Ketama)‎"
+    "fr": "Tafraouten",
+    "ar": "تافراوت"
   },
   {
-    "id": "172",
-    "type": "Itzer"
+    "fr": "Tahannaout",
+    "ar": "تحناوت"
   },
   {
-    "id": "blank",
-    "type": " -------------- J ---------------"
+    "fr": "Tahla",
+    "ar": "تاهلة"
   },
   {
-    "id": "173",
-    "type": "Jamâat Shaim"
+    "fr": "Taliouine",
+    "ar": "تاليوين"
   },
   {
-    "id": "174",
-    "type": "Jaâdar"
+    "fr": "Talmest",
+    "ar": "تالمست"
   },
   {
-    "id": "175",
-    "type": "Jebha"
+    "fr": "Tamallalt",
+    "ar": "تملالت"
   },
   {
-    "id": "176",
-    "type": "Jerada"
+    "fr": "Tamanar",
+    "ar": "تمنار"
   },
   {
-    "id": "177",
-    "type": "Jorf El Melha"
+    "fr": "Tan-Tan",
+    "ar": "طانطان"
   },
   {
-    "id": "178",
-    "type": "Jorf Lasfar"
+    "fr": "Taounate",
+    "ar": "تاونات"
   },
   {
-    "id": "179",
-    "type": "Jorf"
+    "fr": "Taourirt",
+    "ar": "تاوريرت"
   },
   {
-    "id": "blank",
-    "type": " -------------- K ---------------"
+    "fr": "Tarfaya",
+    "ar": "طرفاية"
   },
   {
-    "id": "180",
-    "type": "Karia (El Jadida)‎"
+    "fr": "Targuist",
+    "ar": "تارجيست"
   },
   {
-    "id": "181",
-    "type": "Karia Ba Mohamed‎"
+    "fr": "Taroudannt",
+    "ar": "تارودانت"
   },
   {
-    "id": "182",
-    "type": "Karia"
+    "fr": "Tata",
+    "ar": "طاطا"
   },
   {
-    "id": "183",
-    "type": "Kariat Arekmane"
+    "fr": "Taza",
+    "ar": "تازة"
   },
   {
-    "id": "184",
-    "type": "Kasba Tadla"
+    "fr": "Taznakht",
+    "ar": "تازناخت"
   },
   {
-    "id": "185",
-    "type": "Kassita"
+    "fr": "Thar Es-souk",
+    "ar": "طهر السوق"
   },
   {
-    "id": "186",
-    "type": "Kattara"
+    "fr": "Tiflet",
+    "ar": "تيفلت"
   },
   {
-    "id": "187",
-    "type": "Kehf Nsour"
+    "fr": "Tinejdad",
+    "ar": "تنجداد"
   },
   {
-    "id": "188",
-    "type": "Kelaat-M'Gouna"
+    "fr": "Tinghir",
+    "ar": "تنغير"
   },
   {
-    "id": "189",
-    "type": "Kerouna"
+    "fr": "Tissa",
+    "ar": "تيسة"
   },
   {
-    "id": "190",
-    "type": "Kerrouchen"
+    "fr": "Tit Mellil",
+    "ar": "تيط مليل"
   },
   {
-    "id": "191",
-    "type": "Khemis Zemamra"
+    "fr": "Tiznit",
+    "ar": "تزنيت"
   },
   {
-    "id": "192",
-    "type": "Khenichet"
+    "fr": "Touarga",
+    "ar": "التواركة"
   },
   {
-    "id": "193",
-    "type": "Khouribga"
+    "fr": "Touissit",
+    "ar": "تويسيت"
   },
   {
-    "id": "194",
-    "type": "Khémis Sahel"
+    "fr": "Toulal",
+    "ar": "تولال"
   },
   {
-    "id": "195",
-    "type": "Khémisset"
+    "fr": "Témara",
+    "ar": "تمارة"
   },
   {
-    "id": "196",
-    "type": "Khénifra"
+    "fr": "Tétouan",
+    "ar": "تطوان"
   },
   {
-    "id": "197",
-    "type": "Ksar El Kébir"
+    "fr": "Youssoufia",
+    "ar": "اليوسفية"
   },
   {
-    "id": "198",
-    "type": "Kénitra"
+    "fr": "Zag",
+    "ar": "الزاك"
   },
   {
-    "id": "blank",
-    "type": " -------------- L ---------------"
+    "fr": "Zagora",
+    "ar": "زاكورة"
   },
   {
-    "id": "199",
-    "type": "Laaounate"
+    "fr": "Zaio",
+    "ar": "زايو"
   },
   {
-    "id": "200",
-    "type": "Laayoune‎"
+    "fr": "Zaouiat Cheikh",
+    "ar": "زاوية الشيخ"
   },
   {
-    "id": "201",
-    "type": "Lakhsas"
+    "fr": "Zeghanghane",
+    "ar": "أزغنغان"
   },
   {
-    "id": "202",
-    "type": "Lakhsass"
-  },
-  {
-    "id": "203",
-    "type": "Lalla Mimouna"
-  },
-  {
-    "id": "204",
-    "type": "Lalla Takerkoust"
-  },
-  {
-    "id": "205",
-    "type": "Larache"
-  },
-  {
-    "id": "206",
-    "type": "Laâtamna"
-  },
-  {
-    "id": "207",
-    "type": "Loudaya"
-  },
-  {
-    "id": "208",
-    "type": "Loulad"
-  },
-  {
-    "id": "209",
-    "type": "Lqliâa"
-  },
-  {
-    "id": "210",
-    "type": "Lâattaouia"
-  },
-  {
-    "id": "blank",
-    "type": " -------------- M ---------------"
-  },
-  {
-    "id": "211",
-    "type": "M'diq"
-  },
-  {
-    "id": "212",
-    "type": "M'haya"
-  },
-  {
-    "id": "213",
-    "type": "M'rirt"
-  },
-  {
-    "id": "214",
-    "type": "M'semrir"
-  },
-  {
-    "id": "215",
-    "type": "Madagh"
-  },
-  {
-    "id": "216",
-    "type": "Marrakech"
-  },
-  {
-    "id": "217",
-    "type": "Martil"
-  },
-  {
-    "id": "218",
-    "type": "Massa"
-  },
-  {
-    "id": "219",
-    "type": "Mechra Bel Ksiri"
-  },
-  {
-    "id": "220",
-    "type": "Megousse"
-  },
-  {
-    "id": "221",
-    "type": "Mehdia"
-  },
-  {
-    "id": "222",
-    "type": "Meknès‎"
-  },
-  {
-    "id": "223",
-    "type": "Midar"
-  },
-  {
-    "id": "224",
-    "type": "Midelt"
-  },
-  {
-    "id": "225",
-    "type": "Missour"
-  },
-  {
-    "id": "226",
-    "type": "Mohammadia"
-  },
-  {
-    "id": "227",
-    "type": "Moqrisset"
-  },
-  {
-    "id": "228",
-    "type": "Moulay Abdallah"
-  },
-  {
-    "id": "229",
-    "type": "Moulay Ali Cherif"
-  },
-  {
-    "id": "230",
-    "type": "Moulay Bouazza"
-  },
-  {
-    "id": "231",
-    "type": "Moulay Bousselham"
-  },
-  {
-    "id": "232",
-    "type": "Moulay Brahim"
-  },
-  {
-    "id": "233",
-    "type": "Moulay Idriss Zerhoun"
-  },
-  {
-    "id": "234",
-    "type": "Moulay Yaâcoub"
-  },
-  {
-    "id": "235",
-    "type": "Moussaoua"
-  },
-  {
-    "id": "236",
-    "type": "MyAliCherif"
-  },
-  {
-    "id": "237",
-    "type": "Mzouda"
-  },
-  {
-    "id": "238",
-    "type": "Médiouna"
-  },
-  {
-    "id": "blank",
-    "type": " -------------- N ---------------"
-  },
-  {
-    "id": "239",
-    "type": "N'Zalat Bni Amar"
-  },
-  {
-    "id": "240",
-    "type": "Nador"
-  },
-  {
-    "id": "241",
-    "type": "Naima"
-  },
-  {
-    "id": "blank",
-    "type": " -------------- O ---------------"
-  },
-  {
-    "id": "242",
-    "type": "Oualidia"
-  },
-  {
-    "id": "243",
-    "type": "Ouaouizeght"
-  },
-  {
-    "id": "244",
-    "type": "Ouaoumana"
-  },
-  {
-    "id": "245",
-    "type": "Ouarzazate"
-  },
-  {
-    "id": "246",
-    "type": "Ouazzane"
-  },
-  {
-    "id": "247",
-    "type": "Oued Amlil‎"
-  },
-  {
-    "id": "248",
-    "type": "Oued Heimer"
-  },
-  {
-    "id": "249",
-    "type": "Oued Ifrane"
-  },
-  {
-    "id": "250",
-    "type": "Oued Laou"
-  },
-  {
-    "id": "251",
-    "type": "Oued Rmel"
-  },
-  {
-    "id": "252",
-    "type": "Oued Zem"
-  },
-  {
-    "id": "253",
-    "type": "Oued-Eddahab"
-  },
-  {
-    "id": "254",
-    "type": "Oujda"
-  },
-  {
-    "id": "255",
-    "type": "Oulad Abbou"
-  },
-  {
-    "id": "256",
-    "type": "Oulad Amrane"
-  },
-  {
-    "id": "257",
-    "type": "Oulad Ayad"
-  },
-  {
-    "id": "258",
-    "type": "Oulad Berhil"
-  },
-  {
-    "id": "259",
-    "type": "Oulad Frej"
-  },
-  {
-    "id": "260",
-    "type": "Oulad Ghadbane"
-  },
-  {
-    "id": "261",
-    "type": "Oulad H'Riz Sahel"
-  },
-  {
-    "id": "262",
-    "type": "Oulad M'Barek"
-  },
-  {
-    "id": "263",
-    "type": "Oulad M'rah"
-  },
-  {
-    "id": "264",
-    "type": "Oulad Saïd"
-  },
-  {
-    "id": "265",
-    "type": "Oulad Sidi Ben Daoud"
-  },
-  {
-    "id": "266",
-    "type": "Oulad Teïma"
-  },
-  {
-    "id": "267",
-    "type": "Oulad Yaich"
-  },
-  {
-    "id": "268",
-    "type": "Oulad Zbair‎"
-  },
-  {
-    "id": "269",
-    "type": "Ouled Tayeb"
-  },
-  {
-    "id": "270",
-    "type": "Oulmès"
-  },
-  {
-    "id": "271",
-    "type": "Ounagha"
-  },
-  {
-    "id": "272",
-    "type": "Outat El Haj"
-  },
-  {
-    "id": "blank",
-    "type": " -------------- P ---------------"
-  },
-  {
-    "id": "273",
-    "type": "Point Cires"
-  },
-  {
-    "id": "blank",
-    "type": " -------------- R ---------------"
-  },
-  {
-    "id": "274",
-    "type": "Rabat"
-  },
-  {
-    "id": "275",
-    "type": "Ras El Aïn"
-  },
-  {
-    "id": "276",
-    "type": "Ras El Ma"
-  },
-  {
-    "id": "277",
-    "type": "Ribate El Kheir"
-  },
-  {
-    "id": "278",
-    "type": "Rissani"
-  },
-  {
-    "id": "279",
-    "type": "Rommani"
-  },
-  {
-    "id": "blank",
-    "type": " -------------- S ---------------"
-  },
-  {
-    "id": "280",
-    "type": "Sabaa Aiyoun"
-  },
-  {
-    "id": "281",
-    "type": "Safi"
-  },
-  {
-    "id": "282",
-    "type": "Salé"
-  },
-  {
-    "id": "283",
-    "type": "Sarghine"
-  },
-  {
-    "id": "284",
-    "type": "Saïdia"
-  },
-  {
-    "id": "285",
-    "type": "Sebt El Maârif"
-  },
-  {
-    "id": "286",
-    "type": "Sebt Gzoula"
-  },
-  {
-    "id": "287",
-    "type": "Sebt Jahjouh"
-  },
-  {
-    "id": "288",
-    "type": "Selouane"
-  },
-  {
-    "id": "289",
-    "type": "Settat"
-  },
-  {
-    "id": "290",
-    "type": "Sid L'Mokhtar"
-  },
-  {
-    "id": "291",
-    "type": "Sid Zouin"
-  },
-  {
-    "id": "292",
-    "type": "Sidi Abdallah Ghiat"
-  },
-  {
-    "id": "293",
-    "type": "Sidi Addi"
-  },
-  {
-    "id": "294",
-    "type": "Sidi Ahmed"
-  },
-  {
-    "id": "295",
-    "type": "Sidi Ali Ban Hamdouche"
-  },
-  {
-    "id": "296",
-    "type": "Sidi Allal El Bahraoui"
-  },
-  {
-    "id": "297",
-    "type": "Sidi Allal Tazi"
-  },
-  {
-    "id": "298",
-    "type": "Sidi Bennour"
-  },
-  {
-    "id": "299",
-    "type": "Sidi Bou Othmane"
-  },
-  {
-    "id": "300",
-    "type": "Sidi Boubker"
-  },
-  {
-    "id": "301",
-    "type": "Sidi Bouknadel"
-  },
-  {
-    "id": "302",
-    "type": "Sidi Bouzid"
-  },
-  {
-    "id": "303",
-    "type": "Sidi Ifni"
-  },
-  {
-    "id": "304",
-    "type": "Sidi Jaber"
-  },
-  {
-    "id": "305",
-    "type": "Sidi Kacem"
-  },
-  {
-    "id": "306",
-    "type": "Sidi Lyamani"
-  },
-  {
-    "id": "307",
-    "type": "Sidi Mohamed ben Abdallah el-Raisuni"
-  },
-  {
-    "id": "308",
-    "type": "Sidi Rahhal Chataï"
-  },
-  {
-    "id": "309",
-    "type": "Sidi Rahhal"
-  },
-  {
-    "id": "310",
-    "type": "Sidi Slimane Echcharaa"
-  },
-  {
-    "id": "311",
-    "type": "Sidi Slimane"
-  },
-  {
-    "id": "312",
-    "type": "Sidi Smaïl"
-  },
-  {
-    "id": "313",
-    "type": "Sidi Taibi"
-  },
-  {
-    "id": "314",
-    "type": "Sidi Yahya El Gharb"
-  },
-  {
-    "id": "315",
-    "type": "Skhinate"
-  },
-  {
-    "id": "316",
-    "type": "Skhirate"
-  },
-  {
-    "id": "317",
-    "type": "Skhour Rehamna"
-  },
-  {
-    "id": "318",
-    "type": "Skoura"
-  },
-  {
-    "id": "319",
-    "type": "Smimou"
-  },
-  {
-    "id": "320",
-    "type": "Soualem"
-  },
-  {
-    "id": "321",
-    "type": "Souk El Arbaa"
-  },
-  {
-    "id": "322",
-    "type": "Souk Sebt Oulad Nemma"
-  },
-  {
-    "id": "323",
-    "type": "Stehat"
-  },
-  {
-    "id": "324",
-    "type": "Séfrou"
-  },
-  {
-    "id": "blank",
-    "type": " -------------- T ---------------"
-  },
-  {
-    "id": "325",
-    "type": "Tabounte"
-  },
-  {
-    "id": "326",
-    "type": "Tafajight"
-  },
-  {
-    "id": "327",
-    "type": "Tafetachte"
-  },
-  {
-    "id": "328",
-    "type": "Tafraout"
-  },
-  {
-    "id": "329",
-    "type": "Taghjijt"
-  },
-  {
-    "id": "330",
-    "type": "Taghzout"
-  },
-  {
-    "id": "331",
-    "type": "Tagzen"
-  },
-  {
-    "id": "332",
-    "type": "Tahannaout"
-  },
-  {
-    "id": "333",
-    "type": "Tahla‎"
-  },
-  {
-    "id": "334",
-    "type": "Tala Tazegwaght‎"
-  },
-  {
-    "id": "335",
-    "type": "Taliouine"
-  },
-  {
-    "id": "336",
-    "type": "Talmest"
-  },
-  {
-    "id": "337",
-    "type": "Talsint"
-  },
-  {
-    "id": "338",
-    "type": "Tamallalt"
-  },
-  {
-    "id": "339",
-    "type": "Tamanar"
-  },
-  {
-    "id": "340",
-    "type": "Tamansourt"
-  },
-  {
-    "id": "341",
-    "type": "Tamassint‎"
-  },
-  {
-    "id": "342",
-    "type": "Tamegroute"
-  },
-  {
-    "id": "343",
-    "type": "Tameslouht"
-  },
-  {
-    "id": "344",
-    "type": "Tamesna"
-  },
-  {
-    "id": "345",
-    "type": "Tamraght"
-  },
-  {
-    "id": "346",
-    "type": "Tan-Tan"
-  },
-  {
-    "id": "347",
-    "type": "Tanalt"
-  },
-  {
-    "id": "348",
-    "type": "Tanger‎"
-  },
-  {
-    "id": "349",
-    "type": "Tanoumrite Nkob Zagora"
-  },
-  {
-    "id": "350",
-    "type": "Taounate‎"
-  },
-  {
-    "id": "351",
-    "type": "Taourirt ait zaghar"
-  },
-  {
-    "id": "352",
-    "type": "Taourirt"
-  },
-  {
-    "id": "353",
-    "type": "Tarfaya‎"
-  },
-  {
-    "id": "354",
-    "type": "Targuist‎"
-  },
-  {
-    "id": "355",
-    "type": "Taroudannt"
-  },
-  {
-    "id": "356",
-    "type": "Tata"
-  },
-  {
-    "id": "357",
-    "type": "Taza‎"
-  },
-  {
-    "id": "358",
-    "type": "Taïnaste‎"
-  },
-  {
-    "id": "359",
-    "type": "Temsia"
-  },
-  {
-    "id": "360",
-    "type": "Tendrara"
-  },
-  {
-    "id": "361",
-    "type": "Thar Es-Souk‎"
-  },
-  {
-    "id": "362",
-    "type": "Tichoute"
-  },
-  {
-    "id": "363",
-    "type": "Tiddas"
-  },
-  {
-    "id": "364",
-    "type": "Tiflet"
-  },
-  {
-    "id": "365",
-    "type": "Tifnit"
-  },
-  {
-    "id": "366",
-    "type": "Tighassaline"
-  },
-  {
-    "id": "367",
-    "type": "Tighza"
-  },
-  {
-    "id": "368",
-    "type": "Timahdite"
-  },
-  {
-    "id": "369",
-    "type": "Tinejdad"
-  },
-  {
-    "id": "370",
-    "type": "Tisgdal"
-  },
-  {
-    "id": "371",
-    "type": "Tissa‎"
-  },
-  {
-    "id": "372",
-    "type": "Tit Mellil"
-  },
-  {
-    "id": "373",
-    "type": "Tizguite"
-  },
-  {
-    "id": "374",
-    "type": "Tizi Ouasli‎"
-  },
-  {
-    "id": "375",
-    "type": "Tiznit"
-  },
-  {
-    "id": "376",
-    "type": "Tiztoutine"
-  },
-  {
-    "id": "377",
-    "type": "Touarga"
-  },
-  {
-    "id": "378",
-    "type": "Touima"
-  },
-  {
-    "id": "379",
-    "type": "Touissit"
-  },
-  {
-    "id": "380",
-    "type": "Toulal"
-  },
-  {
-    "id": "381",
-    "type": "Toundoute"
-  },
-  {
-    "id": "382",
-    "type": "Tounfite"
-  },
-  {
-    "id": "383",
-    "type": "Témara"
-  },
-  {
-    "id": "384",
-    "type": "Tétouan‎"
-  },
-  {
-    "id": "385",
-    "type": "Youssoufia"
-  },
-  {
-    "id": "blank",
-    "type": " -------------- Z ---------------"
-  },
-  {
-    "id": "386",
-    "type": "Zag"
-  },
-  {
-    "id": "387",
-    "type": "Zagora"
-  },
-  {
-    "id": "388",
-    "type": "Zaouia d'Ifrane"
-  },
-  {
-    "id": "389",
-    "type": "Zaouïat Cheikh"
-  },
-  {
-    "id": "390",
-    "type": "Zaïda"
-  },
-  {
-    "id": "391",
-    "type": "Zaïo"
-  },
-  {
-    "id": "392",
-    "type": "Zeghanghane"
-  },
-  {
-    "id": "393",
-    "type": "Zeubelemok"
-  },
-  {
-    "id": "394",
-    "type": "Zinat"
+    "fr": "Zemamra",
+    "ar": "زمامرة"
   }
 ]

@@ -1,25 +1,32 @@
-[{
-        "image": "user-alt",
-        "text": "places"
+[
+    {
+        "id": "place",
+        "image": "fa-user-alt",
+        "tooltip": "nombre de places"
     },
     {
-        "image": "window-maximize",
-        "text": "portes"
+        "id": "porte",
+        "image": "fa-window-maximize",
+        "tooltip": "nombre de portes"
     },
     {
-        "image": "car",
-        "text": ""
+        "id": "type",
+        "image": "fa-car",
+        "tooltip": "le type de la voiture"
     },
     {
-        "image": "snowflake",
-        "text": "climatisée"
+        "id": "climat",
+        "image": "fa-snowflake",
+        "tooltip": "le type de climatisation"
     },
     {
-        "image": "cogs",
-        "text": ""
+        "id": "boite",
+        "image": "fa-cogs",
+        "tooltip": "le type de la boite de vitesse"
     },
     {
-        "image": "gas-pump",
-        "text": ""
+        "id": "carburant",
+        "image": "fa-gas-pump",
+        "tooltip": "le type de carburant"
     }
 ]

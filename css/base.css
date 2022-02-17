@@ -1,0 +1,319 @@
+/* ====================== FONT STYLE */
+
+.main-font {
+  font-family: "Exo 2", sans-serif;
+}
+
+/* ====================== HEADER BACKGOUND */
+
+.header-background {
+  background-image: url("/../graphics/the-header.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+/* ====================== FONT SIZES */
+
+.bg-my-1 {
+  background-color: #f2f2f2;
+}
+
+/* ====================== BACK COLOR */
+.fn-10 {
+  font-size: 10px;
+}
+.fn-11 {
+  font-size: 11px;
+}
+.fn-12 {
+  font-size: 12px;
+}
+.fn-13 {
+  font-size: 13px;
+}
+.fn-14 {
+  font-size: 14px;
+}
+.fn-15 {
+  font-size: 15px;
+}
+.fn-16 {
+  font-size: 16px;
+}
+.fn-17 {
+  font-size: 17px;
+}
+.fn-18 {
+  font-size: 18px;
+}
+.fn-19 {
+  font-size: 19px;
+}
+.fn-20 {
+  font-size: 20px;
+}
+.fn-21 {
+  font-size: 21px;
+}
+.fn-22 {
+  font-size: 22px;
+}
+.fn-23 {
+  font-size: 23px;
+}
+.fn-24 {
+  font-size: 24px;
+}
+.fn-25 {
+  font-size: 25px;
+}
+.fn-26 {
+  font-size: 26px;
+}
+.fn-27 {
+  font-size: 27px;
+}
+.fn-28 {
+  font-size: 28px;
+}
+.fn-29 {
+  font-size: 29px;
+}
+.fn-30 {
+  font-size: 30px;
+}
+
+.fn-25-min {
+  font-size: min(6vw, 25px);
+}
+
+.fn-20-min {
+  font-size: min(4vw, 20px);
+}
+/* ====================== GRID */
+
+.grid-0 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.grid-1 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+}
+
+.grid-4 {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.grid-5 {
+  display: grid;
+  grid-template-columns: 1fr 22px;
+}
+
+.grid-6 {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+}
+
+.grid-7 {
+  display: grid;
+  grid-template-columns: 30px 1fr;
+}
+
+.grid-8 {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.grid-9 {
+  display: grid;
+  grid-template-columns: 20px 1fr;
+}
+
+.grid-10 {
+  display: grid;
+  grid-template-columns: 1fr 20px;
+}
+
+.grid-11 {
+  display: grid;
+  grid-template-columns: 20px 1fr 60px;
+}
+
+.grid-13 {
+  display: grid;
+  grid-template-rows: 1fr 30px;
+}
+
+/* ====================== GOOGLE MAP */
+
+#map {
+  height: 470px;
+}
+
+#map-preview {
+  height: 300px;
+}
+/* ============== SCROLL STYLE */
+
+.scrl-h {
+  position: relative;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.scrl-v {
+  position: relative;
+  overflow: auto;
+  white-space: normal;
+}
+
+.scrl-v-1 {
+  position: relative;
+  overflow: auto;
+  white-space: normal;
+}
+
+.scrl-v::-webkit-scrollbar {
+  width: 5px;
+  height: 2px;
+}
+.scrl-v::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+.scrl-v::-webkit-scrollbar-thumb {
+  background: #dedede;
+  border-radius: 2.5px;
+}
+
+.scrl-v-1::-webkit-scrollbar {
+  width: 1px;
+  height: 2px;
+}
+.scrl-v-1::-webkit-scrollbar-track {
+  background: #343a40;
+  border-radius: 0.5px;
+}
+.scrl-v-1::-webkit-scrollbar-thumb {
+  background: #dedede;
+  border-radius: 0.5px;
+}
+
+/* .scrl-h-cs::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+.scrl-h-cs::-webkit-scrollbar-track {
+  background: #f2f2f2;
+  border-radius: 1px;
+}
+.scrl-h-cs::-webkit-scrollbar-thumb {
+  background: #a3af9e;
+  border-radius: 1px;
+} */
+
+/* ============== WIDTH HEIGTH*/
+
+.w-0 {
+  width: 260px;
+}
+.w-1 {
+  width: 250px;
+}
+.h-0 {
+  height: 200px;
+}
+.h-1 {
+  height: 100px;
+}
+.h-100 {
+  height: 100%;
+}
+.w-max-0 {
+  max-width: 450px;
+}
+.w-max-1 {
+  max-width: 650px;
+}
+.w-max-2 {
+  max-width: 850px;
+}
+
+.h-3 {
+  height: 325px;
+}
+.h-4 {
+  height: 220px;
+}
+.w-2 {
+  width: 187px;
+}
+
+.w-3 {
+  width: 289px;
+}
+
+.h-min-1 {
+  min-height: 225px;
+}
+
+.h-5 {
+  height: 160px;
+}
+/* ============== POSITION */
+
+.right-0 {
+  right: 0;
+}
+.left-0 {
+  left: 0;
+}
+.bottom-0 {
+  bottom: 0;
+}
+.top-0 {
+  top: 0;
+}
+
+/* ================ OTHER */
+
+.store-background {
+  background: rgb(249, 249, 163);
+  background: radial-gradient(circle, rgba(249, 249, 163, 1) 0%, rgba(148, 195, 233, 1) 100%);
+}
+
+.mrg-0 {
+  margin-top: -4px;
+}
+
+.mrg-1 {
+  margin-top: -2px;
+}
+
+.animation {
+    position: relative;
+    animation-name: zoom;
+    animation-duration: 0.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+  @keyframes zoom {
+    0%   {font-size: 14px;}
+    100% {font-size: 16px;}
+  }

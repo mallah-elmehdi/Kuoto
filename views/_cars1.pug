@@ -1,0 +1,48 @@
+a.text-decoration-none.text-dark(href=`/voiture/${car._id}`)
+    .card.rounded-0.shadow-sm.w-100.mb-3.border-0.h-100
+        if (car.photo.length > 1)
+            -var id = `#car-${car._id}`
+            .carousel.slide(data-ride="carousel" data-interval="0" id=`car-${car._id}`)
+
+                ol.carousel-indicators
+                    li.active(data-target=`${car._id}` data-slide-to="0")
+                    -for (var i = 1; i < car.photo.length; i++)
+                        li(data-target=`${id}` data-slide-to=`${i}`)
+
+                .carousel-inner
+                    .carousel-item.active
+                        img.d-block.w-100(src=`/../graphics/cars/${car.photo[0]}`)
+                    -for (var i = 1; i < car.photo.length; i++)
+                        .carousel-item
+                            img.d-block.w-100(src=`/../graphics/cars/${car.photo[i]}`)
+
+                .carousel-control-prev(href=`${id}` role="button" data-slide="prev")
+                    span.carousel-control-prev-icon(aria-hidden="true")
+                    span.sr-only Previous
+                .carousel-control-next(href=`${id}` role="button" data-slide="next")
+                    span.carousel-control-next-icon(aria-hidden="true")
+                    span.sr-only Next
+        else
+            img.d-block.w-100(src=`/../graphics/cars/${car.photo[0]}`)
+
+        .px-2.pt-3
+            .text-center.fn-25
+
+                if (car.remise && car.remise > 0)
+                    .fn-15.font-weight-bold
+                        span.list-group-item-primary.p-1= `${parseInt(car.price - (car.price * (car.remise / 100)))} Dhs `
+                    .fn-12
+                        del.mr-1.font-weight-normal.text-secondary= car.price + " Dhs"
+                else
+                    .fn-15.font-weight-bold
+                        span.list-group-item-primary.p-1= car.price + " Dhs "
+
+                - var title =  `${car.marque.fr} - ${car.model.fr}`
+                if (title.length > 26)
+                    .fn-16= title.slice(0, 24) + ".."
+                else
+                    .fn-16= title
+                if (car.star > 0)
+                    .fn-12.font-weight-bold
+                        span.mr-1= car.star
+                        i.fas.fa-star.text-warning
