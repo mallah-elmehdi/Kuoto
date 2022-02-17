@@ -1,101 +1,101 @@
 extends base
 
 block append footer
-    script(src="/../js/creerBoutique.js")
+	script(src="/../js/creerBoutique.js")
 
 block content
-    .store-background
-    
-        - var messages = getMessages()
-        if (messages.message)
-            section.text-center.fixed-top.w-max-1.mx-auto.text-white
-                .alert.bg-danger.alert-dismissible.fade.show.rounded-0(role="alert")
-                    i.fas.fa-times-circle
-                    span.ml-2.my-auto= messages.message
-                    button.close(type="button" data-dismiss="alert" aria-label="Close")
-                        span(aria-hidden="true") &times;
-                        
-        .container.text-center.py-5          
-            .text-center.bg-white.p-5.w-max-1.mx-auto.shadow-sm
-                a(href="/")
-                    img(src="/../graphics/logo.png" width="70px" alt="Kauto.ma")
-                p.w-max-1.fn-20-min.mx-auto.my-2 Bienvenue sur l'agence gratuite en ligne de KAUTO. Prenez cette route pour une nouvelle aventure
-                
-                img(src="/../graphics/bar-personne.png").w-100.mb-2
-                
-                form(action="/creer-agence" method="post" enctype='multipart/form-data')
-                    .form-group
-                        - var name = messages.name || ""
-                        input.form-control.rounded-0(type="text" id="name" name="name" placeholder="Nom et Prénom" value=`${name}`)
-                    .form-group
-                        - var email = messages.email || ""
-                        input.form-control.rounded-0(type="text" id="email" name="email" placeholder="vous@example.com" value=`${email}`)
-                    .form-group
-                        input.form-control.rounded-0(type="password" id="password" name="password" placeholder="Tapez un mot de passe")
-                    .form-group
-                        input.form-control.rounded-0(type="password" id="repassword" name="repassword" placeholder="Comfirmez le mot de passe")
-                    img(src="/../graphics/bar-store.png").w-100.mb-2
-                    .form-group
-                        - var storename = messages.storename || ""
-                        input.form-control.rounded-0(type="text" id="storename" name="storename" placeholder="Nom d'agence" value=`${storename}`)
-                    .form-group
-                        - var adresse = messages.adresse || ""
-                        input.form-control.rounded-0(type="text" id="adresse" name="adresse" placeholder="Address d'agence" value=`${adresse}`)
-                    .form-group
-                        .input-group
-                            .input-group-prepend
-                                .input-group-text.rounded-0 +212
-                            - var phone = messages.phone || ""
-                            input.form-control.rounded-0(type="text" id="phone" name="phone" placeholder="Numéro de téléphone" value=`${phone}`)
-                    .form-group
-                        .input-group
-                            .input-group-prepend
-                                .input-group-text.rounded-0
-                                    i.fab.fa-whatsapp.text-success.mr-2
-                                    span +212
-                            - var whatsapp = messages.whatsapp || ""
-                            input.form-control.rounded-0(type="text" id="whatsapp" name="whatsapp" placeholder="Numéro de Whatsapp" value=`${phone}`)
-                    .form-group
-                        .input-group
-                            .input-group-prepend
-                                .input-group-text.rounded-0
-                                    i.fab.fa-facebook-messenger.text-primary
-                            - var messenger = messages.messenger || ""
-                            input.form-control.rounded-0(type="text" id="messenger" name="messenger" placeholder="votre nom d'utilisateur facebook" value=`${phone}`)
-                            span.form-text.w-100.text-muted https://www.facebook.com/messages/t/
-                                span.font-weight-bold.text-danger xxxxxx
-                            span.w-100.text-danger entrez seulement le
-                                span.font-weight-bold.text-danger.ml-1 xxxxxx
-                    .form-group
-                        select.rounded-0.custom-select(id="ville" type="text" name="city")
-                            option(value=null selected disabled) Choisissez la ville
-                            each city in cities
-                                option(value=`${JSON.stringify(city)}`)= `${city.fr}`
-                    .form-group
-                        select.rounded-0.custom-select(id="secteur" type="text" name="secteur")
-                            option(value=null selected disabled) Choisissez le secteur
-                    .form-group.text-left
-                        .input-group
-                            input(type="text" name="location" id="location" hidden)
-                            input.form-control.rounded-0(placeholder="Localisation de l'agence" id="lnglat" disabled aria-describedby="map-store")
-                            .input-group-append
-                                button.btn.btn-warning.rounded-0(type="button" id="map-store")
-                                    i.fas.fa-map-marker-alt.mr-2
-                                    span cliquez ici
-                    .form-group
-                        #map-preview.w-100
-                    .form-group.text-left
-                        .input-group
-                            .input-group-prepend
-                                .input-group-text.rounded-0
-                                    i.fas.fa-camera
-                            .custom-file
-                                input.rounded-0.custom-file-input(type="file" id="logo" name="logo")
-                                label.custom-file-label.rounded-0(data-browse="ajouter") Logo de l'agence
-                    .form-group.text-left
-                        .btn.btn-danger.mb-2.rounded-0(id="remove" style="display: none")
-                            i.fas.fa-times
-                        img.w-100.border(src="/../graphics/logo-preview.png" id="logo-preview"  alt="Logo preview")
-                                
-        
-                    button.btn.btn-primary.mx-auto.rounded-0(id="store-submit") Enregister
+	.store-background
+	
+		- var messages = getMessages()
+		if (messages.message)
+			section.text-center.fixed-top.w-max-1.mx-auto.text-white
+				.alert.bg-danger.alert-dismissible.fade.show.rounded-0(role="alert")
+					i.fas.fa-times-circle
+					span.ml-2.my-auto= messages.message
+					button.close(type="button" data-dismiss="alert" aria-label="Close")
+						span(aria-hidden="true") &times;
+						
+		.container.text-center.py-5          
+			.text-center.bg-white.p-5.w-max-1.mx-auto.shadow-sm
+				a(href="/")
+					img(src="/../graphics/logo.png" width="70px" alt="Kauto.ma")
+				p.w-max-1.fn-20-min.mx-auto.my-2 Bienvenue sur l'agence gratuite en ligne de KAUTO. Prenez cette route pour une nouvelle aventure
+				
+				img(src="/../graphics/bar-personne.png").w-100.mb-2
+				
+				form(action="/creer-agence" method="post" enctype='multipart/form-data')
+					.form-group
+						- var name = messages.name || ""
+						input.form-control.rounded-0(type="text" id="name" name="name" placeholder="Nom et Prénom" value=`${name}`)
+					.form-group
+						- var email = messages.email || ""
+						input.form-control.rounded-0(type="text" id="email" name="email" placeholder="vous@example.com" value=`${email}`)
+					.form-group
+						input.form-control.rounded-0(type="password" id="password" name="password" placeholder="Tapez un mot de passe")
+					.form-group
+						input.form-control.rounded-0(type="password" id="repassword" name="repassword" placeholder="Comfirmez le mot de passe")
+					img(src="/../graphics/bar-store.png").w-100.mb-2
+					.form-group
+						- var storename = messages.storename || ""
+						input.form-control.rounded-0(type="text" id="storename" name="storename" placeholder="Nom d'agence" value=`${storename}`)
+					.form-group
+						- var adresse = messages.adresse || ""
+						input.form-control.rounded-0(type="text" id="adresse" name="adresse" placeholder="Address d'agence" value=`${adresse}`)
+					.form-group
+						.input-group
+							.input-group-prepend
+								.input-group-text.rounded-0 +212
+							- var phone = messages.phone || ""
+							input.form-control.rounded-0(type="text" id="phone" name="phone" placeholder="Numéro de téléphone" value=`${phone}`)
+					.form-group
+						.input-group
+							.input-group-prepend
+								.input-group-text.rounded-0
+									i.fab.fa-whatsapp.text-success.mr-2
+									span +212
+							- var whatsapp = messages.whatsapp || ""
+							input.form-control.rounded-0(type="text" id="whatsapp" name="whatsapp" placeholder="Numéro de Whatsapp" value=`${phone}`)
+					.form-group
+						.input-group
+							.input-group-prepend
+								.input-group-text.rounded-0
+									i.fab.fa-facebook-messenger.text-primary
+							- var messenger = messages.messenger || ""
+							input.form-control.rounded-0(type="text" id="messenger" name="messenger" placeholder="votre nom d'utilisateur facebook" value=`${phone}`)
+							span.form-text.w-100.text-muted https://www.facebook.com/messages/t/
+								span.font-weight-bold.text-danger xxxxxx
+							span.w-100.text-danger entrez seulement le
+								span.font-weight-bold.text-danger.ml-1 xxxxxx
+					.form-group
+						select.rounded-0.custom-select(id="ville" type="text" name="city")
+							option(value=null selected disabled) Choisissez la ville
+							each city in cities
+								option(value=`${JSON.stringify(city)}`)= `${city.fr}`
+					.form-group
+						select.rounded-0.custom-select(id="secteur" type="text" name="secteur")
+							option(value=null selected disabled) Choisissez le secteur
+					//- .form-group.text-left
+						.input-group
+							input(type="text" name="location" id="location" hidden)
+							input.form-control.rounded-0(placeholder="Localisation de l'agence" id="lnglat" disabled aria-describedby="map-store")
+							.input-group-append
+								button.btn.btn-warning.rounded-0(type="button" id="map-store")
+									i.fas.fa-map-marker-alt.mr-2
+									span cliquez ici
+					//- .form-group
+						#map-preview.w-100
+					.form-group.text-left
+						.input-group
+							.input-group-prepend
+								.input-group-text.rounded-0
+									i.fas.fa-camera
+							.custom-file
+								input.rounded-0.custom-file-input(type="file" id="logo" name="logo")
+								label.custom-file-label.rounded-0(data-browse="ajouter") Logo de l'agence
+					.form-group.text-left
+						.btn.btn-danger.mb-2.rounded-0(id="remove" style="display: none")
+							i.fas.fa-times
+						img.w-100.border(src="/../graphics/logo-preview.png" id="logo-preview"  alt="Logo preview")
+								
+		
+					button.btn.btn-primary.mx-auto.rounded-0(id="store-submit") Enregister

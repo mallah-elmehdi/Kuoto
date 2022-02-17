@@ -2,25 +2,27 @@ doctype html
 html(lang="fr")
 
 head
-    //- Required meta tags
-    meta(charset="utf-8")
-    meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
-    //- My CSS
-    link(rel="stylesheet" href="/../css/base.css")
-    block header
-    //- Bootstrap CSS
-    link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous")
-    //- Font
-    link(href="https://fonts.googleapis.com/css2?family=Exo+2:wght@350;650&display=swap" rel="stylesheet")
-    //- WHATSAPP
-    link(rel="stylesheet" href="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.css")
-    //- GOOGLE ADS
-    <script data-ad-client="ca-pub-9186069834171773" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    title #{title}
+	//- Required meta tags
+	meta(charset="utf-8")
+	meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+	//- My CSS
+	link(rel="stylesheet" href="/../css/base.css")
+	block header
+	//- Map
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.12.0/css/ol.css" type="text/css">
+	//- Bootstrap CSS
+	link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous")
+	//- Font
+	link(href="https://fonts.googleapis.com/css2?family=Exo+2:wght@350;650&display=swap" rel="stylesheet")
+	//- WHATSAPP
+	link(rel="stylesheet" href="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.css")
+	//- Map
+	<script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.12.0/build/ol.js"></script>
+	title #{title}
 
 //- THE BODY
 body.main-font.bg-my-1
-    block content
+	block content
 
 
 //- Optional JavaScrip
@@ -28,7 +30,8 @@ body.main-font.bg-my-1
 script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js")
 script(src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous")
 script(src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous")
-script(async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRJZh9oyYJblJXSRS4UxJZaOCSDUV1H_g&callback=initMap")
+//- script(async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRJZh9oyYJblJXSRS4UxJZaOCSDUV1H_g&callback=initMap")
+
 script(defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js")
 script(type="text/javascript" src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.js")
 script(src="/../js/base.js")

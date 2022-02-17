@@ -1,8 +1,8 @@
 $(document).ready(function () {
     const whatsapp = $("#whatsapp");
-    const location = $("#location").data("location");
-    const position = { lat: location[1], lng: location[0] }
-    var marker, i;
+    // const location = $("#location").data("location");
+    // const position = { lat: location[1], lng: location[0] }
+    // var marker, i;
   
     //   ==================== Whatsapp
   
@@ -21,20 +21,33 @@ $(document).ready(function () {
     });
   
     //   ==================== Google Maps
+	var map = new ol.Map({
+		target: 'location',
+		layers: [
+			new ol.layer.Tile({
+				source: new ol.source.OSM()
+			})
+		],
+		view: new ol.View({
+			center: ol.proj.fromLonLat([-7.7898, 31.5731]),
+			zoom: 10
+		})
+	});
+
   
-    var map = new google.maps.Map(document.getElementById("location"), {
-      zoom: 16,
-      center: position,
-    });
+    // var map = new google.maps.Map(document.getElementById("location"), {
+    //   zoom: 16,
+    //   center: position,
+    // });
   
-    marker = new google.maps.Marker({
-      position: position,
-      map: map,
-    });
+    // marker = new google.maps.Marker({
+    //   position: position,
+    //   map: map,
+    // });
   
-    map.addListener("click", function () {
-      if (navigator.platform.indexOf("iPhone") != -1 || navigator.platform.indexOf("iPod") != -1 || navigator.platform.indexOf("iPad") != -1) window.open(`maps://www.google.com/maps/dir/?api=1&travelmode=driving&layer=traffic&destination=${location[1]},${location[0]}`);
-      else window.open(`https://www.google.com/maps/dir/?api=1&travelmode=driving&layer=traffic&destination=${location[1]},${location[0]}`);
-    });
+    // map.addListener("click", function () {
+    //   if (navigator.platform.indexOf("iPhone") != -1 || navigator.platform.indexOf("iPod") != -1 || navigator.platform.indexOf("iPad") != -1) window.open(`maps://www.google.com/maps/dir/?api=1&travelmode=driving&layer=traffic&destination=${location[1]},${location[0]}`);
+    //   else window.open(`https://www.google.com/maps/dir/?api=1&travelmode=driving&layer=traffic&destination=${location[1]},${location[0]}`);
+    // });
   });
   

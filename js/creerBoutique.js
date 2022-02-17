@@ -35,42 +35,42 @@ $(document).ready(function () {
   const logo = $("#logo");
   const lnglat = $("#lnglat");
 
-  $("#map-store").click(function () {
-    if (navigator.geolocation) {
-      var showPosition = function (position) {
-        centerOfMap = { lat: position.coords.latitude, lng: position.coords.longitude };
-        googleMap();
-        location.attr("value", JSON.stringify(centerOfMap));
-        document.getElementById("location").setCustomValidity("");
-        lnglat.removeClass(ivld);
-      };
+//   $("#map-store").click(function () {
+//     if (navigator.geolocation) {
+//       var showPosition = function (position) {
+//         centerOfMap = { lat: position.coords.latitude, lng: position.coords.longitude };
+//         googleMap();
+//         location.attr("value", JSON.stringify(centerOfMap));
+//         document.getElementById("location").setCustomValidity("");
+//         lnglat.removeClass(ivld);
+//       };
 
-      var errorHandler = function (errorObj) {
-        alert(errorObj.code + ": " + errorObj.message);
-      };
+//       var errorHandler = function (errorObj) {
+//         alert(errorObj.code + ": " + errorObj.message);
+//       };
 
-      navigator.geolocation.getCurrentPosition(showPosition, errorHandler, { enableHighAccuracy: true, maximumAge: 10000 });
-    }
-  });
+//       navigator.geolocation.getCurrentPosition(showPosition, errorHandler, { enableHighAccuracy: true, maximumAge: 10000 });
+//     }
+//   });
 
-  var googleMap = function () {
-    map = new google.maps.Map(document.getElementById("map-preview"), { zoom: 13, center: centerOfMap });
-    marker = new google.maps.Marker({ position: centerOfMap, map: map });
+//   var googleMap = function () {
+//     map = new google.maps.Map(document.getElementById("map-preview"), { zoom: 13, center: centerOfMap });
+//     marker = new google.maps.Marker({ position: centerOfMap, map: map });
 
-    google.maps.event.addListener(map, "click", function (event) {
-      var clickedLocation = event.latLng;
-      marker.setPosition(clickedLocation);
-      markerLocation();
-    });
-  };
+//     google.maps.event.addListener(map, "click", function (event) {
+//       var clickedLocation = event.latLng;
+//       marker.setPosition(clickedLocation);
+//       markerLocation();
+//     });
+//   };
 
-  googleMap();
+//   googleMap();
 
-  function markerLocation() {
-    location.attr("value", JSON.stringify(marker.getPosition()));
-    document.getElementById("location").setCustomValidity("");
-    lnglat.removeClass(ivld);
-  }
+//   function markerLocation() {
+//     location.attr("value", JSON.stringify(marker.getPosition()));
+//     document.getElementById("location").setCustomValidity("");
+//     lnglat.removeClass(ivld);
+//   }
 
   // ====================================================  VALIDATION
 
