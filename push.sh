@@ -52,6 +52,6 @@ do
 		read commitmessage
         git commit -m "$commitmessage"
         git push
-        echo -e " ${On_Yellow}FINISHED : [THE NEXT PUSH IN 5 MINUTES]  ${Color_Off}"
+        echo -e "${On_Yellow} FINISHED : [THE NEXT PUSH IN 5 MINUTES] ${Color_Off}"
         sleep 300
 done
