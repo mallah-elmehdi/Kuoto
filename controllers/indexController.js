@@ -54,7 +54,7 @@ exports.getIndex = catchAsync(async (req, res, next) => {
 		if (carCheap) {
 			var remise = carCheap.remise || 0;
 
-			item.coordinates = carCheap.store.store.location.coordinates;
+			// item.coordinates = carCheap.store.store.location.coordinates;
 			item.id = carCheap._id;
 			item.price = parseInt(carCheap.price - carCheap.price * (remise / 100));
 			list.push(item);
