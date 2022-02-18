@@ -46,7 +46,7 @@ On_IWhite='\033[0;107m'   # White
 while true
 do
 		echo
-        echo -e "${On_Green}                  PUSHING                  ${Color_Off}"
+        echo -e "${On_Green}                  PUSHING                 ${Color_Off}"
         git add .
 		echo -n -e "${BPurple}please enter the commit message: ${Color_Off}"
 		read commitmessage
