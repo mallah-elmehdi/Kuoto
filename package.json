@@ -4,7 +4,7 @@
   "description": "car website",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js",
+    "start": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1",
     "debug": "ndb app.js"
   },
@@ -39,6 +39,6 @@
     "xss-clean": "^0.1.1"
   },
   "engines": {
-    "node": ">=10.0.0"
+    "node": "^16.14.0"
   }
 }
